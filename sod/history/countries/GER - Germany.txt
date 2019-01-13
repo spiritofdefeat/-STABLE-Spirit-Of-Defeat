@@ -191,7 +191,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Alfred Hugenberg"
 	desc = "POLITICS_ALFRED_HUGENBERG_DESC"
-	picture = "Portrait_Ernst_Niekisch.tga"
+	picture = "Portrait_Hugenberg.tga"
 	expire = "1965.1.1"
 	ideology = monarchism_subtype
 	traits = {
@@ -204,6 +204,16 @@ create_country_leader = {
 	picture = "Portrait_Reimann.png"
 	expire = "1965.1.1"
 	ideology = marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Heinrich Himmler"
+	desc = "POLITICS_HEINRICH_HIMMLER_DESC"
+	picture = "Portrait_Himmler.tga"
+	expire = "1965.1.1"
+	ideology = nihilistic_extremism_subtype
 	traits = {
 	}
 }
