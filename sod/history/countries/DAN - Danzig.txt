@@ -1,0 +1,60 @@
+capital = 772
+
+OOB = "DAN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+
+	parties = {
+		social-conservatism = { 
+			popularity = 10
+		}
+
+		national_collectivism = {
+			popularity = 10
+		}
+		
+		vanguard_communism = {
+			popularity = 10
+		}
+		
+		neutrality = { 
+			popularity = 70
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 5
+
+create_country_leader = {
+	name = "League of Nations"
+	desc = "POLITICS_DOBROSLAV_JEVDEVIC_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Danilo Kalafatovic"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+

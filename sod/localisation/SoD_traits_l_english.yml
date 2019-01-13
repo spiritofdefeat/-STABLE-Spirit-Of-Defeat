@@ -1,0 +1,9 @@
+﻿l_english:
+##Government Positions
+ head_of_government:0 "Head of Government"
+ 
+ ##Ideologies
+ military_council:0 "Military Council"
+ 
+ ##Minister traits
+hog_weak_government:0 "Weak Government"

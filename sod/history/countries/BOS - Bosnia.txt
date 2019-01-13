@@ -1,0 +1,60 @@
+capital = 104
+
+OOB = "BOS_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+
+	parties = {
+		social_liberalism = { 
+			popularity = 10
+		}
+
+		national_collectivism = {
+			popularity = 10
+		}
+		
+		vanguard_communism = {
+			popularity = 10
+		}
+		
+		social_conservatism = { 
+			popularity = 70
+		}
+	}
+	
+	ruling_party = social_conservatism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 5
+
+create_country_leader = {
+	name = "Ivo Andric"
+	desc = "POLITICS_IVO_ANDRIC_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = conservative
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Dobroslav Jevdevic"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+

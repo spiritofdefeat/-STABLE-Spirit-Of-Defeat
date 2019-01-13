@@ -1,0 +1,9 @@
+
+
+graphical_culture = commonwealth_gfx
+graphical_culture_2d = commonwealth_2d	 
+
+color = { 155 17 65 }
+
+#87 126 19 is another which could be used, but very similar to Manchukuo
+#80 287 3 for other countries

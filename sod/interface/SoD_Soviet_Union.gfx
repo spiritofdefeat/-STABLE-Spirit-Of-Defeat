@@ -1,0 +1,10 @@
+spriteTypes = {
+
+#Party icons
+
+	spriteType = {
+		name = "GFX_vkp"
+		texturefile = "gfx/interface/ideologies/parties/SOV/vkp.dds"
+		legacy_lazy_load = no
+	}
+}

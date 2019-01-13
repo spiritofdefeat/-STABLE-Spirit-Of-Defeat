@@ -1,0 +1,45 @@
+﻿l_english:
+
+ XSM_vanguard_communism_party:0 ""
+ XSM_vanguard_communism_party_long:0 ""
+ XSM_totalitarian_socialism_party:0 ""
+ XSM_totalitarian_socialism_party_long:0 ""
+ XSM_orthodox_marxism_party:0 ""
+ XSM_orthodox_marxism_party_long:0 ""
+ XSM_reformist_socialism_party:0 "" 
+ XSM_social_liberalism_party:0 ""
+ XSM_social_conservatism_party:0 ""
+ XSM_monarchism_party:0 ""
+ XSM_utilitarian_despotism_party:0 ""
+ XSM_national_collectivism_party:0 ""
+ XSM_neutrality_party:0 "Ma Family"
+ XSM_neutrality_party_long:0 "Ma Familiy Warlords"
+ 
+ XSM_neutrality:0 "Qinghai Ma Clique"
+ XSM_neutrality_adj:0 "Hui"
+ 
+ 
+ 
+ 
+ GNM_vanguard_communism_party:0 ""
+ GNM_vanguard_communism_party_long:0 ""
+ GNM_totalitarian_socialism_party:0 ""
+ GNM_totalitarian_socialism_party_long:0 ""
+ GNM_orthodox_marxism_party:0 ""
+ GNM_orthodox_marxism_party_long:0 ""
+ GNM_reformist_socialism_party:0 "" 
+ GNM_social_liberalism_party:0 ""
+ GNM_social_conservatism_party:0 ""
+ GNM_monarchism_party:0 ""
+ GNM_utilitarian_despotism_party:0 ""
+ GNM_national_collectivism_party:0 ""
+ GNM_neutrality_party:0 "Ma Familiy"
+ GNM_neutrality_party_long:0 "Ma Familiy Warlords"
+ 
+ GNM_neutrality:0 "Gansu Ma Clique"
+ GNM_neutrality_adj:0 "Hui"
+
+
+#How to do party descriptions
+#\n§g Description.§!
+ 

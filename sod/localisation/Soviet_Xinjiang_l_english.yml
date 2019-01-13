@@ -1,0 +1,23 @@
+﻿l_english:
+
+ SIK_vanguard_communism_party:0 "MFDLH"
+ SIK_vanguard_communism_party_long:0 "Mínzhòng Fan Dì Liánhé Huì"
+ SIK_totalitarian_socialism_party:0 ""
+ SIK_totalitarian_socialism_party_long:0 ""
+ SIK_orthodox_marxism_party:0 ""
+ SIK_orthodox_marxism_party_long:0 ""
+ SIK_reformist_socialism_party:0 "" 
+ SIK_social_liberalism_party:0 ""
+ SIK_social_conservatism_party:0 ""
+ SIK_monarchism_party:0 ""
+ SIK_utilitarian_despotism_party:0 ""
+ SIK_national_collectivism_party:0 ""
+ SIK_neutrality_party:0 ""
+ 
+ SIK_vanguard_communism:0 "Xinjiang Clique"
+ SIK_vanguard_communism_adj:0 "Uyghur"
+
+
+#How to do party descriptions
+#\n§g Description.§!
+ 

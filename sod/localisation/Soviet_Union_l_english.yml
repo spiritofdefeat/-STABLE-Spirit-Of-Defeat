@@ -1,0 +1,77 @@
+﻿l_english:
+
+ SOV_vanguard_communism_party:0 "VKP(L)"
+ SOV_vanguard_communism_party_long:0 "Vsesoyuznaya kommunisticheskaya partiya (Leninists) \n\n\n\n£vkp \n\n\n\n\n§g Founded by §YLev Kamenev§! after Lenin's death, The Leninist faction of the communist party seeks to continue on the path of §YLeninism§! to overthrow the capitalist ruling classes of the world through revolution.§!"
+ SOV_totalitarian_socialism_party:0 "VKP(M)"
+ SOV_totalitarian_socialism_party_long:0 "Vsesoyuznaya kommunisticheskaya partiya (Molotovists) \n\n\n\n£vkp"
+ SOV_orthodox_marxism_party:0 "VKP(T)"
+ SOV_orthodox_marxism_party_long:0 "Vsesoyuznaya kommunisticheskaya partiya (Trotskyists) \n\n\n\n£vkp"
+ SOV_reformist_socialism_party:0 "" 
+ SOV_social_liberalism_party:0 ""
+ SOV_social_conservatism_party:0 ""
+ SOV_monarchism_party:0 ""
+ SOV_utilitarian_despotism_party:0 ""
+ SOV_national_collectivism_party:0 ""
+ SOV_neutrality_party:0 ""
+
+
+#How to do party descriptions
+#\n§g Description.§!
+
+#Events
+leninist.1.t:0 "The Leninist Faction"
+leninist.1.d:0 "The Leninists are one of the three main factions of the VKP."
+leninist.1.a:0 "Give them more power"
+molotovist.1.t:0 "The Molotvist Faction"
+molotovist.1.d:0 "The Molotvists are one of the three main factions of the VKP."
+molotovist.1.a:0 "Give them more power"
+trotskyist.1.t:0 "The Trotskyist Faction"
+trotskyist.1.d:0 "The Trotskyists are one of the three main factions of the VKP."
+trotskyist.1.a:0 "Give them more power"
+
+#Decision Categories
+SOV_supreme_soviet:0 "Congress of Soviets"
+SOV_supreme_soviet_desc:0 "The Congress of Soviets of the Soviet Union, is the supreme governing body in the Soviet Union since the formation of the USSR on 30 December 1922.\n\n§RThe Leninists:§! \nCurrent Influence: §H[?SOV_leninist_influence]%§!\nCurrent Effects:\n[SOVGetLeninistEffects]  \n\n§RThe Molotovists:§! \nCurrent Influence: §H[?SOV_molotovist_influence]%§!\nCurrent Effects:\n[SOVGetMolotovistEffects] \n\n§RThe Trotskyists:§! \nCurrent Influence: §H[?SOV_trotskyist_influence]%§!\nCurrent Effects:\n[SOVGetTrotskyistEffects]"
+
+#Decisions
+SOV_evaluate_leninists:0 "Evaluate the Leninists"
+ SOV_leninist_very_high_influence:0 "The Leninists"
+ SOV_leninist_high_influence:0 "The Leninists"
+ SOV_leninist_medium_influence:0 "The Leninists"
+ SOV_leninist_low_influence:0 "The Leninists"
+ SOV_leninist_very_low_influence:0 "The Leninists"
+ 
+ SOV_evaluate_molotovists:0 "Evaluate the Molotovists"
+ SOV_molotovist_very_high_influence:0 "The Molotovists"
+ SOV_molotovist_high_influence:0 "The Molotovists"
+ SOV_molotovist_medium_influence:0 "The Molotovists"
+ SOV_molotovist_low_influence:0 "The Molotovists"
+ SOV_molotovist_very_low_influence:0 "The Molotovists"
+ 
+ SOV_evaluate_trotskyists:0 "Evaluate the Trotskyists"
+ SOV_trotskyist_very_high_influence:0 "The Trotskyists"
+ SOV_trotskyist_high_influence:0 "The Trotskyist"
+ SOV_trotskyist_medium_influence:0 "The Trotskyists"
+ SOV_trotskyist_low_influence:0 "The Trotskyists"
+ SOV_trotskyist_very_low_influence:0 "The Trotskyists"
+ 
+ 
+ #Scripted Localisation
+ 
+ SOV_leninist_very_high_influence_effect:0 "§HPolitical Power:§! §G0.15§!\n§HStability Factor:§! §G+0.15§!"
+ SOV_leninist_high_influence_effect:0 "§HPolitical Power:§! §G0.10§!\n§HStability Factor:§! §G+0.10§!"
+ SOV_leninist_medium_influence_effect:0 "§HPolitical Power:§! §G0.05§!\n§HStability Factor:§! §G+0.05§!"
+ SOV_leninist_low_influence_effect:0 "§HPolitical Power:§! §R-0.05§!\n§HStability Factor:§! §R-0.05§!"
+ SOV_leninist_very_low_influence_effect:0 "§HPolitical Power:§! §R-0.10§!\n§HStability Factor:§! §R-0.10§!"
+ 
+ SOV_molotovist_very_high_influence_effect:0 "§HPolitical Power:§! §G0.15§!\n§HStability Factor:§! §G+0.15§!"
+ SOV_molotovist_high_influence_effect:0 "§HPolitical Power:§! §G0.10§!\n§HStability Factor:§! §G+0.10§!"
+ SOV_molotovist_medium_influence_effect:0 "§HPolitical Power:§! §G0.05§!\n§HStability Factor:§! §G+0.05§!"
+ SOV_molotovist_low_influence_effect:0 "§HPolitical Power:§! §R-0.05§!\n§HStability Factor:§! §R-0.05§!"
+ SOV_molotovist_very_low_influence_effect:0 "§HPolitical Power:§! §R-0.10§!\n§HStability Factor:§! §R-0.10§!"
+ 
+ SOV_trotskyist_very_high_influence_effect:0 "§HPolitical Power:§! §G0.15§!\n§HStability Factor:§! §G+0.15§!"
+ SOV_trotskyist_high_influence_effect:0 "§HPolitical Power:§! §G0.10§!\n§HStability Factor:§! §G+0.10§!"
+ SOV_trotskyist_medium_influence_effect:0 "§HPolitical Power:§! §G0.05§!\n§HStability Factor:§! §G+0.05§!"
+ SOV_trotskyist_low_influence_effect:0 "§HPolitical Power:§! §R-0.05§!\n§HStability Factor:§! §R-0.05§!"
+ SOV_trotskyist_very_low_influence_effect:0 "§HPolitical Power:§! §R-0.10§!\n§HStability Factor:§! §R-0.10§!"

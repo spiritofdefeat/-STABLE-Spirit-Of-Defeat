@@ -1,0 +1,24 @@
+﻿l_english:
+
+ MEN_vanguard_communism_party:0 ""
+ MEN_vanguard_communism_party_long:0 ""
+ MEN_totalitarian_socialism_party:0 ""
+ MEN_totalitarian_socialism_party_long:0 ""
+ MEN_orthodox_marxism_party:0 ""
+ MEN_orthodox_marxism_party_long:0 ""
+ MEN_reformist_socialism_party:0 "" 
+ MEN_social_liberalism_party:0 ""
+ MEN_social_conservatism_party:0 ""
+ MEN_monarchism_party:0 ""
+ MEN_utilitarian_despotism_party:0 ""
+ MEN_national_collectivism_party:0 ""
+ MEN_neutrality_party:0 "Pailingmiao Council"
+ MEN_neutrality_party_long:0 "Mongol Local Autonomy Political Affairs Committee"
+ 
+ MEN_neutrality:0 "Pailingmiao Council"
+ MEN_neutrality_adj:0 "Chahar"
+
+
+#How to do party descriptions
+#\n§g Description.§!
+ 
