@@ -11,8 +11,8 @@ state={
 
 
 	history={
-		owner = SAU
-		}
+		owner = RAJ
+		
 		buildings = {
 			infrastructure = 2
 			
@@ -20,7 +20,7 @@ state={
 				naval_base = 2
 			}
 		}
-
+	}
 	
 
 	provinces={

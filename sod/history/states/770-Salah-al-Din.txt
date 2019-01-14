@@ -1,7 +1,7 @@
 state={
-	id=676
-	name="STATE_676"
-	manpower = 182741
+	id=770
+	name="STATE_770"
+	manpower = 82741
 	
 	state_category = town
 	
@@ -11,17 +11,15 @@ state={
 
 
 	history={
-		owner = FRA
+		owner = IRQ
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-			10106 1 
-		}
+		
 		add_core_of = IRQ
 	}
 	
 	provinces={
-		1938 3916 5014 10106 10804 10811 
+		1600 6826 8123 10793 12372 
 	}
 }
