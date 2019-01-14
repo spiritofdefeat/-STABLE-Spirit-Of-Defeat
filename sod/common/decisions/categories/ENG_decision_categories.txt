@@ -1,0 +1,10 @@
+################
+##### ENG ######
+################
+
+ENG_parliament = {
+	
+	allowed = {
+		original_tag = ENG
+	}
+}

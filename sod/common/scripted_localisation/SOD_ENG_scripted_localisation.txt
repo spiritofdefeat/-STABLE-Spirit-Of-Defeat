@@ -1,0 +1,13 @@
+defined_text = {
+	name = ENGgetparliamenteffects
+	
+	text = {
+		trigger = {
+			check_variable = {
+			var = ENG_conservative_party_seats
+			value = 308
+			compare = greater_than_or_equals
+			}
+		}
+		localization_key = ENG_conservative_majority
+	}

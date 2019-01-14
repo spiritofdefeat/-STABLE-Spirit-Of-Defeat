@@ -1,0 +1,67 @@
+on_actions = {
+
+	on_startup = {
+	
+		effect = {
+		
+			ENG = {
+				set_variable = {
+					var = ENG_conservative_party_seats
+					value = 387
+				}
+				ENG_update_conservative = yes
+				
+			}
+			
+			ENG = {
+				set_variable = {
+					var = ENG_labour_party_seats
+					value = 154
+				}
+				ENG_update_labour = yes
+				
+			}
+			
+			ENG = {
+				set_variable = {
+					var = ENG_liberal_national_party_seats
+					value = 33
+				}
+				ENG_update_liberal_national = yes
+				
+			}
+			
+			ENG = {
+				set_variable = {
+					var = ENG_liberal_party_seats
+					value = 21
+				}
+				ENG_update_liberal = yes
+				
+			}
+			
+			ENG = {
+				set_variable = {
+					var = ENG_national_labour_party_seats
+					value = 8
+				}
+				ENG_update_national_labour = yes
+				
+			}
+			
+			ENG = {
+				set_variable = {
+					var = ENG_independent_labour_party_seats
+					value = 4
+				}
+				ENG_update_independent_labour = yes
+				
+			}
+		
+		}
+	
+		
+	
+	}
+	
+}

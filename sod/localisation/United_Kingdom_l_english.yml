@@ -12,6 +12,8 @@ ENG_neutrality_party:0 ""
 ENG_neutrality_party_long:0 ""
 ENG_monarchism_party:0 ""
 ENG_monarchism_party_long:0 ""
+ENG_libertarian_socialism_party:0 ""
+ENG_libertarian_socialism_party_long:0 ""
 ENG_reformist_socialism_party:0 "Labour"
 ENG_reformist_socialism_party_long:0 "Labour Party"
 ENG_social_liberalism_party:0 "Liberals"
@@ -24,8 +26,31 @@ ENG_nihilistic_extremism_party:0 ""
 ENG_nihilistic_extremism_party_long:0 ""
 
 #Ministers
+#Decision Categories
+ENG_parliament:0 "House of Commons"
+ENG_parliament_desc:0 "The House of Commons is the lower house of the Parliament of the United Kingdom \n\nAllocation of Seats: \n§BConservative and Unionist Party§!: §H[?ENG_conservative_party_seats]§!\n§RLabour Party§!: §H[?ENG_labour_party_seats]§!\n§MLiberal National Party§!: §H[?ENG_liberal_national_party_seats]§!\n§YLiberal Party§!: §H[?ENG_liberal_party_seats]§!\n§GNational Labour Organisation§!: §H[?ENG_national_labour_party_seats]§!\n§RIndependent Labour Party§!: §H[?ENG_independent_labour_party_seats]§!\n\n\n[ENGgetparliamenteffects]"
 
+#Decisions
+ENG_parliament_internal_affairs:0 "Take a look at Internal Affairs"
+ENG_debate_industrial_expansion_act:0 "Debate Industrial Expansion Act"
+ENG_parliament_actions:0 "Parliament Actions"
 
+#Events
+uk_parliament_vote.1.t:0 "Voting has started on a new bill"
+uk_parliament_vote.1.d:0 ""
+uk_parliament_vote.1.a:0 "The Democratic Process"
+uk_parliament_vote.2.t:0 "Parliament Approves Bill"
+uk_parliament_vote.2.d:0 ""
+uk_parliament_vote.2.a:0 "Aye"
+uk_parliament_vote.3.t:0 "Parliament Rejects Bill"
+uk_parliament_vote.3.d:0 ""
+uk_parliament_vote.3.a:0 "No"
+uk_parliament_economy.1.t:0 "Industrial Expansion Act Passed"
+uk_parliament_economy.1.d:0 ""
+uk_parliament_economy.1.a:0 "Wonderfull"
+
+#Scripted Loc
+ENG_conservative_majority:0 "The Conservatives hold a majority in Parliament"
 
 
 

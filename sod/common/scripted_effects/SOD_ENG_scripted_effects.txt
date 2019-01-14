@@ -1,0 +1,179 @@
+ENG_update_conservative = {
+	#Ensuring that influence is not below 0 or above 615
+	if = {
+		limit = {
+			check_variable = {
+				var = ENG_conservative_party_seats
+				value = 615
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = ENG_conservative_party_seats
+			value = 615
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ENG_conservative_party_seats
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = ENG_conservative_party_seats
+			value = 0
+		}
+	}
+}
+
+ENG_update_labour = {
+	#Ensuring that influence is not below 0 or above 615
+	if = {
+		limit = {
+			check_variable = {
+				var = ENG_labour_party_seats
+				value = 615
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = ENG_labour_party_seats
+			value = 615
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ENG_labour_party_seats
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = ENG_labour_party_seats
+			value = 0
+		}
+	}
+}
+
+ENG_update_liberal_national = {
+	#Ensuring that influence is not below 0 or above 615
+	if = {
+		limit = {
+			check_variable = {
+				var = ENG_liberal_national_party_seats
+				value = 615
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = ENG_liberal_national_party_seats
+			value = 615
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ENG_liberal_national_party_seats
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = ENG_liberal_national_party_seats
+			value = 0
+		}
+	}
+}
+
+ENG_update_liberal = {
+	#Ensuring that influence is not below 0 or above 615
+	if = {
+		limit = {
+			check_variable = {
+				var = ENG_liberal_party_seats
+				value = 615
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = ENG_liberal_party_seats
+			value = 615
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ENG_liberal_party_seats
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = ENG_liberal_party_seats
+			value = 0
+		}
+	}
+}
+
+ENG_update_national_labour = {
+	#Ensuring that influence is not below 0 or above 615
+	if = {
+		limit = {
+			check_variable = {
+				var = ENG_national_labour_party_seats
+				value = 615
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = ENG_national_labour_party_seats
+			value = 615
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ENG_national_labour_party_seats
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = ENG_national_labour_party_seats
+			value = 0
+		}
+	}
+}
+
+ENG_update_independent_labour = {
+	#Ensuring that influence is not below 0 or above 615
+	if = {
+		limit = {
+			check_variable = {
+				var = ENG_independent_labour_party_seats
+				value = 615
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = ENG_independent_labour_party_seats
+			value = 615
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ENG_independent_labour_party_seats
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = ENG_independent_labour_party_seats
+			value = 0
+		}
+	}
+}

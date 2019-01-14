@@ -1,3 +1,55 @@
+ENG_parliament = {
+	ENG_parliament_actions = {
+		complete_effect = {
+			set_country_flag = open_parliament_actions
+		}
+	}
+	
+	ENG_parliament_internal_affairs = {
+	
+		visible = {
+			tag = ENG
+			has_country_flag = open_parliament_actions
+		}
+		complete_effect = {
+			set_country_flag = open_parliament_internal_actions_economy
+		}
+	}
+	
+	ENG_debate_industrial_expansion_act = {
+		visible = {
+			tag = ENG
+			has_country_flag = open_parliament_internal_actions_economy
+		}
+		
+		available = {
+			has_country_flag = open_parliament_internal_actions_economy
+			
+		}
+		
+		cost = 10
+		
+		days_remove = 7
+		
+		remove_effect = {
+			country_event = {
+				id = uk_parliament_vote.1
+				hours = 1
+			}
+			set_country_flag = industrial_expansion_act
+			clr_country_flag = open_parliament_internal_actions_economy
+		
+		}
+		
+		
+	
+	}
+
+}
+
+
+
+
 political_actions = {
 
 	hold_blood_toil_tears_sweat_speech = {
