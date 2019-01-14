@@ -171,9 +171,9 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Benito Mussolini"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Benito_Mussolini.dds"
+	name = "Luigi Federzoni"
+	desc = "POLITICS_LUIGI_FEDERZONI"
+	picture = "Portrait_Luigi_Federzoni.tga"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

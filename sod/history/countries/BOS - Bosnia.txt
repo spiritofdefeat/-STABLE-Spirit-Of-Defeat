@@ -19,16 +19,16 @@ set_politics = {
 			popularity = 10
 		}
 		
-		vanguard_communism = {
+		communism = {
 			popularity = 10
 		}
 		
-		social_conservatism = { 
+		democratic = { 
 			popularity = 70
 		}
 	}
 	
-	ruling_party = social_conservatism
+	ruling_party = democratic
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_IVO_ANDRIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = conservative
+	ideology = conservatism
 	traits = {
 		#
 	}
