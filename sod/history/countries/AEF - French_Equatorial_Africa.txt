@@ -63,11 +63,11 @@ set_politics = {
 			popularity = 100
 		}
 
-		national_collectivism = {
+		fascism = {
 			popularity = 0
 		}
 		
-		vamguard_communism = {
+		communism = {
 			popularity = 0
 		}
 	}

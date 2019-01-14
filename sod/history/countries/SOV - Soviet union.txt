@@ -208,7 +208,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 10 #shared between all parties, should add to 100
+			popularity = 2 #shared between all parties, should add to 100
 		}
 
 		fascism = {
@@ -216,7 +216,23 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 88
+			popularity = 64
+		}
+
+		reformist_socialism = {
+			popularity = 4
+		}
+
+		totalitarian_socialism = {
+			popularity = 12
+		}
+
+		orthodox_marxism = {
+			popularity = 15
+		}
+
+		social_liberalism = {
+			popularity = 1
 		}
 	}
 	
@@ -238,11 +254,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Soviet_Joseph_Stalin.dds"
+	name = "Lev Kamenev"
+	desc = "POLITICS_LEV_KAMENEV_DESC"
+	picture = "Portrait_Kamenev.tga"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = leninism
 	traits = {
 		
 	}
@@ -265,6 +281,28 @@ create_country_leader = {
 	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1953.3.1"
 	ideology = socialism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Leon Trotsky"
+	desc = "POLITICS_LEON_TROTSKY_DESC"
+	picture = "Portrait_Leon_Trotsky.dds"
+	expire = "1953.3.1"
+	ideology = trotskyism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Vyacheslav Molotov"
+	desc = "POLITICS_MOLOTOV_DESC"
+	picture = "Portrait_Molotov.tga"
+	expire = "1953.3.1"
+	ideology = molotovism
 	traits = {
 		
 	}
