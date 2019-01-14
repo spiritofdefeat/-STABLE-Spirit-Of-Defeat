@@ -1,0 +1,29 @@
+
+state={
+	id=769
+	name="STATE_769"
+	manpower = 20001
+	resources={
+		oil=5 # was: 6
+	}
+	
+	state_category = pastoral
+
+
+	history={
+		owner = SAU
+		}
+		buildings = {
+			infrastructure = 2
+			
+			8051 = {
+				naval_base = 2
+			}
+		}
+
+	
+
+	provinces={
+		8051
+	}
+}

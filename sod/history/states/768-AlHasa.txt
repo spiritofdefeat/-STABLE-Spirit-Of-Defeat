@@ -1,0 +1,30 @@
+
+state={
+	id=768
+	name="STATE_768"
+	manpower = 140000
+	
+	state_category = rural
+	resources={
+		oil=3 # was: 3
+	}
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			12702 = {
+				naval_base = 6
+			}
+		}
+		
+		add_core_of = SAU
+        add_core_of = IRQ
+	}
+
+	provinces={
+		 1955 10791 12702 
+	}
+}
