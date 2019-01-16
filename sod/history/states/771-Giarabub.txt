@@ -1,12 +1,14 @@
+
 state={
-	id=663
-	name="STATE_663"
-	manpower = 8808
+	id=771
+	name="STATE_771" # Libyan Desert
+	manpower = 2633
 	
 	state_category = wasteland
+	impassable = yes
 
 	history={
-		owner = ITA
+		owner = ENG
 		buildings = {
 			infrastructure = 1
 		}
@@ -14,6 +16,6 @@ state={
 	}
 
 	provinces={
-		1062 1186 4063 4133 7063 7139 7206 9977 10049 12025 12079 13078 
+		1060 1140
 	}
 }
