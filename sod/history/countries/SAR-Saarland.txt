@@ -1,4 +1,4 @@
-capital = 768
+﻿capital = 768
 
 oob = "SAR_1936"
 

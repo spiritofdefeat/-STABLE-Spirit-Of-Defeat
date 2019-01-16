@@ -1,4 +1,4 @@
-capital = 772
+﻿capital = 772
 
 OOB = "DAN_1936"
 
@@ -11,15 +11,15 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social-conservatism = { 
+		democratic = { 
 			popularity = 10
 		}
 
-		national_collectivism = {
+		fascism = {
 			popularity = 10
 		}
 		
-		vanguard_communism = {
+		communism = {
 			popularity = 10
 		}
 		

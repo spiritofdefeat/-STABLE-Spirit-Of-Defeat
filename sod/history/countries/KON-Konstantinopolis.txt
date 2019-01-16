@@ -1,4 +1,4 @@
-capital = 769
+﻿capital = 769
 
 oob = "KON_1936"
 

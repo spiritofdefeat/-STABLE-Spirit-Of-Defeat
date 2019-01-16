@@ -1,4 +1,4 @@
-capital = 104
+﻿capital = 104
 
 OOB = "BOS_1936"
 
@@ -15,7 +15,7 @@ set_politics = {
 			popularity = 10
 		}
 
-		national_collectivism = {
+		fascism = {
 			popularity = 10
 		}
 		

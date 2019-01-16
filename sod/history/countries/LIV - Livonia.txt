@@ -1,4 +1,4 @@
-capital = 12
+﻿capital = 12
 
 oob = "LIV_1936"
 
@@ -79,11 +79,11 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		social_conservatism = { 
+		democratic = { 
 			popularity = 20
 		}
 
-		national_collectivism = {
+		fascism = {
 			popularity = 20
 		}
 		

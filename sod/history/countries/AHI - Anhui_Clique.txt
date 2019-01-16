@@ -51,15 +51,15 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social_conservatism = { 
+		democratic = { 
 			popularity = 0
 		}
 
-		national_collectivism = {
+		fascism = {
 			popularity = 0
 		}
 		
-		vanguard_communism = {
+		communism = {
 			popularity = 0
 			banned = yes
 		}
