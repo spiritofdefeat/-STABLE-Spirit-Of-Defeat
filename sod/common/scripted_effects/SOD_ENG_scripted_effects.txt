@@ -177,3 +177,153 @@ ENG_update_independent_labour = {
 		}
 	}
 }
+
+ENG_update_ni_nationalist = {
+	#Ensuring that influence is not below 0 or above 615
+	if = {
+		limit = {
+			check_variable = {
+				var = ENG_ni_nationalist_party_seats
+				value = 615
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = ENG_ni_nationalist_party_seats
+			value = 615
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ENG_ni_nationalist_party_seats
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = ENG_ni_nationalist_party_seats
+			value = 0
+		}
+	}
+}
+
+ENG_update_independent_national = {
+	#Ensuring that influence is not below 0 or above 615
+	if = {
+		limit = {
+			check_variable = {
+				var = ENG_independent_national_party_seats
+				value = 615
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = ENG_independent_national_party_seats
+			value = 615
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ENG_independent_national_party_seats
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = ENG_independent_national_party_seats
+			value = 0
+		}
+	}
+}
+
+ENG_update_independent = {
+	#Ensuring that influence is not below 0 or above 615
+	if = {
+		limit = {
+			check_variable = {
+				var = ENG_independent_party_seats
+				value = 615
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = ENG_independent_party_seats
+			value = 615
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ENG_independent_party_seats
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = ENG_independent_party_seats
+			value = 0
+		}
+	}
+}
+
+ENG_update_communist = {
+	#Ensuring that influence is not below 0 or above 615
+	if = {
+		limit = {
+			check_variable = {
+				var = ENG_communist_party_seats
+				value = 615
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = ENG_communist_party_seats
+			value = 615
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ENG_communist_party_seats
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = ENG_communist_party_seats
+			value = 0
+		}
+	}
+}
+
+ENG_update_vote = {
+	#Ensuring that influence is not below 0 or above 615
+	if = {
+		limit = {
+			check_variable = {
+				var = ENG_parliament_vote
+				value = 615
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = ENG_parliament_vote
+			value = 615
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = ENG_parliament_vote
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = ENG_parliament_vote
+			value = 0
+		}
+	}
+}

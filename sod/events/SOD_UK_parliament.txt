@@ -1,8 +1,9 @@
 ﻿add_namespace = uk_parliament_vote 
 add_namespace = uk_parliament_economy
+add_namespace = uk_parliament_conservative
 
 
-
+#Vote events for laws
 country_event = {
 	id = uk_parliament_vote.1
 	title = uk_parliament_vote.1.t
@@ -15,27 +16,20 @@ country_event = {
 		if = {
 			limit = {
 				original_tag = ENG
-				has_country_flag = industrial_expansion_act
-			}   
-			
-			random_list = {
-				50 = {
-					country_event = {
-						id = uk_parliament_vote.2
-						days = 7
-					}
-				}
-				
-				50 = {
-					country_event = {
-						id = uk_parliament_vote.3
-						days = 7
-					}
-				
-				}
-			
+				NOT = { has_country_flag = no_vote_in_process }
 			}
-			set_country_flag = industrial_expansion_act_vote
+			
+			add_to_variable = {
+				var = ENG_parliament_vote
+				value = 1
+			}
+			
+			ENG_update_vote = yes
+			
+
+			set_country_flag = vote_in_process
+			clr_country_flag = no_vote_in_process 
+			custom_effect_tooltip = voting_process
 		}
 	}
 }
@@ -52,47 +46,138 @@ country_event = {
 		if = {
 			limit = {
 				original_tag = ENG
-				has_country_flag = industrial_expansion_act_vote
 			}   
-			
-			country_event = {
-				id = uk_parliament_economy.1
-				days = 3
-			}	
+
+			clr_country_flag = vote_in_process
+			set_country_flag = no_vote_in_process 
 		}
+	}
+}
+
+
+#Party Negotiations
+country_event = {
+	id = uk_parliament_conservative.1
+	title = uk_parliament_conservative.1.t
+	desc = uk_parliament_conservative.1.d
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = uk_parliament_conservative.1.a	#sounds good
+		add_to_variable = {
+			var = ENG_parliament_vote
+			value = ENG_conservative_party_seats
+		}
+		ENG_update_vote = yes
+
 	}
 }
 
 country_event = {
-	id = uk_parliament_vote.3
-	title = uk_parliament_vote.3.t
-	desc = uk_parliament_vote.3.d
+	id = uk_parliament_conservative.2
+	title = uk_parliament_conservative.2.t
+	desc = uk_parliament_conservative.2.d
 	
 	is_triggered_only = yes
 	
+	
 	option = {
-		name = uk_parliament_vote.3.a	#sounds good
-		if = {
-			limit = {
-				original_tag = ENG
-				has_country_flag = industrial_expansion_act_vote
-			}   
-			
-			clr_country_flag = industrial_expansion_act_vote
+		name = uk_parliament_conservative.2.a	#sounds good
+		
+		set_temp_variable = { ENG_conservative_party_seats_temp = ENG_conservative_party_seats }
+		divide_temp_variable = { ENG_conservative_party_seats_temp = 2 }
+		
+		add_to_variable = {
+			var = ENG_parliament_vote
+			value = ENG_conservative_party_seats_temp
 		}
+		
+		ENG_update_vote = yes
+		
+
+	}
+}
+
+country_event = {
+	id = uk_parliament_conservative.3
+	title = uk_parliament_conservative.3.t
+	desc = uk_parliament_conservative.3.d
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = uk_parliament_conservative.3.a	#sounds good
+		
+		set_temp_variable = { ENG_conservative_party_seats_temp = ENG_conservative_party_seats }
+		divide_temp_variable = { ENG_conservative_party_seats_temp = 4 }
+		
+		add_to_variable = {
+			var = ENG_parliament_vote
+			value = ENG_conservative_party_seats_temp
+		}
+		
+		ENG_update_vote = yes
+		
+
+	}
+}
+
+country_event = {
+	id = uk_parliament_conservative.4
+	title = uk_parliament_conservative.4.t
+	desc = uk_parliament_conservative.4.d
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = uk_parliament_conservative.4.a	#sounds good
+		
+		
+		add_to_variable = {
+			var = ENG_parliament_vote
+			value = 0
+		}
+		
+		ENG_update_vote = yes
+		
+
 	}
 }
 
 
+#Actual Laws
 country_event = {
 	id = uk_parliament_economy.1
 	title = uk_parliament_economy.1.t
 	desc = uk_parliament_economy.1.d
 	
-	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		check_variable = {
+			var = ENG_parliament_vote
+			value = 308
+			compare = greater_than_or_equals
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 3	# Historical outbreak time after elections
+	}
+	
 	
 	option = {
 		name = uk_parliament_economy.1.a	#sounds good
+		add_to_variable = {
+			var = ENG_parliament_vote
+			value = -700
+		}
+		ENG_update_vote = yes
+		
 		126 = {
 			add_building_construction = {
 				type = industrial_complex
@@ -102,5 +187,45 @@ country_event = {
 		
 		}
 		clr_country_flag = industrial_expansion_act
+		clr_country_flag = vote_in_process
+		set_country_flag = no_vote_in_process 
+
 	}
 }
+
+country_event = {
+	id = uk_parliament_economy.2
+	title = uk_parliament_economy.2.t
+	desc = uk_parliament_economy.2.d
+	
+	fire_only_once = yes
+	
+	trigger = {
+		check_variable = {
+			var = ENG_parliament_vote
+			value = 308
+			compare = less_than
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 3	# Historical outbreak time after elections
+	}
+	
+	
+	option = {
+		name = uk_parliament_economy.2.a	#sounds good
+		add_to_variable = {
+			var = ENG_parliament_vote
+			value = -700
+		}
+		ENG_update_vote = yes
+		
+		clr_country_flag = industrial_expansion_act
+		clr_country_flag = vote_in_process
+		set_country_flag = no_vote_in_process 
+
+	}
+}
+
+

@@ -57,6 +57,53 @@ on_actions = {
 				ENG_update_independent_labour = yes
 				
 			}
+			
+			ENG = {
+				set_variable = {
+					var = ENG_ni_nationalist_party_seats
+					value = 2
+				}
+				ENG_update_ni_nationalist = yes
+				
+			}
+			
+			ENG = {
+				set_variable = {
+					var = ENG_independent_national_party_seats
+					value = 2
+				}
+				ENG_update_independent_national = yes
+				
+			}
+			
+			ENG = {
+				set_variable = {
+					var = ENG_independent_party_seats
+					value = 2
+				}
+				ENG_update_independent = yes
+				
+			}
+			
+			ENG = {
+				set_variable = {
+					var = ENG_communist_party_seats
+					value = 1
+				}
+				ENG_update_communist = yes
+				
+			}
+			
+			ENG = {
+				set_variable = {
+					var = ENG_parliament_vote
+					value = 0
+				}
+				ENG_update_vote = yes
+				
+			}
+			
+			
 		
 		}
 	

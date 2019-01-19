@@ -11,3 +11,30 @@ defined_text = {
 		}
 		localization_key = ENG_conservative_majority
 	}
+}
+
+defined_text = {
+	name = ENGgetvoteEffects
+	
+	text = {
+		trigger = {
+			check_variable = {
+			var = ENG_parliament_vote
+			value = 0
+			compare = greater_than
+			}
+		}
+		localization_key = ENG_voting_in_process
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+			var = ENG_parliament_vote
+			value = 0
+			compare = equals
+			}
+		}
+		localization_key = ENG_voting_not_in_process
+	}
+}

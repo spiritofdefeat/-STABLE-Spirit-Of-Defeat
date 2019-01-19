@@ -28,29 +28,49 @@ ENG_nihilistic_extremism_party_long:0 ""
 #Ministers
 #Decision Categories
 ENG_parliament:0 "House of Commons"
-ENG_parliament_desc:0 "The House of Commons is the lower house of the Parliament of the United Kingdom \n\nAllocation of Seats: \n§BConservative and Unionist Party§!: §H[?ENG_conservative_party_seats]§!\n§RLabour Party§!: §H[?ENG_labour_party_seats]§!\n§MLiberal National Party§!: §H[?ENG_liberal_national_party_seats]§!\n§YLiberal Party§!: §H[?ENG_liberal_party_seats]§!\n§GNational Labour Organisation§!: §H[?ENG_national_labour_party_seats]§!\n§RIndependent Labour Party§!: §H[?ENG_independent_labour_party_seats]§!\n\n\n[ENGgetparliamenteffects]"
+ENG_parliament_desc:0 "The House of Commons is the lower house of the Parliament of the United Kingdom \n\nCurrent Support for Law: [?ENG_parliament_vote]/615. [ENGgetvoteEffects]. \n\nAllocation of Seats: \n\n§MConservative and Unionist Party§!: §H[?ENG_conservative_party_seats]§!\n§RLabour Party§!: §H[?ENG_labour_party_seats]§!\n§MLiberal National Party§!: §H[?ENG_liberal_national_party_seats]§!\n§YLiberal Party§!: §H[?ENG_liberal_party_seats]§!\n§GNational Labour Organisation§!: §H[?ENG_national_labour_party_seats]§!\n§RIndependent Labour Party§!: §H[?ENG_independent_labour_party_seats]§!\n§lNationalist Party of Northern Ireland§!: §H[?ENG_ni_nationalist_party_seats]§!\n§gIndependents of the National Government§!: §H[?ENG_independent_national_party_seats]§!\n§g Independents§!: §H[?ENG_independent_party_seats]§!\n§RCommunist Party of Great Britain§!: §H[?ENG_communist_party_seats]§!\n\n\n[ENGgetparliamenteffects]"
 
 #Decisions
-ENG_parliament_internal_affairs:0 "Take a look at Internal Affairs"
-ENG_debate_industrial_expansion_act:0 "Debate Industrial Expansion Act"
+ENG_parliament_laws:0 "Take a look at Laws"
+ENG_debate_domestic_industry_1:0 "Debate London Industry Bill"
 ENG_parliament_actions:0 "Parliament Actions"
+ENG_parliament_negotiate_conservative:0 "Negotitate with Conservatives"
 
 #Events
-uk_parliament_vote.1.t:0 "Voting has started on a new bill"
+uk_parliament_vote.1.t:0 "Parliament Decides to vote on bill"
 uk_parliament_vote.1.d:0 ""
 uk_parliament_vote.1.a:0 "The Democratic Process"
-uk_parliament_vote.2.t:0 "Parliament Approves Bill"
+uk_parliament_vote.2.t:0 "Parliament decides to shoot down bill"
 uk_parliament_vote.2.d:0 ""
-uk_parliament_vote.2.a:0 "Aye"
-uk_parliament_vote.3.t:0 "Parliament Rejects Bill"
-uk_parliament_vote.3.d:0 ""
-uk_parliament_vote.3.a:0 "No"
-uk_parliament_economy.1.t:0 "Industrial Expansion Act Passed"
+uk_parliament_vote.2.a:0 "What a shame"
+
+uk_parliament_economy.1.t:0 "London Industry Bill Bill Passes"
 uk_parliament_economy.1.d:0 ""
-uk_parliament_economy.1.a:0 "Wonderfull"
+uk_parliament_economy.1.a:0 "Excellent"
+uk_parliament_economy.2.t:0 "London Industry Bill Bill Fails"
+uk_parliament_economy.2.d:0 ""
+uk_parliament_economy.2.a:0 "Such a shame"
+
+uk_parliament_conservative.1.t:0 "All Conservatives supoort our bill"
+uk_parliament_conservative.1.d:0 ""
+uk_parliament_conservative.1.a:0 "Wonderful"
+uk_parliament_conservative.2.t:0 "Half of the Conservatives supoort our bill"
+uk_parliament_conservative.2.d:0 ""
+uk_parliament_conservative.2.a:0 "Very Nice"
+uk_parliament_conservative.3.t:0 "Some of the Conservatives supoort our bill"
+uk_parliament_conservative.3.d:0 ""
+uk_parliament_conservative.3.a:0 "It's a start"
+uk_parliament_conservative.4.t:0 "None of the Conservatives supoort our bill"
+uk_parliament_conservative.4.d:0 ""
+uk_parliament_conservative.4.a:0 "Thats a shame"
 
 #Scripted Loc
 ENG_conservative_majority:0 "The Conservatives hold a majority in Parliament"
+ENG_voting_in_process:0 "There is a bill currently being voted on"
+ENG_voting_not_in_process:0 "There is a no bill currently being voted on"
+
+#Tooltips
+voting_process:0 "Voting will take place over a 14 day period"
 
 
 
