@@ -1,7 +1,7 @@
    #reload countrycolors
 
 GER = {
-	color = HSV { 0.1 0.15 0.4 }
+	color = rgb { 58 58 58 }
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
@@ -54,7 +54,7 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
+	color = rgb { 207 157 59 }
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
@@ -130,7 +130,7 @@ BHU = {
 	color_ui = rgb { 172 122 88 }
 }
 BOL = {
-	color = hsv { 0.1 0.47 0.8 } #255 180 136
+	color = rgb { 105 60 15 } #255 180 136
 	color_ui = rgb { 255 234 177 }
 }
 BRA = {
@@ -166,7 +166,7 @@ ELS = {
 	color_ui = rgb { 198 169 248 }
 }
 ETH = {
-	color = rgb { 152 130 191 }
+	color = rgb { 174 146 61 }
 	color_ui = rgb { 198 169 248 }
 }
 GUA = {
@@ -186,7 +186,7 @@ JAP = {
 	color_ui = hsv { 0.05 0.25 1.2 }
 }
 LIB = {
-	color = rgb { 152 130 191 }
+	color = rgb { 146 61 174 }
 	color_ui = rgb { 198 169 248 }
 }
 MEX = {
@@ -214,7 +214,7 @@ PER = {
 	color_ui = rgb { 92 147 126 }
 }
 PHI = {
-	color = rgb { 152 130 191 }
+	color = rgb { 99 74 145 }
 	color_ui = rgb { 198 169 248 }
 }
 PRU = {
@@ -222,11 +222,11 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 152 130 191 }
+	color = rgb { 172 98 25 }
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
-	color = rgb { 70 116 61 }
+	color = rgb { 48  123  28 }
 	color_ui = rgb { 222 247 198 }
 }
 SIA = {
@@ -246,7 +246,7 @@ URG = {
 	color_ui = rgb { 222 247 198 }
 }
 VEN = {
-	color = rgb { 171 190 152 }
+	color = rgb { 146 165 47 }
 	color_ui = rgb { 222 247 198 }
 }
 YUN = {
@@ -271,7 +271,7 @@ TAN = {
 	color_ui = rgb { 198 169 248 }
 }
 PAR = {
-	color = rgb { 57 113 228 }
+	color = rgb { 52 65 100 }
 	color_ui = rgb { 74 147 255 }
 }
 CUB = {
@@ -279,7 +279,7 @@ CUB = {
 	color_ui = rgb { 140 65 166 }
 }
 DOM = {
-	color = rgb { 152 130 191 }
+	color = rgb { 47 146 165 }
 	color_ui = rgb { 198 169 248 }
 }
 HAI = {
@@ -291,7 +291,7 @@ YEM = {
 	color_ui = rgb { 202 131 139 }
 }
 OMA = {
-	color = rgb { 155 101 107 }
+	color = rgb { 207 83 59 }
 	color_ui = rgb { 202 131 139 }
 }
 SLO = {
@@ -560,7 +560,7 @@ EWC = {
         color_ui = rgb { 163 17 31 }
 }
 DAN = {
-	color = rgb { 110  30  60 }
+	color = rgb { 174  61  146 }
 	color_ui = rgb { 30 5 14 }
 }
 SAR = {
@@ -572,7 +572,7 @@ MOZ = {
         color_ui = rgb { 100 100 150 }
 }
 KON = {
-	color = rgb { 110  30  60 }
+	color = rgb { 116  48  139 }
 	color_ui = rgb { 30 5 14 }
 }
 LIV = {

@@ -11,7 +11,7 @@ state= {
 
 	history= {
 		add_core_of = GRE
-		owner = GRE
+		owner = KON
 		victory_points = {
 			9833 20
 		}
@@ -26,6 +26,7 @@ state= {
 			}
 		}
 		add_core_of = TUR
+		add_core_of = KON
 	}
 	provinces=
 	{
