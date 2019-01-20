@@ -87,17 +87,17 @@ set_politics = {
 			popularity = 20
 		}
 		
-		orthodox_marxism = {
-			popularity = 20
+		reformist_socialism = {
+			popularity = 40
 			#banned = no #default is no
 		}
 		
 		utilitarian_despotism = { 
-			popularity = 40
+			popularity = 20
 		}
 	}
 	
-	ruling_party = utilitarian_despotism
+	ruling_party = reformist_socialism
 	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = no
@@ -138,6 +138,17 @@ create_country_leader = {
 	picture = "Johan_Pitka.tga"
 	expire = "1965.1.1"
 	ideology = paternal_state
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Marģers Skujenieks"
+	desc = "POLITICS_MARGERS_SKUJENIEKS_DESC"
+	picture = "Johan_Pitka.tga"
+	expire = "1965.1.1"
+	ideology = democratic_socialist
 	traits = {
 		#
 	}

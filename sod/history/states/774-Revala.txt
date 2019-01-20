@@ -1,0 +1,34 @@
+state={
+	id=774
+	name="STATE_774"
+	
+	state_category = town
+
+	history={
+		owner = EST
+		
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 2
+			3152 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		victory_points = {
+			3152 5
+		}
+		add_core_of = EST
+		add_core_of = LIV
+		add_core_of = EWC
+
+	}
+
+	provinces={
+		3152 4640 6099 9079 11057 11127 11426 11443 13127
+	}
+	manpower=376400
+	buildings_max_level_factor=1.000
+}
