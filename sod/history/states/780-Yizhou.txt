@@ -1,0 +1,24 @@
+state={
+	id=780
+	name="STATE_780"
+	provinces={
+		13242 13243 
+	}
+	history={
+		owner = HMI
+		add_core_of = HMI
+		add_core_of = SIK
+		add_claim_by = CHI
+		add_claim_by = PRC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	
+	
+	manpower=430700
+	state_category=town
+	buildings_max_level_factor=1.000
+}

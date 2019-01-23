@@ -1,0 +1,23 @@
+state={
+	id=778
+	name="STATE_778"
+	provinces={
+		4704 4843 12598 
+	}
+	history={
+		owner = HMI
+		add_core_of = HMI
+		add_core_of = SIK
+		add_claim_by = CHI
+		add_claim_by = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	
+	
+	manpower=70300
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

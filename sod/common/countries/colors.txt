@@ -600,6 +600,11 @@ XIJ = {
         color_ui = rgb { 146 97 71 }
 }
 GMN = { 
-        color = rgb { 107 109 74 }
-        color_ui = rgb { 107 109 74 }
+    color = rgb { 107 109 74 }
+    color_ui = rgb { 107 109 74 }
+}
+
+HMI= { 
+    color = rgb { 173 136 42 }
+    color_ui = rgb { 173 136 42 }
 }

@@ -1,0 +1,25 @@
+state={
+	id=775
+	name="STATE_775"
+	provinces={
+		1970 4973 8112 
+	}
+	
+	history={
+		owner = XIJ
+		add_core_of = SIK
+		add_core_of = XIJ
+		add_claim_by = CHI
+		add_claim_by = PRC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+	}
+	
+	manpower=231700
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

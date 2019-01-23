@@ -166,7 +166,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 3	# Historical outbreak time after elections
+		days = 1	# Historical outbreak time after elections
 	}
 	
 	

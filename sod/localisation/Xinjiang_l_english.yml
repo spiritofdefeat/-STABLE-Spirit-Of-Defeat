@@ -1,0 +1,60 @@
+﻿l_english:
+
+ XIJ_communism_party:0 ""
+ XIJ_communism_party_long:0 ""
+ XIJ_totalitarian_socialism_party:0 ""
+ XIJ_totalitarian_socialism_party_long:0 ""
+ XIJ_orthodox_marxism_party:0 ""
+ XIJ_orthodox_marxism_party_long:0 ""
+ XIJ_reformist_socialism_party:0 "" 
+ XIJ_social_liberalism_party:0 ""
+ XIJ_social_conservatism_party:0 ""
+ XIJ_monarchism_party:0 ""
+ XIJ_utilitarian_despotism_party:0 ""
+ XIJ_national_collectivism_party:0 ""
+ XIJ_neutrality_party:0 ""
+ 
+ XIJ_monarchism:0 "Xinjiang Sultanate"
+ XIJ_monarchism_adj:0 "Uyghur"
+ 
+ 
+ 
+ SIK_vanguard_communism_party:0 ""
+ SIK_vanguard_communism_party_long:0 ""
+ SIK_totalitarian_socialism_party:0 ""
+ SIK_totalitarian_socialism_party_long:0 ""
+ SIK_orthodox_marxism_party:0 ""
+ SIK_orthodox_marxism_party_long:0 ""
+ SIK_reformist_socialism_party:0 "" 
+ SIK_social_liberalism_party:0 ""
+ SIK_social_conservatism_party:0 ""
+ SIK_monarchism_party:0 ""
+ SIK_utilitarian_despotism_party:0 ""
+ SIK_national_collectivism_party:0 ""
+ SIK_neutrality_party:0 ""
+ 
+ SIK_communism:0 "Xinjiang Clique"
+ SIK_communism_adj:0 "Uyghur"
+ 
+ 
+ HMI_communism_party:0 ""
+ HMI_communism_party_long:0 ""
+ HMI_totalitarian_socialism_party:0 ""
+ HMI_totalitarian_socialism_party_long:0 ""
+ HMI_orthodox_marxism_party:0 ""
+ HMI_orthodox_marxism_party_long:0 ""
+ HMI_reformist_socialism_party:0 "" 
+ HMI_social_liberalism_party:0 ""
+ HMI_social_conservatism_party:0 ""
+ HMI_monarchism_party:0 ""
+ HMI_utilitarian_despotism_party:0 ""
+ HMI_national_collectivism_party:0 ""
+ HMI_neutrality_party:0 ""
+ 
+ HMI_monarchism:0 "Kumul Khanate
+ HMI_monarchism_adj:0 "Uyghur"
+
+
+#How to do party descriptions
+#\n§g Description.§!
+ 

@@ -1,0 +1,28 @@
+state={
+	id=777
+	name="STATE_777"
+	provinces={
+		1838 
+	}
+	
+	history={
+		owner = HMI
+		add_core_of = HMI
+		add_core_of = SIK
+		add_claim_by = CHI
+		add_claim_by = PRC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			1838 3
+		}
+	}
+	
+	
+	manpower=1430700
+	state_category=city
+	buildings_max_level_factor=1.000
+}
