@@ -604,7 +604,7 @@ GMN = {
     color_ui = rgb { 107 109 74 }
 }
 
-HMI= { 
+HMI = { 
     color = rgb { 173 136 42 }
     color_ui = rgb { 173 136 42 }
 }
