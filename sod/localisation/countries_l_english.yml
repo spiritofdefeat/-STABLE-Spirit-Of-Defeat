@@ -1366,6 +1366,8 @@
  LIV_fascism:0 "Livonian Impērija"
  LIV_fascism_ADJ:0 "Livonian"
  LIV_fascism_DEF:0 "the Livonian Impērija"
+ HMI_monarchism:0 "Kumul Khanate
+ HMI_monarchism_adj:0 "Uyghur"
 
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"

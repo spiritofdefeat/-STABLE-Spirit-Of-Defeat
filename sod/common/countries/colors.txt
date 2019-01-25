@@ -595,16 +595,18 @@ AOF = {
 	color = rgb { 30 84 183 }
 	color_ui = rgb { 35 84 222 }
 }
-XIJ = { 
-    color = rgb { 146 97 71 }
-    color_ui = rgb { 146 97 71 }
-}
-GMN = { 
-    color = rgb { 107 109 74 }
-    color_ui = rgb { 107 109 74 }
-}
 
 HMI = { 
     color = rgb { 173 136 42 }
     color_ui = rgb { 173 136 42 }
 }
+
+XIJ = { 
+    color = rgb { 146 97 71 }
+    color_ui = rgb { 146 97 71 }
+}
+GNM = { 
+    color = rgb { 107 109 74 }
+    color_ui = rgb { 107 109 74 }
+}
+
