@@ -1,4 +1,4 @@
-﻿capital = 231 #Tbilisi
+capital = 231 #Tbilisi
 
 oob = "GEO_1936"
 
@@ -40,22 +40,32 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 25
+		social_liberalism = { 
+			popularity = 20
 		}
 		
 		communism = {
-			popularity = 75
+			popularity = 80
 		}
+                social_conservatism = {
+                        popularity = 0
+                }
 	}
+
+     ruling_party = communism
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
 }
+
+set_stability = 0.50
 
 create_country_leader = {
 	name = "Noe Zhordania"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1953.3.1"
-	ideology = liberalism
+	ideology = marxism
 	traits = {
 		
 	}
@@ -66,13 +76,10 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = totalitarian_socialism_subtype
 	traits = {
 		
 	}
 }
 
 #couldnt find anything else, the commies simply forced everyone else into exile
-
-
-
