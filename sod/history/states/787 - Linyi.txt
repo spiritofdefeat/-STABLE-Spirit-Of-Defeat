@@ -1,0 +1,23 @@
+state=
+{
+	id=787
+	name="Linyi"
+	manpower = 3873200
+	state_category = town
+	
+	
+	history=
+	{
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		13219 13220 13221 1124 4181 12015 13218
+	}
+}

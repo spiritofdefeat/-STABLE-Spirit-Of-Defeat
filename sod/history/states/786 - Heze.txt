@@ -1,0 +1,23 @@
+state=
+{
+	id=786
+	name="Heze"
+	manpower = 8373200
+	state_category = town
+	
+	
+	history=
+	{
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		11933 12069 10043
+	}
+}

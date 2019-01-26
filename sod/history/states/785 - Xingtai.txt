@@ -1,0 +1,22 @@
+
+state={
+	id=785
+	name="Xingtai" # Hebei
+	manpower = 1434900
+	
+	state_category = town
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+
+	provinces={
+		13229 13230
+	}
+}
