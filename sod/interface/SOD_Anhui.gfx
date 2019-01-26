@@ -1,0 +1,11 @@
+spriteTypes = {
+
+#Ministers
+
+	spriteType = {
+		name = "GFX_idea_AHI_Beiyang_Remnants"
+		texturefile = "gfx/interface/ideas/AHI/Beiyang_Remnants.tga"
+	}
+
+
+}
