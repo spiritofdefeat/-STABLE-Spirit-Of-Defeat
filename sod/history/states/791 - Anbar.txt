@@ -1,0 +1,19 @@
+state={
+	id=791
+	name="al-Anbār"
+	manpower = 22093
+	
+	state_category = wasteland
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = IRQ
+	}
+	
+	provinces={
+		1631 13257 4951 12413  
+	}
+}

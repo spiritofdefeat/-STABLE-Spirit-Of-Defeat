@@ -1,0 +1,22 @@
+state={
+	id=790
+	name="al-Gawf"
+	manpower = 10000
+	
+	state_category = rural
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		8101 4562 4603 11976 13255 13256 13253
+	}
+}

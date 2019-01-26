@@ -1,0 +1,23 @@
+state={
+	id=792
+	name="ash-Sharqiyyah"
+	manpower = 1000
+	
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		13260 13261 4932 8118 12740
+	}
+}

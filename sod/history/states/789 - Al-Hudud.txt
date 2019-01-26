@@ -1,0 +1,22 @@
+state={
+	id=789
+	name="Al-Hudūd Aš-Šamāliyya"
+	manpower = 10000
+	
+	state_category = rural
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		13254 4974 10815 12879 13258
+	}
+}
