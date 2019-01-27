@@ -1,0 +1,21 @@
+state={
+	id=798
+	name="Hatay"
+	manpower = 325594
+	
+	state_category = town
+	
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SYR
+
+	}
+
+	
+	provinces={
+		12029 
+	}
+}
