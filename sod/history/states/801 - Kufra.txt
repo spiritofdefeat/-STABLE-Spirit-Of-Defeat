@@ -1,0 +1,23 @@
+state={
+	id=801
+	name="Kufra" # Libyan Desert
+	manpower = 25300
+	
+	state_category = oasis
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LBA
+		
+		victory_points = {
+			13273 5 
+		}
+	}
+
+	provinces={
+		13273
+	}
+}

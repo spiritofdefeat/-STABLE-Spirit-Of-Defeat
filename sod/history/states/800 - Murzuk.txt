@@ -1,0 +1,23 @@
+state={
+	id=800
+	name="Murzuk" # Libyan Desert
+	manpower = 7000
+	
+	state_category = oasis
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LBA
+		
+		victory_points = {
+			13262 5 
+		}
+	}
+
+	provinces={
+		13262
+	}
+}

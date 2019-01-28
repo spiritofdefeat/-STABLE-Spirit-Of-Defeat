@@ -1,0 +1,19 @@
+state={
+	id=802
+	name="Murzuk-Kufra Road" # Libyan Desert
+	manpower = 2
+	
+	state_category = wasteland
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LBA
+	}
+
+	provinces={
+		13274 13272 13269 13267 13268 13270 13271
+	}
+}
