@@ -1366,6 +1366,18 @@
  LIV_fascism:0 "Livonian Impērija"
  LIV_fascism_ADJ:0 "Livonian"
  LIV_fascism_DEF:0 "the Livonian Impērija"
+ RHO_democratic:0 "Dominion of Rhodesia"
+ RHO_democratic_ADJ:0 "Rhodesian"
+ RHO_democratic_DEF:0 "the Dominion of Rhodesia"
+ RHO_social_liberalism:0 "Dominion of Rhodesia"
+ RHO_social_liberalism_ADJ:0 "Rhodesian"
+ RHO_social_liberalism_DEF:0 "the Dominion of Rhodesia"
+ RHO_communism:0 "Proletarian Rhodesia"
+ RHO_communism_ADJ:0 "Rhodesian"
+ RHO_communism_DEF:0 "Proletarian Rhodesia"
+ RHO_fascism:0 "Rhodesian State"
+ RHO_fascism_ADJ:0 "Rhodesian"
+ RHO_fascism_DEF:0 "the Rhodesian State"
 
 
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"

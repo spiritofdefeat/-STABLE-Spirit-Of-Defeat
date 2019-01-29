@@ -575,6 +575,10 @@ KON = {
 	color = rgb { 116  48  139 }
 	color_ui = rgb { 30 5 14 }
 }
+RHO = {
+	color = rgb { 0 161 64 }
+	color_ui = rgb { 0 187 74 }
+}
 LIV = {
 	color = rgb { 0 102 102 }
 	color_ui = rgb { 0 102 102 }
