@@ -379,8 +379,8 @@ AZR = {
 }
 
 GEO = {
-	color = rgb { 255  150  150 }
-	color_ui = rgb { 255  204  204 }
+	color = rgb { 191  47  47 }
+	color_ui = rgb { 153  65  65 }
 }
 
 ARM = {
