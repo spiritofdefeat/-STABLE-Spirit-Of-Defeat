@@ -7,8 +7,7 @@ state={
 	state_category = large_city
 	
 	history={
-		owner = AHI
-		add_core_of = AHI
+		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
