@@ -1,6 +1,6 @@
-﻿capital = 596
+﻿capital = 608
 
-oob = "ZHI_1936"
+oob = "GUO_1936"
 
 # Starting tech
 set_technology = {
@@ -39,8 +39,8 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Wu Peifu"
-	desc = "POLITICS_WU_PEIFU_DESC"
+	name = "Feng Yuxiang"
+	desc = ""
 	picture = ""
 	expire = "1965.1.1"
 	ideology = warlord

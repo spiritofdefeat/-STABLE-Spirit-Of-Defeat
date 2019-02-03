@@ -548,16 +548,16 @@ MSR = {
         color_ui = rgb { 163 17 31 }
 }
 KUO = {
-        color = rgb { 1 26 124 }
-	color_ui = rgb { 1 26 124 }
+        color = rgb { 2 152 154 }
+	color_ui = rgb { 2 152 154 }
 }
 BEI = {
         color = rgb { 100  125  175 }
         color_ui = rgb { 100 125 175 }
 }
 AHI = { 
-        color = rgb { 245 12 55 }
-	color_ui = rgb { 178 34 60 }
+        color = rgb { 255 204 51 }
+	color_ui = rgb { 255 204 51 }
 }
 EWC = {
         color = rgb { 125 13 24 }
@@ -614,12 +614,17 @@ XIJ = {
     color_ui = rgb { 146 97 71 }
 }
 GNM = { 
-    color = rgb { 107 109 74 }
-    color_ui = rgb { 107 109 74 }
+    color = rgb { 153 153 102 }
+    color_ui = rgb { 153 153 102 }
 }
 
 ZHI = { 
     color = rgb { 204 102 102 }
     color_ui = rgb { 204 102 102 }
+}
+
+GUO = { 
+    color = rgb { 204 153 51 }
+    color_ui = rgb { 204 153 51 }
 }
 

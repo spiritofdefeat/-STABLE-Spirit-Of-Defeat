@@ -1,0 +1,27 @@
+﻿l_english:
+
+ GUO_communism_party:0 ""
+ GUO_communism_party_long:0 ""
+ GUO_totalitarian_socialism_party:0 ""
+ GUO_totalitarian_socialism_party_long:0 ""
+ GUO_orthodox_marxism_party:0 ""
+ GUO_orthodox_marxism_party_long:0 ""
+ GUO_reformist_socialism_party:0 "" 
+ GUO_social_liberalism_party:0 ""
+ GUO_social_conservatism_party:0 ""
+ GUO_monarchism_party:0 ""
+ GUO_utilitarian_despotism_party:0 ""
+ GUO_national_collectivism_party:0 ""
+ GUO_neutrality_party:0 ""
+ 
+ GUO_utilitarian_despotism:0 "Guominjun"
+ GUO_utilitarian_despotismadj:0 "Han Chinese"
+ 
+ 
+ 
+ 
+
+
+#How to do party descriptions
+#\n§g Description.§!
+ 

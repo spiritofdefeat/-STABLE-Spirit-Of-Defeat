@@ -5,7 +5,8 @@ state={
 		5057 5100 12327 
 	}
 	history={
-		owner = XSM
+		owner = GUO
+		add_core_of = GUO
 		add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC
