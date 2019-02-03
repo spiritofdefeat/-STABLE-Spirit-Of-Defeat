@@ -94,6 +94,9 @@ if = {
 }
 
 puppet = IRQ
+puppet = RHO
+puppet = EGY
+puppet = BOT
 
 if = {
 	limit = { has_dlc = "Together for Victory" }

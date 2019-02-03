@@ -132,4 +132,5 @@ GNM = "countries/Gansu Ma.txt"
 AEF = "countries/French_Equatorial_Africa.txt"
 AOF = "countries/French_West_Africa.txt"
 RHO = "countries/Rhodesia.txt"
+SUD = "countries/Sudan.txt"
 

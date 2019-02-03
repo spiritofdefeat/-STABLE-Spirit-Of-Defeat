@@ -27,7 +27,7 @@ LUX = {
 BEL = { color 	 = rgb { 193 171 8  }
 		color_ui = rgb { 251 222 10 }
 	  }
-HOL = {	color = rgb { 200 100 31 }
+HOL = {	color = rgb { 223 93 6 }
 		color_ui = rgb { 245 123 38 }
 }
 CZE = {	color = rgb { 54 167 156 }
@@ -309,8 +309,8 @@ CRO = {
 }
 
 PRC = {
-	color = rgb { 204 1 1 }
-	color_ui = rgb { 204 1 1 }
+	color = rgb { 245 12 55 }
+	color_ui = rgb { 178 34 60 }
 }
 
 GXC = {
@@ -379,7 +379,7 @@ AZR = {
 }
 
 GEO = {
-	color = rgb { 191  47  47 }
+	color = rgb { 160 24 36 }
 	color_ui = rgb { 153  65  65 }
 }
 
@@ -448,8 +448,8 @@ ZIM = {
 	color_ui = rgb { 7 7 239 }
 }
 BOT = {
-	color = rgb { 11 132 112 }
-	color_ui = rgb { 11 132 112 }
+	color = rgb { 214 66 29 }
+	color_ui = rgb { 214 66 29 }
 }
 PAK = {
 	color = rgb { 21 38 66 }
@@ -470,6 +470,10 @@ KOR = {
 ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
+}
+SUD = {
+	color = rgb { 197 141 61 }
+	color_ui = { 197 141 61 }
 }
 D01 = {
 	color = rgb { 203 138 74 }
@@ -544,16 +548,16 @@ MSR = {
         color_ui = rgb { 163 17 31 }
 }
 KUO = {
-        color = rgb { 0 153 153 }
-	color_ui = rgb { 0 153 153 }
+        color = rgb { 1 26 124 }
+	color_ui = rgb { 1 26 124 }
 }
 BEI = {
         color = rgb { 100  125  175 }
         color_ui = rgb { 100 125 175 }
 }
 AHI = { 
-        color = rgb { 255 204 51 }
-	color_ui = rgb { 255 204 51  }
+        color = rgb { 245 12 55 }
+	color_ui = rgb { 178 34 60 }
 }
 EWC = {
         color = rgb { 125 13 24 }

@@ -404,6 +404,10 @@ social_liberalism = {
 	
 		monarchism_subtype = {
 		}
+		tribal_monarch = {
+		}
+		absolute_monarch = {
+		}
 	}
 	
 	dynamic_faction_names = {

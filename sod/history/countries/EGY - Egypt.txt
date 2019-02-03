@@ -58,6 +58,7 @@ set_convoys = 20
 	}
 }
 
+puppet = SUD
 
 set_politics = {
 
