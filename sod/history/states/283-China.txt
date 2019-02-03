@@ -8,6 +8,7 @@ state={
 	history={
 		owner = GUO
 		add_core_of = GUO
+		add_core_of = GNM
 		add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC
@@ -16,20 +17,7 @@ state={
 			industrial_complex = 1
 
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger"
-					}
 
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-			}
-		}
 	}
 
 	provinces={
