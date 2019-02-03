@@ -1,0 +1,22 @@
+state={
+	id=806
+	name="STATE_806"
+	provinces={
+		13276 13277 13278 13279 13280 13281 13282 13283 
+	}
+	history={
+		owner = SOV
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+	
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

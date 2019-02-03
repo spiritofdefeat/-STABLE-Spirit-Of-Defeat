@@ -1,0 +1,22 @@
+state={
+	id=807
+	name="Nenjiang"
+	provinces={
+		1502 1645 4506 4876 7582 7526 12485 
+	}
+	
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
