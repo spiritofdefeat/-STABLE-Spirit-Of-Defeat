@@ -1,34 +1,34 @@
 ﻿l_english:
 
 
- HMI_communism_party:0 ""
- HMI_communism_party_long:0 ""
- HMI_totalitarian_socialism_party:0 ""
- HMI_totalitarian_socialism_party_long:0 ""
- HMI_orthodox_marxism_party:0 ""
- HMI_orthodox_marxism_party_long:0 ""
- HMI_reformist_socialism_party:0 "" 
- HMI_social_liberalism_party:0 ""
- HMI_social_conservatism_party:0 ""
- HMI_monarchism_party:0 "Regency"
- HMI_utilitarian_despotism_party:0 ""
- HMI_national_collectivism_party:0 ""
- HMI_neutrality_party:0 ""
+ KKH_communism_party:0 ""
+ KKH_communism_party_long:0 ""
+ KKH_totalitarian_socialism_party:0 ""
+ KKH_totalitarian_socialism_party_long:0 ""
+ KKH_orthodox_marxism_party:0 ""
+ KKH_orthodox_marxism_party_long:0 ""
+ KKH_reformist_socialism_party:0 "" 
+ KKH_social_liberalism_party:0 ""
+ KKH_social_conservatism_party:0 ""
+ KKH_monarchism_party:0 "Regency"
+ KKH_utilitarian_despotism_party:0 ""
+ KKH_national_collectivism_party:0 ""
+ KKH_neutrality_party:0 ""
  
- HMI_monarchism:0 "Kumul Khanate
- HMI_monarchism_adj:0 "Uyghur"
- HMI_neutrality:0 "Kumul Khanate
- HMI_neutrality_adj:0 "Uyghur"
- HMI_national_collectivism:0 "Kumul Khanate
- HMI_national_collectivism_adj:0 "Uyghur"
- HMI_social_conservatism:0 "Kumul Khanate
- HMI_social_conservatism_adj:0 "Uyghur"
- HMI_social_liberalism:0 "Kumul Khanate
- HMI_social_liberalism_adj:0 "Uyghur"
- HMI_reformist_socialism:0 "Kumul Khanate
- HMI_reformist_socialism_adj:0 "Uyghur"
- HMI_utilitarian_despotism:0 "Kumul Khanate
- HMI_utilitarian_despotism_adj:0 "Uyghur"
+ KKH_monarchism:0 "Kumul Khanate
+ KKH_monarchism_adj:0 "Uyghur"
+ KKH_neutrality:0 "Kumul Khanate
+ KKH_neutrality_adj:0 "Uyghur"
+ KKH_national_collectivism:0 "Kumul Khanate
+ KKH_national_collectivism_adj:0 "Uyghur"
+ KKH_social_conservatism:0 "Kumul Khanate
+ KKH_social_conservatism_adj:0 "Uyghur"
+ KKH_social_liberalism:0 "Kumul Khanate
+ KKH_social_liberalism_adj:0 "Uyghur"
+ KKH_reformist_socialism:0 "Kumul Khanate
+ KKH_reformist_socialism_adj:0 "Uyghur"
+ KKH_utilitarian_despotism:0 "Kumul Khanate
+ KKH_utilitarian_despotism_adj:0 "Uyghur"
  
 
 

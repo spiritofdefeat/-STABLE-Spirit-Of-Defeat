@@ -5,8 +5,8 @@ state={
 		4704 4843 12598 
 	}
 	history={
-		owner = HMI
-		add_core_of = HMI
+		owner = KKH
+		add_core_of = KKH
 		add_core_of = SIK
 		add_claim_by = CHI
 		add_claim_by = PRC
