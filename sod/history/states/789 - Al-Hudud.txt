@@ -1,6 +1,6 @@
 state={
 	id=789
-	name="Al-Hudūd Aš-Šamāliyya"
+	name="Al-Hudud"
 	manpower = 10000
 	
 	state_category = rural

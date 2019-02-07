@@ -1,6 +1,6 @@
 state={
 	id=791
-	name="al-Anbār"
+	name="al-Anbar"
 	manpower = 22093
 	
 	state_category = wasteland

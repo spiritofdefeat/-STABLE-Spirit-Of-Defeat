@@ -1,6 +1,6 @@
 state={
 	id=788
-	name="Hafar al-Bātin"
+	name="Hafar al-Batin"
 	manpower = 20000
 	
 	state_category = rural

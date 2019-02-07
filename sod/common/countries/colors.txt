@@ -628,3 +628,7 @@ GUO = {
     color_ui = rgb { 204 153 51 }
 }
 
+SHG = {
+	color = rgb { 70 117 99 }
+    color_ui = rgb { 70 117 99 }
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=816
+	name="STATE_816"
+	manpower = 50900
+	
+	state_category = town
+	
+	resources={
+		chromium = 4 # was: 20
+		steel = 6 # was: 20
+	}
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			10203 = {
+				naval_base = 1
+			}
+		}
+        add_core_of = GRE
+        add_core_of = ITA
+	}
+
+	provinces={
+		10203
+	}
+}
