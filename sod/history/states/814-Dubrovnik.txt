@@ -1,0 +1,31 @@
+
+state={
+	id=814
+	name="STATE_814" # Dalmatia
+	manpower = 21700
+
+	state_category = large_town
+
+
+	history={
+		owner = CRO
+		
+		buildings = {
+			infrastructure = 6
+			dockyard = 1
+			industrial_complex = 2
+			
+			6889 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = YUG
+		#add_claim_by = ITA #added by focus
+		add_core_of = CRO
+		add_core_of = ITA
+	}
+
+	provinces={
+		3868 6889 
+	}
+}

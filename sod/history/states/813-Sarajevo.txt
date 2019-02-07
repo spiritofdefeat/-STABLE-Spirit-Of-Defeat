@@ -1,23 +1,24 @@
 state=
 {
-	id=102
-	name="STATE_102"
+	id=813
+	name="STATE_813"
 	manpower = 1144300
 	
 	state_category = large_town
 	
 	history =
 	{
-		owner = CRO
+		owner = SER
 		buildings = {
 			infrastructure = 6
 		}
 		victory_points = {
-			9627 3 
+			11899 5 
 		}
 		add_core_of = YUG
 		add_core_of = CRO
+        add_core_of = SER
 	}
 	provinces={
-		596 665 3631 3654 6650 6672 9596 9627 11612 	}
+		6799 11899 	}
 	}
