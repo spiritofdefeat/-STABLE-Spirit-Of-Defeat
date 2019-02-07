@@ -1,8 +1,8 @@
 
 state={
-	id=44
-	name="STATE_44"
-	manpower = 1003000
+	id=818
+	name="STATE_818"
+	manpower = 103000
 	resources={
 		aluminium=2 # was: 3
 		chromium=2 # was: 3
@@ -11,18 +11,19 @@ state={
 	state_category = town
 	
 	history={
-		owner = ALB
-		victory_points = {
-			9914 5 
-		}
+		owner = GRE
+		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 2 
-			air_base = 3
-			
+			industrial_complex = 0 
+			air_base = 1
+			11767 = {
+				naval_base = 4
+			}
 		}
 		add_core_of = ALB
+        add_core_of = GRE
 		add_claim_by = ITA
 
 		1939.4.12 = {
@@ -33,6 +34,6 @@ state={
 	}
 
 	provinces={
-		3884 3896 9780 9875 9914 11762 
+		914 3448 6900 11767 
 	}
 }
