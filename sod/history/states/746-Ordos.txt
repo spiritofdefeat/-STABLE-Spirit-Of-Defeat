@@ -12,7 +12,7 @@ state={
 		owner = GUO
 		add_core_of = GUO
 		add_core_of = SHX
-		add_core_of = CHI
+		add_core_of = KUO
 		add_core_of = PRC
 		
 		buildings = {
