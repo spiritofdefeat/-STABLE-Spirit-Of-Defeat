@@ -1,0 +1,37 @@
+﻿l_english:
+
+
+ CHI_communism_party:0 ""
+ CHI_communism_party_long:0 ""
+ CHI_totalitarian_socialism_party:0 ""
+ CHI_totalitarian_socialism_party_long:0 ""
+ CHI_orthodox_marxism_party:0 ""
+ CHI_orthodox_marxism_party_long:0 ""
+ CHI_reformist_socialism_party:0 "" 
+ CHI_social_liberalism_party:0 ""
+ CHI_social_conservatism_party:0 ""
+ CHI_monarchism_party:0 ""
+ CHI_utilitarian_despotism_party:0 "Council of Warlords"
+ CHI_national_collectivism_party:0 ""
+ CHI_neutrality_party:0 ""
+ 
+ CHI_monarchism:0 "Sichuan Clique"
+ CHI_monarchism_adj:0 "Chinese"
+ CHI_neutrality:0 "Sichuan Clique"
+ CHI_neutrality_adj:0 "Chinese"
+ CHI_national_collectivism:0 "Sichuan Clique"
+ CHI_national_collectivism_adj:0 "Chinese"
+ CHI_social_conservatism:0 "Sichuan Clique"
+ CHI_social_conservatism_adj:0 "Chinese"
+ CHI_social_liberalism:0 "Sichuan Clique"
+ CHI_social_liberalism_adj:0 "Chinese"
+ CHI_reformist_socialism:0 "Sichuan Clique"
+ CHI_reformist_socialism_adj:0 "Chinese"
+ CHI_utilitarian_despotism:0 "Sichuan Clique"
+ CHI_utilitarian_despotism_adj:0 "Chinese"
+ 
+
+
+#How to do party descriptions
+#\n§g Description.§!
+ 
