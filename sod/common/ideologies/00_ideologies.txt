@@ -22,7 +22,7 @@ ideologies = {
 		"FACTION_NAME_COMMUNIST_5"
 	}
 	
-	color = { 120 49 39 }
+	color = { 51 0 0 }
 	
 	war_impact_on_world_tension = 1.0		#Commies are threatening 
 	faction_impact_on_world_tension = 0.5
@@ -73,7 +73,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 171 53 24 }
+		color = { 102 0 0 }
 		
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -114,7 +114,7 @@ ideologies = {
 		"FACTION_NAME_COMMUNIST_5"
 	}
 	
-	color = { 221 57 10 }
+	color = { 153 0 0 }
 	
 	war_impact_on_world_tension = 1.0		#Commies are threatening 
 	faction_impact_on_world_tension = 0.5
@@ -157,7 +157,7 @@ libertarian_socialism = {
 		"FACTION_NAME_COMMUNIST_5"
 	}
 	
-	color = { 222 28 34 }
+	color = { 204 0 0 }
 	
 	war_impact_on_world_tension = 1.0		#Commies are threatening 
 	faction_impact_on_world_tension = 0.5
@@ -199,7 +199,7 @@ reformist_socialism = {
 		"FACTION_NAME_REFORMIST_SOCIALISM_6"
 	}
 	
-	color = { 255 0 153 }
+	color = { 255 0 0 }
 	
 	rules = {
 		can_declare_war_on_same_ideology = no
@@ -253,7 +253,7 @@ social_liberalism = {
 		"FACTION_NAME_SOCIAL_LIBERALISM_6"
 	}
 	
-	color = { 226 206 49 }
+	color = { 166 111 0 }
 	
 	rules = {
 		can_declare_war_on_same_ideology = no
@@ -311,7 +311,7 @@ social_liberalism = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 0 76 153 }
+		color = { 0 70 166 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -342,6 +342,44 @@ social_liberalism = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 	
+	monarchism = {
+
+	types = {
+	
+		monarchism_subtype = {
+		}
+		tribal_monarch = {
+		}
+		absolute_monarch = {
+		}
+	}
+	
+	dynamic_faction_names = {
+		"FACTION_NAME_FASCIST_1"
+		"FACTION_NAME_FASCIST_2"
+		"FACTION_NAME_FASCIST_3"
+		"FACTION_NAME_FASCIST_4"
+		"FACTION_NAME_FASCIST_5"
+	}
+	
+	color = { 26 26 59 }
+	
+	war_impact_on_world_tension = 1.0			#evil!
+	faction_impact_on_world_tension = 1.0
+	
+	rules = {
+		can_force_government = no
+		can_send_volunteers = yes
+		can_puppet = yes
+	}
+	
+	modifiers = {
+		justify_war_goal_when_in_major_war_time = -0.80
+	}
+
+	ai_fascist = yes # uses the fascist AI behaviour
+}
+	
 	neutrality = {
 	
 		types = {
@@ -367,7 +405,7 @@ social_liberalism = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 124 124 124 }
+		color = { 160 160 160 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -398,43 +436,7 @@ social_liberalism = {
 		ai_neutral = yes # 
 	}
 	
-	monarchism = {
-
-	types = {
 	
-		monarchism_subtype = {
-		}
-		tribal_monarch = {
-		}
-		absolute_monarch = {
-		}
-	}
-	
-	dynamic_faction_names = {
-		"FACTION_NAME_FASCIST_1"
-		"FACTION_NAME_FASCIST_2"
-		"FACTION_NAME_FASCIST_3"
-		"FACTION_NAME_FASCIST_4"
-		"FACTION_NAME_FASCIST_5"
-	}
-	
-	color = { 76 0 153}
-	
-	war_impact_on_world_tension = 1.0			#evil!
-	faction_impact_on_world_tension = 1.0
-	
-	rules = {
-		can_force_government = no
-		can_send_volunteers = yes
-		can_puppet = yes
-	}
-	
-	modifiers = {
-		justify_war_goal_when_in_major_war_time = -0.80
-	}
-
-	ai_fascist = yes # uses the fascist AI behaviour
-}
  
 utilitarian_despotism = {
 
@@ -464,7 +466,7 @@ utilitarian_despotism = {
 		"FACTION_NAME_FASCIST_5"
 	}
 	
-	color = { 75 83 32 }
+	color = { 85 85 85 }
 	
 	war_impact_on_world_tension = 1.0			#evil!
 	faction_impact_on_world_tension = 1.0
@@ -510,7 +512,7 @@ utilitarian_despotism = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 64 30 15 }
+		color = { 50 50 50 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -549,7 +551,7 @@ nihilistic_extremism = {
 		"FACTION_NAME_FASCIST_5"
 	}
 	
-	color = { 30 30 30 }
+	color = { 20 20 20 }
 	
 	war_impact_on_world_tension = 1.0			#evil!
 	faction_impact_on_world_tension = 1.0
