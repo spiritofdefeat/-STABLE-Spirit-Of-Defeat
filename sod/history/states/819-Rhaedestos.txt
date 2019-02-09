@@ -1,0 +1,30 @@
+state= {
+	id=819
+	name="STATE_819"
+	manpower = 404509
+	resources={
+		chromium=15 # was: 84
+		steel = 5 # was: 20
+	}
+	
+	state_category = city
+
+	history= {
+		add_core_of = GRE
+		add_core_of = BUL
+		owner = KON
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			arms_factory = 2
+			air_base = 4
+			
+		}
+		add_core_of = TUR
+	}
+	provinces=
+	{
+849 3879 6895 	}
+}

@@ -11,7 +11,7 @@ state={
 	state_category = metropolis
 
 	history={
-		owner = GER
+		owner = MOZ
 		victory_points = { 11435 10 }
 		buildings = {
 			infrastructure = 7
@@ -19,6 +19,7 @@ state={
 
 		}
 		add_core_of = GER
+		add_core_of = MOZ
 	
 		set_demilitarized_zone = yes
 		

@@ -1,0 +1,22 @@
+state={
+	id=820
+	name="STATE_820"
+
+	history={
+		owner = SER
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = YUG
+		add_core_of = SER
+
+	}
+
+	provinces={
+		3623 6643 9608 9621 
+	}
+	manpower=126200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

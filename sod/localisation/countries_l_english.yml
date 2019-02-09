@@ -1369,6 +1369,15 @@
  SHG_utilitarian_despotism:0 "Shanghai Triad Syndicate"
  SHG_utilitarian_despotism_DEF:0 "the Shanghai Triad Syndicate"
  SHG_utilitarian_despotism_ADJ:0 "Chinese"
+ MOZ_neutrality:0 "Rhénanie Occupation Zone"
+ MOZ_neutrality_DEF:0 "the Rhénanie Occupation Zone"
+ MOZ_neutrality_ADJ:0 "Rhenish"
+ MOZ_utilitarian_despotism:0 "Rhénanie Occupation Zone"
+ MOZ_utilitarian_despotism_DEF:0 "the Rhénanie Occupation Zone"
+ MOZ_utilitarian_despotism_ADJ:0 "Rhenish"
+ EWC_totalitarian_socialism:0 "Estonian Workers' Commune"
+ EWC_totalitarian_socialism_DEF:0 "the Estonian Workers' Commune"
+ EWC_totalitarian_socialism_ADJ:0 "Estonian"
 
 
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
