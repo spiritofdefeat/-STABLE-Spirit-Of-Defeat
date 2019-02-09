@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = SOV
+		owner = MAN
 		add_core_of = KUO
 		add_core_of = MAN
 		add_core_of = PRC
