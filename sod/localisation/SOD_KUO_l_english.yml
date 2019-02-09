@@ -10,3 +10,66 @@
  KUO_utilitarian_despotism_ADJ:0 "Chinese"
  
  KUO_utilitarian_despotism_party:0 "KMT"
+ 
+ #National Focus
+ KUO_northern_expedition_1:0 "Northern Expedition: Phase 1"
+ KUO_northern_expedition_1_desc:0 "The First Step to reuniting China is to deal with Feng Yuxiang and this Guominjun Clique. Defeating them will open the way to Beijing and bring was one step closer to unification."
+ KUO_northern_expedition_2:0 "Northern Expedition: Phase 2"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #Focus Effects
+ first_united_front:0 "First United Front"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #Decision Categories
+ KUO_Northern_Expedition:0 "The Northern Expedition"
+ KUO_Northern_Expedition_desc:0 "The Northern Expedition is our plan to reunite China and end the era of Warlordism"
+ 
+ #Decisions
+ KUO_invite_warlords:0 "Invite the Warlords to United Front" 
+ KUO_invite_warlords:0 "We only control a small amount of land in China so it is no secret that we will need help from warlords in achieving our goals."
+ KUO_launch_first_expedition:0 "Launch the First Expedition"
+ KUO_launch_first_expedition_desc:0 "It is time to crush the Guominjun and open the path towards reunification."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #Events
+ northern_expedition.1.t:0 "Invitation to the United Front"
+ northern_expedition.1.d:0 "The Kuomintang has invited us to form a United Front against Feng Yuxiang and the Guominjun Clique."
+ northern_expedition.1.a:0 "Accept"
+ northern_expedition.1.b:0 "Decline"
+ northern_expedition.2.t:0 "[From.GetName] has accepted."
+ northern_expedition.2.d:0 ""
+ northern_expedition.2.a:0 "Very Well."
+ northern_expedition.3.t:0 "[From.GetName] has declined."
+ northern_expedition.3.d:0 ""
+ northern_expedition.3.a:0 "Too Bad"
+ 
+ 

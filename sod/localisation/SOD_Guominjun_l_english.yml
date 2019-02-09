@@ -15,11 +15,12 @@
  GUO_neutrality_party:0 ""
  
  GUO_utilitarian_despotism:0 "Guominjun"
- GUO_utilitarian_despotismadj:0 "Han Chinese"
+ GUO_utilitarian_despotism_adj:0 "Guominjun"
  
  
  
- 
+ #cosmetic
+ GUO_KUO:0 "North Western Army"
 
 
 #How to do party descriptions

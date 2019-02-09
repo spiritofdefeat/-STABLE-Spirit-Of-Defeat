@@ -266,19 +266,14 @@ bookmarks = {
 				YUG_establish_the_banovina_of_croatia
 			}
 		}
-		"CHI"={
+		"KUO"={
 			minor = yes
 			history = "CHI_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = utilitarian_despotism
 			ideas = {
-				CHI_army_corruption_1
-				CHI_hyper_inflation_1
-				CHI_nine_power_treaty
 			}
 			focuses = {
-				CHI_united_front
-				CHI_army_reform
-				CHI_invite_the_flying_tigers
+				KUO_northern_expedition_1
 			}
 		}
 		"PRC"={

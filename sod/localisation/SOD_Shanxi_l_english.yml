@@ -1,0 +1,37 @@
+﻿l_english:
+
+
+ SHX_communism_party:0 ""
+ SHX_communism_party_long:0 ""
+ SHX_totalitarian_socialism_party:0 ""
+ SHX_totalitarian_socialism_party_long:0 ""
+ SHX_orthodox_marxism_party:0 ""
+ SHX_orthodox_marxism_party_long:0 ""
+ SHX_reformist_socialism_party:0 "" 
+ SHX_social_liberalism_party:0 ""
+ SHX_social_conservatism_party:0 ""
+ SHX_monarchism_party:0 ""
+ SHX_utilitarian_despotism_party:0 "Shanxi Military Clique"
+ SHX_national_collectivism_party:0 ""
+ SHX_neutrality_party:0 ""
+ 
+ SHX_monarchism:0 "Shanxi Clique"
+ SHX_monarchism_adj:0 "Chinese"
+ SHX_neutrality:0 "Shanxi Clique"
+ SHX_neutrality_adj:0 "Chinese"
+ SHX_national_collectivism:0 "Shanxi Clique"
+ SHX_national_collectivism_adj:0 "Chinese"
+ SHX_social_conservatism:0 "Shanxi Clique"
+ SHX_social_conservatism_adj:0 "Chinese"
+ SHX_social_liberalism:0 "Shanxi Clique"
+ SHX_social_liberalism_adj:0 "Chinese"
+ SHX_reformist_socialism:0 "Shanxi Clique"
+ SHX_reformist_socialism_adj:0 "Chinese"
+ SHX_utilitarian_despotism:0 "Shanxi Clique"
+ SHX_utilitarian_despotism_adj:0 "Chinese"
+ 
+
+
+#How to do party descriptions
+#\n§g Description.§!
+ 

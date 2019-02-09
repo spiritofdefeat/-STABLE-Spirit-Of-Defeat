@@ -1,0 +1,53 @@
+KUO_Northern_Expedition = {
+
+	KUO_invite_warlords = {
+	
+		visible = {
+			tag = KUO
+			has_completed_focus = KUO_northern_expedition_1
+			NOT = {has_country_flag = invite_walords }
+		}
+		complete_effect = {
+			GXC = { country_event = northern_expedition.1 }
+			YUN = { country_event = northern_expedition.1 }
+			XSM = { country_event = northern_expedition.1 }
+			GNM = { country_event = northern_expedition.1 }
+			PRC = { country_event = northern_expedition.1 }
+			SHX = { country_event = northern_expedition.1 }
+			CHI = { country_event = northern_expedition.1 }
+			set_country_flag = invite_walords
+
+			
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	KUO_launch_first_expedition = {
+	
+		visible = {
+			country_exists = GUO
+			tag = KUO
+			has_completed_focus = KUO_northern_expedition_1
+			NOT = { has_country_flag = KUO_GUO_war }
+		}
+		complete_effect = {
+			declare_war_on = {
+				target = GUO
+				type = annex_everything
+			}
+			set_country_flag = KUO_GUO_war
+			GUO = { set_country_flag = KUO_GUO_war }
+			
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+}

@@ -1,0 +1,250 @@
+﻿###########################
+# War-Peace Events
+###########################
+
+add_namespace = first_expedition
+add_namespace = beijing_conference
+
+# We have Captured Beijing
+country_event = {
+	id = first_expedition.1
+	title = first_expedition.1.t
+	desc = first_expedition.1.d
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		tag = KUO
+		has_country_flag = KUO_GUO_war
+		OR = {
+			GUO = { surrender_progress > 0.70 }
+		}
+		OR = {
+			owns_state = 608
+		}
+		has_war_with = GUO	
+	}
+	
+	option = {
+		name = first_expedition.1.a
+		ai_chance = { factor = 90 }
+		white_peace = GUO
+		KUO = { country_event = { id = beijing_conference.1 days = 3 }}
+
+
+	}
+
+	option = {
+		name = first_expedition.1.b
+		ai_chance = { factor = 10 }
+	}
+}
+
+#Fate of Guominjun: Beijing
+country_event = {
+	id = beijing_conference.1
+	title = beijing_conference.1.t
+	desc = beijing_conference.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = beijing_conference.1.a
+		ai_chance = { factor = 20 }
+		puppet = GUO
+		KUO = { country_event = { id = beijing_conference.6 days = 3 }}
+		transfer_state = 608
+
+	}
+	
+	option = {
+		name = beijing_conference.1.b
+		ai_chance = { factor = 70 }
+		puppet = GUO
+		KUO = { country_event = { id = beijing_conference.2 days = 3 }}
+		transfer_state = 608
+
+	}
+	
+	option = {
+		name = beijing_conference.1.c
+		ai_chance = { factor = 10 }
+		annex_country = { target = GUO }
+		"KUO" = { country_event = { id = beijing_conference.6 days = 3 }}
+		transfer_state = 608
+
+	}
+}
+
+#Fate of Guominjun: The South and Beijing
+country_event = {
+	id = beijing_conference.2
+	title = beijing_conference.2.t
+	desc = beijing_conference.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = beijing_conference.2.a
+		ai_chance = { factor = 90 }
+		transfer_state = 620
+		transfer_state = 744
+		transfer_state = 607
+		transfer_state = 786
+		transfer_state = 614
+		transfer_state = 785
+		KUO = { country_event = { id = beijing_conference.3 days = 3 }}
+
+	}
+}
+
+#Fate of Guominjun: Gansu
+country_event = {
+	id = beijing_conference.3
+	title = beijing_conference.3.t
+	desc = beijing_conference.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = beijing_conference.3.a
+		ai_chance = { factor = 70 }
+		transfer_state = 782
+		transfer_state = 283
+		KUO = { country_event = { id = beijing_conference.4 days = 3 }}
+
+	}
+	
+	option = {
+		name = beijing_conference.3.b
+		ai_chance = { factor = 30 }
+		GNM = {
+			transfer_state = 782
+			transfer_state = 283
+		}
+		
+		KUO = { country_event = { id = beijing_conference.4 days = 3 }}
+
+	}
+}
+
+#Fate of Guominjun: The Mongolian Provinces
+country_event = {
+	id = beijing_conference.4
+	title = beijing_conference.4.t
+	desc = beijing_conference.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = beijing_conference.4.a #Autonomous State
+		ai_chance = { factor = 60 }
+		MEN = {
+			transfer_state = 611
+			transfer_state = 612
+			transfer_state = 621
+		}
+		KUO = { country_event = { id = beijing_conference.5 days = 3 }}
+		puppet = MEN
+
+	}
+	
+	option = {
+		name = beijing_conference.4.b #Independenct State
+		ai_chance = { factor = 10 }
+		MEN = {
+			transfer_state = 611
+			transfer_state = 612
+			transfer_state = 621
+		}
+		
+		KUO = { country_event = { id = beijing_conference.5 days = 3 }}
+
+	}
+	
+	option = {
+		name = beijing_conference.4.c #Independenct State(tag switch)
+		MEN = {
+			transfer_state = 611
+			transfer_state = 612
+			transfer_state = 621
+		}
+		MEN = { change_tag_from = KUO }
+		
+		KUO = { country_event = { id = beijing_conference.5 days = 3 }}
+
+	}
+	
+	option = { 
+		name = beijing_conference.4.e #Annex Everything
+		ai_chance = { factor = 30 }
+			transfer_state = 611
+			transfer_state = 612
+			transfer_state = 621
+		
+		KUO = { country_event = { id = beijing_conference.5 days = 3 }}
+
+	}
+}
+
+#Rest of Inner Mongolia
+country_event = {
+	id = beijing_conference.5 
+	title = beijing_conference.5.t
+	desc = beijing_conference.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = beijing_conference.5.a
+		ai_chance = { factor = 90 }
+		transfer_state = 781
+		transfer_state = 646
+		transfer_state = 746
+		KUO = { country_event = { id = beijing_conference.6 days = 3 }}
+
+	}
+	
+	option = {
+		name = beijing_conference.5.b
+		ai_chance = { factor = 90 }
+		transfer_state = 781
+		transfer_state = 646
+		transfer_state = 746
+		781 = { set_demilitarized_zone = yes }
+		646 = { set_demilitarized_zone = yes }
+		746 = { set_demilitarized_zone = yes }
+		KUO = { country_event = { id = beijing_conference.6 days = 3 }}
+
+	}
+	
+	option = {
+		name = beijing_conference.5.c
+		ai_chance = { factor = 90 }
+		puppet = GUO
+		GUO = {set_cosmetic_tag = GUO_KUO}
+		KUO = { country_event = { id = beijing_conference.6 days = 3 }}
+
+	}
+}
+
+country_event = {
+	id = beijing_conference.6
+	title = beijing_conference.6.t
+	desc = beijing_conference.6.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = beijing_conference.6.a
+		ai_chance = { factor = 90 }
+		set_country_flag = phase_1_over
+		KUO = {leave_faction = yes} 
+
+	}
+}
+

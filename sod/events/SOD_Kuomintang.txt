@@ -1,0 +1,66 @@
+﻿###########################
+# Kuo Events
+###########################
+
+add_namespace = northern_expedition
+
+# Invitation to United Front
+country_event = {
+	id = northern_expedition.1
+	title = northern_expedition.1.t
+	desc = northern_expedition.1.d
+	picture = GFX_report_event_worried_french
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = northern_expedition.1.a
+		ai_chance = { factor = 50 }
+		KUO = {
+			country_event = northern_expedition.2
+			add_to_faction = ROOT
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = "KUO"
+			value = 200
+		}
+	}
+
+	option = {
+		name = northern_expedition.1.b
+		ai_chance = { factor = 50 }
+		KUO = { country_event = northern_expedition.3 }
+	}
+}
+
+# [Country] Accepts
+country_event = {
+	id = northern_expedition.2
+	title = northern_expedition.2.t
+	desc = northern_expedition.2.d
+	picture = GFX_report_event_soldiers_in_france
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = northern_expedition.2.a
+		effect_tooltip = {
+			add_to_faction = FROM
+		}
+	}
+}
+
+# [Country] Refuses
+country_event = {
+	id = northern_expedition.3
+	title = northern_expedition.3.t
+	desc = northern_expedition.3.d
+	picture = GFX_report_event_finnish_letter
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = northern_expedition.3.a
+	}
+}

@@ -1,0 +1,73 @@
+focus_tree = {
+	id = china_kuomintang_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KUO
+		}
+	}
+	
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1000 }
+
+	focus = {
+		id = KUO_northern_expedition_1
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+
+		cost = 10
+		
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			create_faction = "first_united_front"
+		}
+	}
+	
+	focus = {
+		id = KUO_northern_expedition_2
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+
+		cost = 10
+		prerequisite = { focus = KUO_northern_expedition_1 }
+		
+		available = {
+			has_country_flag = phase_1_over
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}

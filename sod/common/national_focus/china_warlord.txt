@@ -13,11 +13,11 @@ focus_tree = {
 				tag = SHX
 				tag = XSM
 				tag = GNM
-				tag = KUO
 				tag = XIJ
 				tag = ZHI
 				tag = AHI
 				tag = GUO
+				tag = XHI
 			}
 			has_dlc = "Waking the Tiger"
 		}

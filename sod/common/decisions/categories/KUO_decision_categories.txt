@@ -1,0 +1,10 @@
+################
+##### KUO ######
+################
+
+KUO_Northern_Expedition = {
+	
+	allowed = {
+		original_tag = KUO
+	}
+}
