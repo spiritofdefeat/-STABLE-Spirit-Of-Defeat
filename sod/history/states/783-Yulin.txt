@@ -5,7 +5,8 @@ state={
 		1458 7314 7659 10880 
 	}
 	history={
-		owner = PRC
+		owner = SHX
+		add_core_of = SHX
 		add_core_of = PRC
 		add_core_of = KUO
 		victory_points = {
