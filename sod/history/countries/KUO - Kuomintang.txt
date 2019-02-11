@@ -15,28 +15,56 @@ set_technology = {
 
 set_convoys = 5
 
+add_ideas = {
+	KUO_assasination_corps
+	KUO_coup_legacy
+
+}
+
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+	
+		reformist_socialism = {
+			popularity = 28
 		}
-
-		fascism = {
-			popularity = 0
+		
+		social_liberalism = {
+			popularity = 19
+		}
+		
+		democratic = {
+			popularity = 15
+		}
+		
+		neutrality = {
+			popularity = 12.3
 		}
 		
 		communism = {
-			popularity = 0
-                        banned = yes
+			popularity = 9.1
 		}
-
+		
+		orthodox_marxism = {
+			popularity = 4.5
+		}
+		
+		totalitarian_socialism = {
+			popularity = 2.2
+		}
+		
 		utilitarian_despotism = {
-			popularity = 100
+			popularity = 5.5
 		}
+		
+		fascism = {
+			popularity = 4.4
+		}
+		
+		
 	}
 	
-	ruling_party = utilitarian_despotism
+	ruling_party = reformist_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -44,10 +72,10 @@ set_politics = {
 
 create_country_leader = {
 	name = "Chen Jiongming"
-        desc = ""
+    desc = ""
 	picture = "Portrait_China_Chen.dds"
 	expire = "1960.1.1"
-	ideology = warlord
+	ideology = reformist_socialism_subtype
 	traits = {
                 generallissimo
 	}
@@ -81,7 +109,7 @@ create_country_leader = {
 	desc = "POLITICS_WANG_JINGWEI_DESC"
 	picture = "GFX_portrait_chi_wang_jingwei"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = social_liberalism_subtype
 	traits = {
 		#
 	}

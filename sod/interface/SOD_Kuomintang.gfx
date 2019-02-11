@@ -1,0 +1,39 @@
+spriteTypes = {
+
+#Ministers
+
+	#SPIRITS
+	spriteType = {
+		name = "GFX_idea_KUO_assasination_corps"
+		texturefile = "gfx/interface/ideas/KUO/KUO_assasination_corps.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_KUO_coup_legacy"
+		texturefile = "gfx/interface/ideas/KUO/KUO_coup_legacy.tga"
+	}
+	
+	#DECISIONS
+	spriteType = {
+		name = "GFX_decision_category_KUO_Northern_Expedition"
+		texturefile = "gfx/interface/decisions/KUO/KUO_Northern_Expedition.tga"
+	}
+	
+	
+	#FOCUS TREE
+	spriteType = {
+		name = "GFX_focus_KUO_northern_expedition_one"
+		texturefile = "gfx/interface/goals/KUO/KUO_northern_expedition_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_KUO_northern_expedition_two"
+		texturefile = "gfx/interface/goals/KUO/KUO_northern_expedition_2.dds"
+	}
+	
+	
+	
+	#EVENTS
+
+
+}
