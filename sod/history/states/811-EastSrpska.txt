@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = SER
+		owner = CRO
 		
 		buildings = {
 			infrastructure = 5

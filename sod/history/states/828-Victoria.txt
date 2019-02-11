@@ -1,0 +1,30 @@
+state={
+	id=828
+	
+	state_category = rural
+	
+	name="STATE_828"
+	resources={
+		chromium=35 # was: 64.000
+		tungsten=8 # was: 16.000
+	}
+
+	history={
+		owner = RHO
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			2151 1 
+		}
+		add_core_of = ZIM
+		add_core_of = RHO
+	}
+
+	provinces={
+		2151
+	}
+	manpower=55400
+	buildings_max_level_factor=1.000
+}

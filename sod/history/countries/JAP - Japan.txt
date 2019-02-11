@@ -100,9 +100,9 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Hirohito"
+	name = "Emperor Hirohito"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "Portrait_Japan_Hirohito.dds"
+	picture = "Portrait_JAP_Hirohito_1950.png"
 	expire = "1989.1.1"
 	ideology = fascism_ideology
 	traits = {

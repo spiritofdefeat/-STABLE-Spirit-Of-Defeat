@@ -172,7 +172,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 99
+			popularity = 49
+		}
+
+		social_liberalism = {
+			popularity = 50
 		}
 
 		fascism = {
@@ -185,7 +189,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_liberalism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -212,7 +216,11 @@ set_autonomy = {
 
 		parties = {
 			democratic = { 
-				popularity = 99
+				popularity = 49
+			}
+
+			social_liberalism = {
+				popularity = 50
 			}
 
 			fascism = {
@@ -225,7 +233,7 @@ set_autonomy = {
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = social_liberalism
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes
@@ -233,11 +241,22 @@ set_autonomy = {
 }
 
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
+	name = "Andrew Mellon"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	picture = "Portrait_Mellon.tga"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = market_liberal
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Hugo Black"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_Black.tga"
+	expire = "1947.1.1"
+	ideology = traditionalism
 	traits = {
 		dislikes_germany
 	}

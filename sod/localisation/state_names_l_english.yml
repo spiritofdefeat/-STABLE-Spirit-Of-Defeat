@@ -543,7 +543,7 @@
  STATE_542:0 "Bechuanaland"
  STATE_543:0 "Madagascar"
  STATE_544:0 "Mozambique"
- STATE_545:0 "Rhodesia"
+ STATE_545:0 "Northern Rhodesia"
  STATE_546:0 "Tanganyika"
  STATE_547:0 "Kenya"
  STATE_548:0 "Uganda"
@@ -809,4 +809,9 @@
  STATE_823:0 "Liegnitz"
  STATE_824:0 "Nancy"
  STATE_825:0 "Masuren"
+ STATE_826:0 "Mashonaland"
+ STATE_827:0 "Matabeleland"
+ STATE_828:0 "Victoria"
+ STATE_829:0 "Manicaland"
+ STATE_830:0 "Constanta"
 
