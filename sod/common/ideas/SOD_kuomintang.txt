@@ -14,8 +14,27 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_gain = 0.10
-				stability_factor = -0.05
+				political_power_gain = 0.25
+				stability_factor = -0.1
+			}
+		}
+		
+		KUO_coup_legacy = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.1
+				war_support_factor = -0.1
 			}
 		}
 	

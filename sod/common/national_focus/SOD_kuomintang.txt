@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = KUO_northern_expedition_1
-		icon = GFX_goal_unknown
+		icon = KUO_northern_expedition_one
 		x = 0
 		y = 0
 
@@ -32,10 +32,6 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 
-		complete_tooltip = {
-
-		}
-
 		completion_reward = {
 			set_rule = { can_create_factions = yes }
 			create_faction = "first_united_front"
@@ -44,7 +40,7 @@ focus_tree = {
 	
 	focus = {
 		id = KUO_northern_expedition_2
-		icon = GFX_goal_unknown
+		icon = KUO_northern_expedition_two
 		x = 0
 		y = 1
 
@@ -64,9 +60,6 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 
-		complete_tooltip = {
-
-		}
 
 		completion_reward = {
 		}
