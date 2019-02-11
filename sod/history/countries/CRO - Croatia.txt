@@ -112,9 +112,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Ante Pavelic"
+	name = "Mile Budak"
 	desc = "ANTE_PAVELIC_DESC"
-	picture = "Portrait_Croatia_Ante_Pavelic.dds"
+	picture = "Mile_Budak.tga"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
