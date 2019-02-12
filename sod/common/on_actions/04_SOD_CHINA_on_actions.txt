@@ -1,0 +1,24 @@
+on_actions = {
+
+	# ROOT is capitulated country, FROM is winner
+	on_capitulation = { 
+	
+		effect = {
+		
+			if = {
+				limit = {
+					OR = {
+						tag = GUO
+						FROM = { tag = KUO }
+					}
+				}
+				
+				FROM = {
+					country_event = { id = first_expedition.1 hours = 1 }
+				}
+		
+			}
+			
+		}
+	}
+}

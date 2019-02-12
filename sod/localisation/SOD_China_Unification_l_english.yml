@@ -1,9 +1,8 @@
 ﻿l_english:
 
- first_expedition.1.t:0 "We have captured Beijing."
+ first_expedition.1.t:0 "The Guominjun have lost."
  first_expedition.1.d:0 ""
- first_expedition.1.a:0 "The Guominjun has lost."
- first_expedition.1.b:0 "Push for unconditional Surrender." 
+ first_expedition.1.a:0 "The Guominjun have lost."
  beijing_conference.1.t:0 "Beijing Conference: Fate of the Guominjun"
  beijing_conference.1.d:0 ""
  beijing_conference.1.a:0 "Forccibly Subjucate them"

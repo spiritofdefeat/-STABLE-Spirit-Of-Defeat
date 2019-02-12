@@ -8,7 +8,6 @@ set_technology = {
 }
 
 add_ideas = {
-	AHI_Beiyang_Remnants
 
 }
 set_politics = {
@@ -41,7 +40,7 @@ set_politics = {
 create_country_leader = {
 	name = "Feng Yuxiang"
 	desc = ""
-	picture = ""
+	picture = "Portrait_Feng_Yuxiang.dds"
 	expire = "1965.1.1"
 	ideology = warlord
 	traits = {

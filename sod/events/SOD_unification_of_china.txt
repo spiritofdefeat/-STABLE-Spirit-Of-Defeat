@@ -21,7 +21,6 @@ country_event = {
 		tag = KUO
 		has_country_flag = KUO_GUO_war
 		GUO = { surrender_progress > 0.70 }
-		owns_state = 608
 		has_war_with = GUO	
 	}
 	
@@ -32,11 +31,6 @@ country_event = {
 		KUO = { country_event = { id = beijing_conference.1 days = 3 }}
 
 
-	}
-
-	option = {
-		name = first_expedition.1.b
-		ai_chance = { factor = 10 }
 	}
 }
 
