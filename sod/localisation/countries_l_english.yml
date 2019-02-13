@@ -1378,6 +1378,9 @@
  EWC_totalitarian_socialism:0 "Estonian Workers' Commune"
  EWC_totalitarian_socialism_DEF:0 "the Estonian Workers' Commune"
  EWC_totalitarian_socialism_ADJ:0 "Estonian"
+ SAR_neutrality:0 "Territory of the Saar Basin"
+ SAR_neutrality_DEF:0 "The Territory of the Saar Basin"
+ SAR_neutrality_ADJ:0 "German"
 
 
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"

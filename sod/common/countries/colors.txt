@@ -568,7 +568,7 @@ DAN = {
 	color_ui = rgb { 30 5 14 }
 }
 SAR = {
-	color = rgb { 55  51  30 }
+	color = rgb { 0  49  83 }
 	color_ui = rgb { 32 30 20 }
 }
 MOZ = {
