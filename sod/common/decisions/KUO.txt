@@ -12,7 +12,6 @@ KUO_Northern_Expedition = {
 			YUN = { country_event = northern_expedition.1 }
 			XSM = { country_event = northern_expedition.1 }
 			GNM = { country_event = northern_expedition.1 }
-			PRC = { country_event = northern_expedition.1 }
 			SHX = { country_event = northern_expedition.1 }
 			CHI = { country_event = northern_expedition.1 }
 			set_country_flag = invite_walords

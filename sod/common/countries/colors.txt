@@ -619,7 +619,7 @@ GNM = {
 }
 
 ZHI = { 
-    color = rgb { 81 30 43 }
+    color = rgb { 143 61 77 }
     color_ui = rgb { 204 102 102 }
 }
 

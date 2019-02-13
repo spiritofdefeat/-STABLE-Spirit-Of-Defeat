@@ -395,127 +395,14 @@ units = {
 		start_equipment_factor = 0.7
 
 	}
-	division = { # "18 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 12076
-		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	division = { # "39 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 39
-		}
-		location = 4042
-		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	division = { # "54 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 54
-		}
-		location = 4042
-		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	division = { # "74 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 74
-		}
-		location = 4042
-		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-	### 19th Army Group (CO: Xu Yue) ###
-	division = { # "6 Bubing Shi"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 406
-		}
-		location = 7058
-		division_template = "Sanjiao Jun"		# German-trained division (frontline infantry, better equipment and experience)
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-
-	}
-	division = { # "9 Bubing Shi"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 409
-		}
-		location = 7058
-		division_template = "Sanjiao Jun"		# German-trained division (frontline infantry, better equipment and experience)
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-
-	}
-	division = { # "25 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 25
-		}
-		location = 1096
-		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
-
-	##### Yangtze War Area (CO: ) #####
-	division = {
-		name = "Wuhan Jingbei"
-		location = 4619
-		division_template = "Juntuán"		# Garrison unit (poor equipment and training)
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.1
-	}
-	### River Defense Force (CO: ) ###
-	division = {
-		name = "11 Lujun Shi"
-		location = 1036
-		division_template = "Juntuán"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.1
-	}
-	division = {
-		name = "12 Lujun Shi"
-		location = 7637
-		division_template = "Juntuán"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.1
-	}
-	division = { # "43 Juntuán"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 43
-		}
-		location = 9959
-		division_template = "Juntuán"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
-	}
 
 
 
 	##### ROCN #####
 	navy = {
 		name = "Di 1 Jiandui"
-		base = 7014
-		location = 7014 #Shanghai
+		base = 9938
+		location = 9938 #Shanghai
 		ship = { name = "Yingrui" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
 		ship = { name = "Ninghai" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }
 		ship = { name = "Hairong" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI } } }

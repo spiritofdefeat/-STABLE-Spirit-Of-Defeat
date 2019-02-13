@@ -13,6 +13,9 @@ country_event = { #the february agriclure strike
 		date > 1936.2.11
 	}
 	
+	mean_time_to_happen = {
+		days = 1
+	}
 	option = {#shit
 		name = usa.1.a 
 		
@@ -34,6 +37,10 @@ country_event = {#economy worsens
 	trigger = {
 		tag = USA
 		has_country_flag = farmer_strikes
+	}
+	
+	mean_time_to_happen = {
+		days = 1
 	}
 	
 	option = {#make republicans weak, or nahhhhh, THIS WILL MAKE HOOVER APPEAR!!!
@@ -96,9 +103,9 @@ country_event = {#farmers end strikes
 		add_political_power = 100
 		add_stability = 0.07
 		hidden_effect = {
-			remove_country_flag = farmer_strikes
 			country_event = { days = 30 id = usa.7 }
-			set_country_flag = republicans_good 
+			set_country_flag = republicans_good
+			clr_country_flag = farmer_strikes
 		}
 	}
 }
@@ -141,6 +148,8 @@ country_event = {#democrat national convention
 		tag = USA
 		date > 1936.7.24
 	}
+	
+	mean_time_to_happen = { days = 1 }
 	
 	option = {#nominate the democrat, i forgot his name srry
 		name = usa.6.a 
@@ -189,6 +198,8 @@ country_event = {#republican convention - calm one
 		has_country_flag = republicans_popular
 	}
 	
+	mean_time_to_happen = { days = 1}
+	
 	option = {#republicans nominate mellon #boring
 		name = usa.8.a 
 		
@@ -214,6 +225,8 @@ country_event = {#republican_convention - version 2 with curtis
 		has_country_flag = farmer_strikes
 		has_country_flag = republican_cooperation
 	}
+	
+	mean_time_to_happen = { days = 1 }
 	
 	option = {#mellon has heart attack, so go with curtis!
 		name = usa.9.a 
@@ -241,6 +254,8 @@ country_event = { #CRAZY HOOVER TIME
 		has_country_flag = farmer_strikes
 		has_country_flag = republican_fighting
 	}
+	
+	mean_time_to_happen = { days = 1 }
 	
 	option = {HOOVER TIME
 		name = usa.10.a 
@@ -276,6 +291,8 @@ country_event = {#election #1, mellon vs democrat
 		has_country_flag = republican_mellon
 	}
 	
+	mean_time_to_happen = { days = 1 }
+	
 	option = {#mellon
 		name = usa.11.a 
 		ai_chance = { factor = 50 }
@@ -308,6 +325,8 @@ country_event = {#election #2, curtis VS democrat
 		has_country_flag = dem_convention_over
 		has_country_flag = republican_curtis
 	}
+	
+	mean_time_to_happen = { days = 1}
 	
 	option = {#curtis wins
 		name = usa.12.a 
@@ -345,6 +364,7 @@ country_event = {#election #3, J. EDGAR HOOVER TIME BOYS
 		has_country_flag = republican_hoover
 	}
 	
+	mean_time_to_happen = { days = 1 }
 	option = {#HOOOOOOVVVERRRRR
 		name = usa.13.a 
 		ai_chance = { factor = 50 }
@@ -377,7 +397,7 @@ country_event = {#these events are hidden so they'll fire on exact date, january
 		has_country_flag = democrat_wins
 		tag = USA 
 	}
-	
+	mean_time_to_happen = { days = 1 }
 	option = {
 		name = usa.14.a 
 		ai_chance = { factor = 100 }
@@ -460,6 +480,7 @@ country_event = {#curtis sworn in
 		date > 1937.1.1
 		has_country_flag = curtis_wins
 	}
+	mean_time_to_happen = { days = 1 }
 	
 	option = {
 		name = usa.17.a 
@@ -492,6 +513,8 @@ country_event = {#HOOOOOOOOOVER
 		date > 1937.1.1
 		has_country_flag = hoover_wins
 	}
+	
+	mean_time_to_happen = { days = 1 }
 	
 	option = {
 		name = usa.18.a 

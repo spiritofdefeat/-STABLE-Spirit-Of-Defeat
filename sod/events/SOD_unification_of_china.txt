@@ -20,8 +20,8 @@ country_event = {
 	trigger = {
 		tag = KUO
 		has_country_flag = KUO_GUO_war
-		GUO = { surrender_progress > 0.70 }
-		has_war_with = GUO	
+		GUO = { surrender_progress > 0.50 }
+		KUO = { has_war_with = GUO }	
 	}
 	
 	option = {
