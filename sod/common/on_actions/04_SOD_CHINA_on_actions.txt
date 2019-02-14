@@ -21,4 +21,27 @@ on_actions = {
 			
 		}
 	}
+	
+	on_state_control_changed = { 
+	
+		effect = {
+		
+			if = {
+				limit = {
+					OR = {
+						ROOT = { tag = KUO }
+						FROM = { tag = GUO }
+					}
+					
+					ROOT = { owns_state = 608 }
+				}
+				
+				ROOT = {
+					country_event = { id = first_expedition.1 hours = 1 }
+				}
+		
+			}
+			
+		}
+	}
 }

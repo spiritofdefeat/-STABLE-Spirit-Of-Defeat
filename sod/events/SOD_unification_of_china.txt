@@ -21,7 +21,8 @@ country_event = {
 		tag = KUO
 		has_country_flag = KUO_GUO_war
 		GUO = { surrender_progress > 0.50 }
-		KUO = { has_war_with = GUO }	
+		KUO = { has_war_with = GUO }
+		KUO = { owns_state = 608 }
 	}
 	
 	option = {
@@ -233,7 +234,7 @@ country_event = {
 		name = beijing_conference.6.a
 		ai_chance = { factor = 90 }
 		set_country_flag = phase_1_over
-		KUO = {leave_faction = yes} 
+		KUO = {leave_faction = yes}
 
 	}
 }

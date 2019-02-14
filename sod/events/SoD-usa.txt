@@ -1,4 +1,4 @@
-add_namespace = usa
+﻿add_namespace = usa
 
 country_event = { #the february agriclure strike
 	id = usa.1

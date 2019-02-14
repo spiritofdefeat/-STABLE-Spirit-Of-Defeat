@@ -39,6 +39,7 @@ KUO_Northern_Expedition = {
 			}
 			set_country_flag = KUO_GUO_war
 			GUO = { set_country_flag = KUO_GUO_war }
+				
 			
 		}
 		

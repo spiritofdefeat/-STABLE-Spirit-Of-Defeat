@@ -31,12 +31,14 @@ ideologies = {
 	
 	rules = {
 		can_force_government = no
+		can_puppet = no
+		can_join_factions = no
 		can_send_volunteers = yes
-		can_puppet = yes
 	}
 	
 	modifiers = {
-		puppet_cost_factor = -0.3
+		join_faction_tension = 0.80
+		generate_wargoal_tension = 0.75
 	}
 	
 	faction_modifiers = {
@@ -82,12 +84,14 @@ ideologies = {
 		
 		rules = {
 			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
 			can_send_volunteers = yes
-			can_puppet = yes
 		}
 		
 		modifiers = {
-			puppet_cost_factor = -0.3
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
 		}
 		
 		faction_modifiers = {
@@ -123,12 +127,14 @@ ideologies = {
 	
 	rules = {
 		can_force_government = no
+		can_puppet = no
+		can_join_factions = no
 		can_send_volunteers = yes
-		can_puppet = yes
 	}
 	
 	modifiers = {
-		puppet_cost_factor = -0.3
+		join_faction_tension = 0.80
+		generate_wargoal_tension = 0.75
 	}
 	
 	faction_modifiers = {
@@ -166,12 +172,14 @@ libertarian_socialism = {
 	
 	rules = {
 		can_force_government = no
+		can_puppet = no
+		can_join_factions = no
 		can_send_volunteers = yes
-		can_puppet = yes
 	}
 	
 	modifiers = {
-		puppet_cost_factor = -0.3
+		join_faction_tension = 0.80
+		generate_wargoal_tension = 0.75
 	}
 	
 	faction_modifiers = {
@@ -202,26 +210,18 @@ reformist_socialism = {
 	color = { 255 0 0 }
 	
 	rules = {
-		can_declare_war_on_same_ideology = no
-		can_force_government = yes
-		can_send_volunteers = no
+		can_force_government = no
 		can_puppet = no
-		can_lower_tension = yes
-		can_only_justify_war_on_threat_country = yes
-		can_guarantee_other_ideologies = yes
+		can_join_factions = no
+		can_send_volunteers = yes
 	}
 	
 	war_impact_on_world_tension = -1.0
 	faction_impact_on_world_tension = -0.1
 	
 	modifiers = {
-		generate_wargoal_tension = 1.00
 		join_faction_tension = 0.80
-		lend_lease_tension = 0.50
-		send_volunteers_tension = 0.50
-		guarantee_tension = 0.25
-		take_states_cost_factor = 0.25
-		annex_cost_factor = 0.5
+		generate_wargoal_tension = 0.75
 	}
 	
 	faction_modifiers = {
@@ -256,26 +256,18 @@ social_liberalism = {
 	color = { 166 111 0 }
 	
 	rules = {
-		can_declare_war_on_same_ideology = no
-		can_force_government = yes
-		can_send_volunteers = no
+		can_force_government = no
 		can_puppet = no
-		can_lower_tension = yes
-		can_only_justify_war_on_threat_country = yes
-		can_guarantee_other_ideologies = yes
+		can_join_factions = no
+		can_send_volunteers = yes
 	}
 	
 	war_impact_on_world_tension = -1.0
 	faction_impact_on_world_tension = -0.1
 	
 	modifiers = {
-		generate_wargoal_tension = 1.00
 		join_faction_tension = 0.80
-		lend_lease_tension = 0.50
-		send_volunteers_tension = 0.50
-		guarantee_tension = 0.25
-		take_states_cost_factor = 0.25
-		annex_cost_factor = 0.5
+		generate_wargoal_tension = 0.75
 	}
 	
 	faction_modifiers = {
@@ -314,26 +306,18 @@ social_liberalism = {
 		color = { 0 70 166 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
+			can_force_government = no
 			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
+			can_join_factions = no
+			can_send_volunteers = yes
 		}
 		
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 1.00
 			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
+			generate_wargoal_tension = 0.75
 		}
 		
 		faction_modifiers = {
@@ -369,12 +353,14 @@ social_liberalism = {
 	
 	rules = {
 		can_force_government = no
+		can_puppet = no
+		can_join_factions = no
 		can_send_volunteers = yes
-		can_puppet = yes
 	}
 	
 	modifiers = {
-		justify_war_goal_when_in_major_war_time = -0.80
+		join_faction_tension = 0.80
+		generate_wargoal_tension = 0.75
 	}
 
 	ai_fascist = yes # uses the fascist AI behaviour
@@ -413,18 +399,14 @@ social_liberalism = {
 		
 		rules = {
 			can_force_government = no
-			can_puppet = yes
-			can_send_volunteers = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
 		}
 		
 		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3	
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
 		}
 		
 		faction_modifiers = {
@@ -473,12 +455,14 @@ utilitarian_despotism = {
 	
 	rules = {
 		can_force_government = no
+		can_puppet = no
+		can_join_factions = no
 		can_send_volunteers = yes
-		can_puppet = yes
 	}
 	
 	modifiers = {
-		justify_war_goal_when_in_major_war_time = -0.80
+		join_faction_tension = 0.80
+		generate_wargoal_tension = 0.75
 	}
 
 	ai_fascist = yes # uses the fascist AI behaviour
@@ -519,12 +503,14 @@ utilitarian_despotism = {
 		
 		rules = {
 			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
 			can_send_volunteers = yes
-			can_puppet = yes
 		}
 		
 		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.75
 		}
 
 		ai_fascist = yes # uses the fascist AI behaviour
@@ -558,12 +544,14 @@ nihilistic_extremism = {
 	
 	rules = {
 		can_force_government = no
+		can_puppet = no
+		can_join_factions = no
 		can_send_volunteers = yes
-		can_puppet = yes
 	}
 	
 	modifiers = {
-		justify_war_goal_when_in_major_war_time = -0.80
+		join_faction_tension = 0.80
+		generate_wargoal_tension = 0.75
 	}
 
 	ai_fascist = yes # uses the fascist AI behaviour
