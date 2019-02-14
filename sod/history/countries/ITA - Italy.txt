@@ -142,6 +142,7 @@ set_technology = {
 	GER = { add_to_faction = ITA }
 }
 
+puppet = CRO
 
 set_convoys = 200
 
