@@ -11,11 +11,7 @@ country_event = {
 	title = first_expedition.1.t
 	desc = first_expedition.1.d
 	
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 	
 	trigger = {
 		tag = KUO
