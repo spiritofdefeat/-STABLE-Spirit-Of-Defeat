@@ -596,11 +596,11 @@ EIC = {
         color_ui = rgb { 100 56 203 }
 }
 AEF = {
-	color = rgb { 30 84 183 }
+	color = rgb { 83 110 171 }
 	color_ui = rgb { 35 101 222 }
 }
 AOF = {
-	color = rgb { 30 84 183 }
+	color = rgb { 83 110 171 }
 	color_ui = rgb { 35 84 222 }
 }
 

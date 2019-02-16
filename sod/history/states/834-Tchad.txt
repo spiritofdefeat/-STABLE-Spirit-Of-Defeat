@@ -1,0 +1,21 @@
+state={
+	id=834
+	name="STATE_834"
+	provinces={
+		1473 1883 1993 2081 3123 3181 4897 4902 4978 5136 7919 8078 9152 10893 
+	}
+	
+	history={
+		owner = AEF
+		add_core_of = AEF
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

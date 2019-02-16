@@ -46,6 +46,7 @@ set_technology = {
 puppet = SYR
 puppet = SAR
 puppet = MOZ
+puppet = AOF
 
 set_convoys = 300
 

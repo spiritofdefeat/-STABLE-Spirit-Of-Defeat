@@ -381,6 +381,12 @@ social_liberalism = {
 			
 			centrism = {
 			}
+			
+			colonial_administratior = {
+			}
+			
+			lon_mandate = {
+			}
 		}
 
 		dynamic_faction_names = {
