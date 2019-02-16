@@ -11,7 +11,11 @@ country_event = {
 	title = first_expedition.1.t
 	desc = first_expedition.1.d
 	
-	is_triggered_only = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
 	
 	trigger = {
 		tag = KUO
@@ -192,6 +196,7 @@ country_event = {
 		transfer_state = 781
 		transfer_state = 646
 		transfer_state = 746
+		transfer_state = 616
 		KUO = { country_event = { id = beijing_conference.6 days = 3 }}
 
 	}
@@ -202,9 +207,11 @@ country_event = {
 		transfer_state = 781
 		transfer_state = 646
 		transfer_state = 746
+		transfer_state = 616
 		781 = { set_demilitarized_zone = yes }
 		646 = { set_demilitarized_zone = yes }
 		746 = { set_demilitarized_zone = yes }
+		616 = { set_demilitarized_zone = yes }
 		KUO = { country_event = { id = beijing_conference.6 days = 3 }}
 
 	}

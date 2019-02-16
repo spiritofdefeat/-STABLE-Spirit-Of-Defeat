@@ -2,7 +2,7 @@ state={
 	id=805
 	name="Harbin"
 	provinces={
-		13275 
+		13275 12412 9782 10433
 	}
 	
 	history={

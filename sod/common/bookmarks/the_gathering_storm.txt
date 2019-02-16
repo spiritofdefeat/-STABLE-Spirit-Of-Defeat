@@ -129,7 +129,7 @@ bookmarks = {
 		
 		"KUO"={
 			minor = yes
-			history = "CHI_GATHERING_STORM_DESC"
+			history = "KUO_GATHERING_STORM_DESC"
 			ideology = reformist_socialism
 			ideas = {
 				KUO_assasination_corps

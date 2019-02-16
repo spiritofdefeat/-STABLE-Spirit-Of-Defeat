@@ -50,7 +50,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Song Zheyuan"
-	gfx = "Portrait_Song_Zheyuan"
+	gfx = "gfx/leaders/GUO/Portrait_Song_Zheyuan.dds"
 	traits = { infantry_officer }
 	skill = 3
 	attack_skill = 3

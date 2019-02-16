@@ -1,6 +1,6 @@
 state={
-	id=621
-	name="STATE_621"
+	id=832
+	name="Ulanqab"
 
 	history={
 		owner = GUO
@@ -18,9 +18,9 @@ state={
 	}
 
 	provinces={
-		2087 10629 12609 12880 
+		 4525 7048 7158 7631 10424 12331 12403 
 	}
-	manpower=1583700
+	manpower=583700
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }
