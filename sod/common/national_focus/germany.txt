@@ -1359,6 +1359,15 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_freikorpsintervention } 
 mutually_exclusive = { focus = GER_himmlersnihilistischeregierung } 
+completion_reward = {
+    add_popularity = {
+        ideology = fascism
+        popularity = 0.15
+    }
+    set_politics = {
+        ruling_party = fascism
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1374,6 +1383,9 @@ y = 5
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_abolishthereichstag } 
+completion_reward = {
+    add_war_support = 0.03
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1390,6 +1402,15 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_freikorpsintervention } 
 mutually_exclusive = { focus = GER_federsschtzeputsch } 
+completion_reward = {
+    add_popularity = {
+        ideology = nihilistic_extremism
+        popularity = 0.25
+    }
+    set_politics = {
+        ruling_party = nihilistic_extremism
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1402,10 +1423,14 @@ id = GER_freikorpsintervention
 icon = GFX_focus_ger_reichskommisariats
 x = 35
 y = 2
-cost = 10
+cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_restoringorderfromchaos } 
 mutually_exclusive = { focus = GER_revolutionaryconservatism } 
+completion_reward = {
+    add_stability = 0.05
+    GER = { country_event = germany.1 }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1453,6 +1478,10 @@ y = 4
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_federsschtzeputsch } 
+completion_reward = {
+    add_political_power = 150
+    add_war_support = 0.05
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1483,6 +1512,13 @@ y = 5
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_expropriateforeignassets } 
+completion_reward = {
+    add_stability = 0.03
+    add_popularity = {
+        ideology = fascism
+        popularity = 0.5
+    }
+}
 ai_will_do = { 
  factor = 1
  } 

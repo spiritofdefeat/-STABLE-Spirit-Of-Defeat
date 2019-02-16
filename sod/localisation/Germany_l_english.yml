@@ -540,6 +540,10 @@ GER_scientificresearchgrants:0 "Scientific Research Grants"
 GER_scientificresearchgrants_desc:0 ""
 
 #Events
+germany.1.t:0 "The Freikorps Counter-Coup"
+germany.1.d:0 "Frustrated by the Schleicher government's inability to contain the leftist threat, reactionaries have prepared to oust Schleicher and replace him with a more reactionary head of government."
+germany.1.a:0 "Feder Becomes Fuhrer"
+germany.1.b:0 "Himmler Becomes Fuhrer"
 germany.129.t:0 "The Fate of The Nation"
 germany.129.a:0 "A Resurgent Far-Left"
 germany.129.b:0 "Compromise For Democracy"
