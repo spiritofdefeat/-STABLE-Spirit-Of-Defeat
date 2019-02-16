@@ -4,6 +4,32 @@
 
 add_namespace = germany
 
+country_event = {
+	id = germany.129
+	title = germany.129.t
+	desc = germany.129.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.129.a		#far-left	
+		complete_national_focus = GER_legacyofthespartacusleague
+	}
+	
+	option = {
+		name = germany.129.b		#democratic
+		complete_national_focus = GER_thedemocraticcompromise
+	}
+
+	option = {
+		name = germany.129.c		#far-right
+		complete_national_focus = GER_restoringorderfromchaos
+	}
+
+}
+
 # Austrian Anschluss Completed
 country_event = {
 	id = germany.4
