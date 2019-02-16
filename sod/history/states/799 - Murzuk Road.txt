@@ -1,19 +1,22 @@
+
 state={
 	id=799
-	name="Triopli-Murzuk Road" # Libyan Desert
-	manpower = 2
-	
-	state_category = wasteland
+	name="Triopli-Murzuk Road"
 
 	history={
 		owner = ITA
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = LBA
+
 	}
 
 	provinces={
-		13263 13264 13265 13266
+		13263 13264 13265 13266 13296 13300 13303 13306 13310 
 	}
+	manpower=2
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

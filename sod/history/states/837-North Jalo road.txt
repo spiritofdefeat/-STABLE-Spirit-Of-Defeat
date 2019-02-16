@@ -1,0 +1,21 @@
+state={
+	id=837
+	name="STATE_837"
+	provinces={
+		13311 13312 13313 13314 
+	}
+	
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LBA
+
+	}
+	
+	manpower=2
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,24 @@
+state={
+	id=836
+	name="STATE_836"
+	provinces={
+		13309 
+	}
+	
+	state_category = oasis
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LBA
+		
+		victory_points = {
+			13273 5 
+		}
+	}
+	
+	manpower=20000
+	buildings_max_level_factor=1.000
+}
