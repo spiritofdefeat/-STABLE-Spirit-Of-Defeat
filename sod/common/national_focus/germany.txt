@@ -407,6 +407,17 @@ y = 8
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_highprofilemilitaryexercises } 
+    
+    completion_reward = {
+        army_experience = 5
+        add_tech_bonus = {
+            name = land_doc_bonus
+            bonus = 0.5
+            uses = 1
+            category = land_doctrine
+        }
+    }
+
 ai_will_do = { 
  factor = 1
  } 
@@ -1100,7 +1111,7 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_revolutionaryconservatism } 
 mutually_exclusive = { focus = GER_consolidatemilitaryauthority }
-completetion_reward = {
+completion_reward = {
     HOL = { country_event = { id = netherlands.1 days = 3 }}
 } 
 ai_will_do = { 
@@ -1119,6 +1130,25 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_demandwilhelmsrepatriation } 
 mutually_exclusive = { focus = GER_wilhelmsreturndenied } 
+completion_reward = {
+    add_popularity = {
+        ideology = monarchism
+        popularity = 0.25
+    }
+    create_country_leader = {
+        name = "Kaiser Wilhelm"
+        desc = "POLITICS_KAISER_WILHELM_DESC"
+        picture = "Portrait_Kaiser.tga"
+        expire = "1965.1.1"
+        ideology = monarchism_subtype
+        traits = {
+            
+        }
+    }
+    set_politics = {
+        ruling_party = monarchism
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1135,6 +1165,10 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_demandwilhelmsrepatriation } 
 mutually_exclusive = { focus = GER_reinstatethekaiser } 
+completion_reward = {
+    add_political_power = -125
+    add_stability = -0.05
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1150,6 +1184,15 @@ y = 5
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_wilhelmsreturndenied } 
+completion_reward = {
+    add_popularity = {
+        ideology = monarchism
+        popularity = 0.15
+    }
+    set_politics = {
+        ruling_party = monarchism
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1316,7 +1359,14 @@ x = 26
 y = 5
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_outlawparamilitaryorganizations } 
+prerequisite = { focus = GER_outlawparamilitaryorganizations }
+completion_reward = {
+    add_popularity = {
+        ideology = communism
+        popularity = -0.05
+    }
+    add_stability = 0.02
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1541,7 +1591,7 @@ completion_reward = {
     add_stability = 0.03
     add_popularity = {
         ideology = fascism
-        popularity = 0.5
+        popularity = 0.05
     }
 }
 ai_will_do = { 
@@ -2687,6 +2737,9 @@ y = 8
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_declarewaronfrance focus = GER_declarewaronbritain } 
+completion_reward = {
+    create_wargoal = { type = annex_everything target = CZE }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3389,7 +3442,16 @@ x = 95
 y = 4
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_modernizegermaninfrastructure } 
+prerequisite = { focus = GER_modernizegermaninfrastructure }
+completion_reward = {
+add_tech_bonus = {
+	name = construction_tech_bonus
+	bonus = 0.5
+        ahead_reduction = 1
+	uses = 1
+	category = construction_tech
+}
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3405,6 +3467,16 @@ y = 6
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_militarybuildup2 focus = GER_civilianbuildup2 } 
+completion_reward = {
+    add_research_slot = 1
+    add_tech_bonus = {
+        name = electronics_bonus
+        bonus = 0.5
+            ahead_reduction = 1
+        uses = 1
+        category = electronics
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3421,6 +3493,47 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_aneconomicmiracle } 
 mutually_exclusive = { focus = GER_civilianbuildup3 } 
+complete_tooltip = {
+    add_extra_state_shared_building_slots = 1
+    add_building_construction = {
+        type = arms_factory
+        level = 1
+        instant_build = yes
+    }
+}		
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = arms_factory
+                size > 0
+                include_locked = yes
+            }
+            OR = {
+                is_in_home_area = yes
+                NOT = {
+                    owner = {
+                        any_owned_state = {
+                            free_building_slots = {
+                                building = arms_factory
+                                size > 0
+                                include_locked = yes
+                            }
+                            is_in_home_area = yes
+                        }
+                    }
+                }
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = arms_factory
+            level = 1
+            instant_build = yes
+        }
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3436,6 +3549,47 @@ y = 5
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_militarybuildup1 } 
+complete_tooltip = {
+    add_extra_state_shared_building_slots = 1
+    add_building_construction = {
+        type = arms_factory
+        level = 1
+        instant_build = yes
+    }
+}		
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = arms_factory
+                size > 0
+                include_locked = yes
+            }
+            OR = {
+                is_in_home_area = yes
+                NOT = {
+                    owner = {
+                        any_owned_state = {
+                            free_building_slots = {
+                                building = arms_factory
+                                size > 0
+                                include_locked = yes
+                            }
+                            is_in_home_area = yes
+                        }
+                    }
+                }
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = arms_factory
+            level = 1
+            instant_build = yes
+        }
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3451,6 +3605,47 @@ y = 4
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_modernizegermaninfrastructure } 
+complete_tooltip = {
+    add_extra_state_shared_building_slots = 1
+    add_building_construction = {
+        type = arms_factory
+        level = 1
+        instant_build = yes
+    }
+}		
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = arms_factory
+                size > 0
+                include_locked = yes
+            }
+            OR = {
+                is_in_home_area = yes
+                NOT = {
+                    owner = {
+                        any_owned_state = {
+                            free_building_slots = {
+                                building = arms_factory
+                                size > 0
+                                include_locked = yes
+                            }
+                            is_in_home_area = yes
+                        }
+                    }
+                }
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = arms_factory
+            level = 1
+            instant_build = yes
+        }
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3651,6 +3846,9 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_recruitmentcampaigns } 
 prerequisite = { focus = GER_wargames } 
+completion_reward = {
+    add_manpower = 100000
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3681,6 +3879,11 @@ y = 2
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_commissionofwarstudies } 
+completion_reward = {
+    army_experience = 10
+    air_experience = 10
+    navy_experience = 10
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3712,6 +3915,47 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_aneconomicmiracle } 
 mutually_exclusive = { focus = GER_militarybuildup3 } 
+complete_tooltip = {
+    add_extra_state_shared_building_slots = 1
+    add_building_construction = {
+        type = industrial_complex
+        level = 1
+        instant_build = yes
+    }			
+}
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 0
+                include_locked = yes
+            }
+            OR = {
+                is_in_home_area = yes
+                NOT = {
+                    owner = {
+                        any_owned_state = {
+                            free_building_slots = {
+                                building = industrial_complex
+                                size > 0
+                                include_locked = yes
+                            }
+                            is_in_home_area = yes
+                        }
+                    }
+                }
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3742,6 +3986,47 @@ y = 5
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_civilianbuildup1 } 
+complete_tooltip = {
+    add_extra_state_shared_building_slots = 1
+    add_building_construction = {
+        type = industrial_complex
+        level = 1
+        instant_build = yes
+    }			
+}
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 0
+                include_locked = yes
+            }
+            OR = {
+                is_in_home_area = yes
+                NOT = {
+                    owner = {
+                        any_owned_state = {
+                            free_building_slots = {
+                                building = industrial_complex
+                                size > 0
+                                include_locked = yes
+                            }
+                            is_in_home_area = yes
+                        }
+                    }
+                }
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3757,6 +4042,47 @@ y = 4
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_modernizegermaninfrastructure } 
+complete_tooltip = {
+    add_extra_state_shared_building_slots = 1
+    add_building_construction = {
+        type = industrial_complex
+        level = 1
+        instant_build = yes
+    }			
+}
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 0
+                include_locked = yes
+            }
+            OR = {
+                is_in_home_area = yes
+                NOT = {
+                    owner = {
+                        any_owned_state = {
+                            free_building_slots = {
+                                building = industrial_complex
+                                size > 0
+                                include_locked = yes
+                            }
+                            is_in_home_area = yes
+                        }
+                    }
+                }
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3849,6 +4175,54 @@ y = 1
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_addresstheeconomicstagnation } 
+complete_tooltip = {
+    add_extra_state_shared_building_slots = 1
+    add_building_construction = {
+        type = arms_factory
+        level = 1
+        instant_build = yes
+    }
+}		
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = arms_factory
+                size > 0
+                include_locked = yes
+            }
+            OR = {
+                is_in_home_area = yes
+                NOT = {
+                    owner = {
+                        any_owned_state = {
+                            free_building_slots = {
+                                building = arms_factory
+                                size > 0
+                                include_locked = yes
+                            }
+                            is_in_home_area = yes
+                        }
+                    }
+                }
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = arms_factory
+            level = 1
+            instant_build = yes
+        }
+    }
+    add_tech_bonus = {
+        name = infantry_tech_bonus
+        bonus = 0.5
+            ahead_reduction = 1
+        uses = 1
+        category = infantry_tech
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3878,6 +4252,54 @@ y = 1
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_addresstheeconomicstagnation } 
+complete_tooltip = {
+    add_extra_state_shared_building_slots = 1
+    add_building_construction = {
+        type = industrial_complex
+        level = 1
+        instant_build = yes
+    }			
+}
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 0
+                include_locked = yes
+            }
+            OR = {
+                is_in_home_area = yes
+                NOT = {
+                    owner = {
+                        any_owned_state = {
+                            free_building_slots = {
+                                building = industrial_complex
+                                size > 0
+                                include_locked = yes
+                            }
+                            is_in_home_area = yes
+                        }
+                    }
+                }
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+    }
+    add_tech_bonus = {
+        name = industry_bonus
+        bonus = 0.5
+            ahead_reduction = 1
+        uses = 1
+        category = industry
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3923,6 +4345,47 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_militarybuildup3 } 
 mutually_exclusive = { focus = GER_civilianbuildup4 } 
+complete_tooltip = {
+    add_extra_state_shared_building_slots = 1
+    add_building_construction = {
+        type = arms_factory
+        level = 1
+        instant_build = yes
+    }
+}		
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = arms_factory
+                size > 0
+                include_locked = yes
+            }
+            OR = {
+                is_in_home_area = yes
+                NOT = {
+                    owner = {
+                        any_owned_state = {
+                            free_building_slots = {
+                                building = arms_factory
+                                size > 0
+                                include_locked = yes
+                            }
+                            is_in_home_area = yes
+                        }
+                    }
+                }
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = arms_factory
+            level = 1
+            instant_build = yes
+        }
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3938,6 +4401,10 @@ y = 9
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_nationalizethearmsindustry } 
+completion_reward = {
+    add_manpower = 350000
+    add_stability = -0.10
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -3954,6 +4421,47 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_civilianbuildup3 } 
 mutually_exclusive = { focus = GER_militarybuildup4 } 
+complete_tooltip = {
+    add_extra_state_shared_building_slots = 1
+    add_building_construction = {
+        type = industrial_complex
+        level = 1
+        instant_build = yes
+    }			
+}
+
+completion_reward = {
+    random_owned_controlled_state = {
+        limit = {
+            free_building_slots = {
+                building = industrial_complex
+                size > 0
+                include_locked = yes
+            }
+            OR = {
+                is_in_home_area = yes
+                NOT = {
+                    owner = {
+                        any_owned_state = {
+                            free_building_slots = {
+                                building = industrial_complex
+                                size > 0
+                                include_locked = yes
+                            }
+                            is_in_home_area = yes
+                        }
+                    }
+                }
+            }
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+        }
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
