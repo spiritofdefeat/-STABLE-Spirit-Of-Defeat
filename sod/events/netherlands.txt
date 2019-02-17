@@ -1,0 +1,31 @@
+﻿###########################
+# Dutch Events
+###########################
+
+add_namespace = netherlands
+
+country_event = {
+	id = netherlands.1
+	title = netherlands.1.t
+	desc = netherlands.1.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = netherlands.1.a		#wilhelm returns	
+		GER  = { 
+            country_event = { id = germany.4 }
+    }
+	}
+	
+	option = {
+		name = netherlands.1.b		#no willy for germany
+		GER  = { 
+            country_event = { id = germany.5 }
+    }
+	}
+
+
+}

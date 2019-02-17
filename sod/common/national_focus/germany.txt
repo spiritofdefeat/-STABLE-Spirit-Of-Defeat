@@ -579,6 +579,9 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_abolishthegoldstandard } 
 prerequisite = { focus = GER_expelforeigndiplomats } 
+completion_reward = {
+    create_wargoal = { type = annex_everything target = MOZ }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -594,6 +597,9 @@ y = 9
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_coercelivonia } 
+completion_reward = {
+    create_wargoal = { type = annex_everything target = SOV }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -609,6 +615,9 @@ y = 7
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_reclaimtherhineland } 
+completion_reward = {
+    create_wargoal = { type = annex_everything target = FRA }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -624,6 +633,9 @@ y = 7
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_reclaimtherhineland } 
+completion_reward = {
+    create_wargoal = { type = annex_everything target = ENG }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -639,6 +651,9 @@ y = 8
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_declarewaronfrance focus = GER_declarewaronbritain } 
+completion_reward = {
+    create_wargoal = { type = annex_everything target = BEL }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -654,6 +669,9 @@ y = 8
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_declarewaronfrance focus = GER_declarewaronbritain } 
+completion_reward = {
+    create_wargoal = { type = annex_everything target = DEN }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1081,7 +1099,10 @@ y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_revolutionaryconservatism } 
-mutually_exclusive = { focus = GER_consolidatemilitaryauthority } 
+mutually_exclusive = { focus = GER_consolidatemilitaryauthority }
+completetion_reward = {
+    HOL = { country_event = { id = netherlands.1 days = 3 }}
+} 
 ai_will_do = { 
  factor = 1
  } 
@@ -1447,6 +1468,10 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_restoringorderfromchaos } 
 mutually_exclusive = { focus = GER_freikorpsintervention } 
+completion_reward = {
+    add_stability = 0.05
+    GER = { country_event = germany.2 }
+}
 ai_will_do = { 
  factor = 1
  } 

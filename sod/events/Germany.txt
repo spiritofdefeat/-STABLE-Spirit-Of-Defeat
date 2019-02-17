@@ -50,3 +50,24 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	id = germany.2
+	title = germany.2.t
+	desc = germany.2.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.2.a		#junta	
+		complete_national_focus = GER_consolidatemilitaryauthority
+	}
+	
+	option = {
+		name = germany.2.b		#wilhelm
+		complete_national_focus = GER_demandwilhelmsrepatriation
+	}
+
+}
