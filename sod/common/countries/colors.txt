@@ -440,15 +440,15 @@ MZB = {
 	color_ui = rgb { 112 62 90 }
 }
 KEN = {
-	color = rgb { 145 103 14 }
+	color = rgb { 204 0 0 }
 	color_ui = rgb { 145 103 14 }
 }
 ZIM = {
-	color = rgb { 7 7 239 }
+	color = rgb { 204 0 0 }
 	color_ui = rgb { 7 7 239 }
 }
 BOT = {
-	color = rgb { 214 66 29 }
+	color = rgb { 204 0 0 }
 	color_ui = rgb { 214 66 29 }
 }
 PAK = {
@@ -580,7 +580,7 @@ KON = {
 	color_ui = rgb { 30 5 14 }
 }
 RHO = {
-	color = rgb { 0 161 64 }
+	color = rgb { 204 0 0 }
 	color_ui = rgb { 0 187 74 }
 }
 LIV = {
@@ -596,11 +596,11 @@ EIC = {
         color_ui = rgb { 100 56 203 }
 }
 AEF = {
-	color = rgb { 83 110 171 }
+	color = rgb { 30 84 183 }
 	color_ui = rgb { 35 101 222 }
 }
 AOF = {
-	color = rgb { 83 110 171 }
+	color = rgb { 30 84 183 }
 	color_ui = rgb { 35 84 222 }
 }
 

@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Jean_Marchessou.dds"
 	expire = "1965.1.1"
-	ideology = colonial_administratior
+	ideology = colonial_administrator
 	traits = {
 		#
 	}

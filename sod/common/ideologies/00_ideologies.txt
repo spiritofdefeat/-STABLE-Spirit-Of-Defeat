@@ -382,7 +382,7 @@ social_liberalism = {
 			centrism = {
 			}
 			
-			colonial_administratior = {
+			colonial_administrator = {
 			}
 			
 			lon_mandate = {

@@ -87,6 +87,19 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
+	
+	set_autonomy = {
+		target = KEN
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+	
+	set_autonomy = {
+		target = BOT
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.2
+	}
+	
 	else = {
 		puppet = MAL
 		puppet = RAJ
@@ -96,7 +109,7 @@ if = {
 puppet = IRQ
 puppet = RHO
 puppet = EGY
-puppet = BOT
+puppet = SUD
 
 if = {
 	limit = { has_dlc = "Together for Victory" }
