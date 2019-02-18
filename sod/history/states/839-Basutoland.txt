@@ -1,0 +1,19 @@
+state={
+	id=839
+	name="STATE_839"
+	provinces={
+		7900 
+	}
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+	state_category = rural
+	
+	manpower=100000
+	buildings_max_level_factor=1.000
+}

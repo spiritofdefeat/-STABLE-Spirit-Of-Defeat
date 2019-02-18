@@ -1100,7 +1100,7 @@ cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_revolutionaryconservatism } 
 mutually_exclusive = { focus = GER_consolidatemilitaryauthority }
-completetion_reward = {
+completion_reward = {
     HOL = { country_event = { id = netherlands.1 days = 3 }}
 } 
 ai_will_do = { 

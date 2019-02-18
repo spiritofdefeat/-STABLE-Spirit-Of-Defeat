@@ -17,14 +17,14 @@ country_event = {
 		name = netherlands.1.a		#wilhelm returns	
 		GER  = { 
             country_event = { id = germany.4 }
-    }
+		}
 	}
 	
 	option = {
 		name = netherlands.1.b		#no willy for germany
 		GER  = { 
             country_event = { id = germany.5 }
-    }
+		}
 	}
 
 

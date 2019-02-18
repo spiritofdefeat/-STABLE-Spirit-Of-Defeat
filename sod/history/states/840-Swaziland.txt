@@ -1,0 +1,19 @@
+state={
+	id=840
+	name="STATE_840"
+	provinces={
+		4556 
+	}
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+	state_category = rural
+	
+	manpower=100000
+	buildings_max_level_factor=1.000
+}
