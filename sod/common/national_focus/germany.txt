@@ -1136,7 +1136,7 @@ completion_reward = {
         popularity = 0.25
     }
     create_country_leader = {
-        name = "Kaiser Wilhelm"
+        name = "Kaiser Wilhelm II"
         desc = "POLITICS_KAISER_WILHELM_DESC"
         picture = "Portrait_Kaiser.tga"
         expire = "1965.1.1"
