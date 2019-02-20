@@ -1,4 +1,5 @@
 # Made by Yard1 for Equestria at War, original concept by TWR dev team
+#Modified for SOD
 
 defined_text = { # Country
 	name = GetNewspaperHeader
@@ -13,3 +14,4 @@ defined_text = { # Country
 		localization_key = newspaper_header_2
 	}
 }
+
