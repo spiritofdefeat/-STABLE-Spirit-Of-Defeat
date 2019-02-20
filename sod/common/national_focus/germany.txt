@@ -909,7 +909,7 @@ ai_will_do = {
      add_stability = -0.05
      GER = { country_event = germany.129 }
  }
-
+    
  } 
 
 #Focus for Restoring Order From Chaos
@@ -923,7 +923,11 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_anationindisarray } 
 mutually_exclusive = { focus = GER_thedemocraticcompromise } 
 mutually_exclusive = { focus = GER_legacyofthespartacusleague } 
-mutually_exclusive = { focus = GER_ } 
+mutually_exclusive = { focus = GER_ }
+completion_reward = {
+    complete_national_focus = GER_germangeopolitics
+    complete_national_focus = GER_expansionistforeignpolicy
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -941,6 +945,10 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_anationindisarray } 
 mutually_exclusive = { focus = GER_restoringorderfromchaos } 
 mutually_exclusive = { focus = GER_thedemocraticcompromise } 
+completion_reward = {
+    complete_national_focus = GER_germangeopolitics
+    complete_national_focus = GER_revolutionaryforeignpolicy
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1019,6 +1027,10 @@ prerequisite = { focus = GER_anationindisarray }
 mutually_exclusive = { focus = GER_restoringorderfromchaos } 
 mutually_exclusive = { focus = GER_legacyofthespartacusleague } 
 mutually_exclusive = { focus = GER_ } 
+completion_reward = {
+    complete_national_focus = GER_germangeopolitics
+    complete_national_focus = GER_reservedforeignpolicy
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1049,6 +1061,15 @@ y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_astrongerrepublic } 
+completion_reward = {
+    add_popularity = {
+        ideology = social_liberalism
+        popularity = 0.15
+    }
+    set_politics = {
+        ruling_party = social_liberalism
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1079,6 +1100,15 @@ y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_astrongerrepublic } 
+completion_reward = {
+    add_popularity = {
+        ideology = democratic
+        popularity = 0.15
+    }
+    set_politics = {
+        ruling_party = democratic
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
