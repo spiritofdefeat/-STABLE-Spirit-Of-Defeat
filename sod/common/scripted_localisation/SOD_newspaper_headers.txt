@@ -1,0 +1,15 @@
+# Made by Yard1 for Equestria at War, original concept by TWR dev team
+
+defined_text = { # Country
+	name = GetNewspaperHeader
+	text = {
+		trigger = {
+			tag = SOV
+		}
+		localization_key = SOV_prvada
+	}
+    #keep this one without triggers and at the end as a fallback
+	text = {
+		localization_key = newspaper_header_2
+	}
+}

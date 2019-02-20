@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SOV_prvada"
+		texturefile = "gfx/newspapers/SOV/SOV_prvada.tga"
+		legacy_lazy_load = no
+	}
+}

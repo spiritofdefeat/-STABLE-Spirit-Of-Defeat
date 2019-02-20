@@ -524,10 +524,7 @@
  low.1.t:0 "France Extends Maginot Line"
  low.1.d:0 "The French have decided to extend their Maginot Line west all the way to the English Channel! This clearly shows their intention to abandon us in case of a German invasion. Our embassy in Paris has lodged an official complaint, but it is doubtful whether it will have much impact."
  low.1.a:0 "This is an outrage!"
- soviet.1.t:0 "Japanese Build-Up"
- soviet.1.d:0 "Tensions along the Manchurian border have been tense for some time, and now we are receiving reports from our Mongolian comrades that the Japanese are massing forces in Heilungkiang. Backing down may be seen as a sign of weakness, but if we respond with force the situation could escalate. What are your orders, tovarisch komandir?"
- soviet.1.a:0 "We push back. Hard."
- soviet.1.b:0 "We cannot afford a war with Japan."
+ 
  soviet.2.t:0 "Successful Raid"
  soviet.2.d:0 "Our raid across the Manchurian border against the Japanese forces massing there was a success! We caught them before they had finished their preparations, and our brave soldiers gave them a good beating in the violent skirmish that ensued."
  soviet.2.a:0 "Well done!"
