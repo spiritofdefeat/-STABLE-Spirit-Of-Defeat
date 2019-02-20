@@ -259,6 +259,7 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = KUO_Free_Scientific_Associations }
 		prerequisite = { focus = KUO_Anti_Imperialism }
+		prerequisite = { focus = KUO_Spread_Asian_Federalism }
 		
 		available = {
 
@@ -541,6 +542,32 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = KUO_Local_Rights
+		icon = GFX_unknown_goal
+		x = 4
+		y = 8
+
+		cost = 10
+		prerequisite = { focus = KUO_Anti_Imperialism }
+		
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
 		id = KUO_Federalism
 		icon = GFX_unknown_goal
 		x = 6
@@ -548,6 +575,84 @@ focus_tree = {
 
 		cost = 10
 		prerequisite = { focus = KUO_Chen_Jiongming_Thought }
+		
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = KUO_Reform_old_Bureacracy
+		icon = GFX_unknown_goal
+		x = 6
+		y = 6
+
+		cost = 10
+		prerequisite = { focus = KUO_Federalism }
+		
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = KUO_Model_Provinces
+		icon = GFX_unknown_goal
+		x = 6
+		y = 7
+
+		cost = 10
+		prerequisite = { focus = KUO_Reform_old_Bureacracy }
+		
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = KUO_Spread_Asian_Federalism
+		icon = GFX_unknown_goal
+		x = 6
+		y = 8
+
+		cost = 10
+		prerequisite = { focus = KUO_Model_Provinces }
 		
 		available = {
 
