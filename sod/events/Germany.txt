@@ -105,3 +105,20 @@ country_event = {
 	
 
 }
+
+country_event = {
+	id = germany.5
+	title = germany.5.t
+	desc = germany.5.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.5.a		#Civil War time - good luck
+		
+	}
+	
+
+}

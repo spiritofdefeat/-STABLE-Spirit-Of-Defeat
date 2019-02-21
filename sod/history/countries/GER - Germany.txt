@@ -101,20 +101,20 @@ set_politics = {
 
 }
 
-create_faction = Axis
-add_to_faction = GER
+
 
 
 add_ideas = {
 	sour_loser
+	rampant_paramilitaries
+	economic_troubles
+	black_reichswehr
 	general_staff
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
 }
-add_ideas = GER_mefo_bills_1
 
-activate_mission = GER_mefo_bills_mission
 
 create_country_leader = {
 	name = "Gottfried Feder"

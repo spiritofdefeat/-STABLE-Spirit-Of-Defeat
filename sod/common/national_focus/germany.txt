@@ -964,6 +964,9 @@ y = 2
 cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_legacyofthespartacusleague } 
+completion_reward = {
+    GER = { country_event = germany.5 }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -979,6 +982,15 @@ y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_theflamesofrevolution } 
+completion_reward = {
+    add_popularity = {
+        ideology = communism
+        popularity = 0.15
+    }
+    set_politics = {
+        ruling_party = communism
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -994,6 +1006,15 @@ y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_theflamesofrevolution } 
+completion_reward = {
+    add_popularity = {
+        ideology = totalitarian_socialism
+        popularity = 0.15
+    }
+    set_politics = {
+        ruling_party = totalitarian_socialism
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1009,6 +1030,15 @@ y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_theflamesofrevolution } 
+completion_reward = {
+    add_popularity = {
+        ideology = orthodox_marxism
+        popularity = 0.15
+    }
+    set_politics = {
+        ruling_party = orthodox_marxism
+    }
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1328,7 +1358,11 @@ x = 26
 y = 4
 cost = 5
 available_if_capitulated = yes 
-prerequisite = { focus = GER_consolidatemilitaryauthority } 
+prerequisite = { focus = GER_consolidatemilitaryauthority }
+completion_reward = {
+    remove_ideas = rampant_paramilitaries
+    add_political_power = -50
+}
 ai_will_do = { 
  factor = 1
  } 
@@ -1899,6 +1933,10 @@ y = 4
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_altespdseizespower } 
+completion_reward = {
+    add_manpower = 150000
+    add_war_support = 0.05
+}
 ai_will_do = { 
  factor = 1
  } 
