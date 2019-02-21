@@ -12,7 +12,7 @@ ideas = {
 				always = yes
 			}
 
-			picture = rampant_paramilitaries.tga
+			#picture = rampant_paramilitaries.tga #Not how its done sneak
 
 			removal_cost = -1
 			
@@ -34,7 +34,6 @@ ideas = {
 				always = yes
 			}
 
-			picture = economic_troubles.tga
 
 			removal_cost = -1
 			
@@ -54,7 +53,6 @@ ideas = {
 					always = yes
 				}
 
-				picture = black_reichswehr.tga
 	
 				removal_cost = -1
 				
