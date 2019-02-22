@@ -105,7 +105,6 @@ set_politics = {
 
 
 add_ideas = {
-	sour_loser
 	rampant_paramilitaries
 	economic_troubles
 	black_reichswehr

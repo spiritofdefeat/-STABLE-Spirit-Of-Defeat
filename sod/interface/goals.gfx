@@ -1257,5 +1257,70 @@ spriteTypes = {
 		name = "GFX_focus_eliminate_rommel"
 		texturefile = "gfx/interface/goals/eliminate_rommel.tga"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_GER_proletarian_nationalism"
+		texturefile = "gfx/interface/goals/focus_GER_proletarian_nationalism.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_spartacus_legacy"
+		texturefile = "gfx/interface/goals/focus_spartacus_legacy.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_global_revolution"
+		texturefile = "gfx/interface/goals/focus_global_revolution.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_GER_alte_spd_seizes_power"
+		texturefile = "gfx/interface/goals/focus_GER_alte_spd_seizes_power.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_GER_break_the_chains"
+		texturefile = "gfx/interface/goals/focus_GER_break_the_chains.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_communist_international"
+		texturefile = "gfx/interface/goals/focus_communist_international.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_GER_bright_future"
+		texturefile = "gfx/interface/goals/focus_GER_bright_future.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_insurrection"
+		texturefile = "gfx/interface/goals/focus_insurrection.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_kpd"
+		texturefile = "gfx/interface/goals/focus_kpd.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_seize"
+		texturefile = "gfx/interface/goals/focus_seize_means_production.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_terror"
+		texturefile = "gfx/interface/goals/focus_campaign_terror.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_comintern"
+		texturefile = "gfx/interface/goals/comintern.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_end_gold_standard"
+		texturefile = "gfx/interface/goals/focus_end_gold_standard.tga"
+	}
 
 }

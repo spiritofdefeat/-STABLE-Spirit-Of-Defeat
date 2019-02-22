@@ -60,7 +60,29 @@ ideas = {
 					stability_factor = -0.02
 					training_time_factor = -0.15
 					military_leader_cost_factor = 0.50
-					conscription = 0.04
+					conscription = 0.01
+
+				}
+			}
+
+			dictatorship_of_proletariat = {
+				
+				allowed = {
+					original_tag = GER
+				}
+	
+				allowed_civil_war = {
+					always = yes
+				}
+
+	
+				removal_cost = -1
+				
+				modifier = {
+					stability_factor = -0.02
+					training_time_factor = -0.05
+					political_power_gain = 0.5 
+    				min_export = -0.05
 
 				}
 			}
