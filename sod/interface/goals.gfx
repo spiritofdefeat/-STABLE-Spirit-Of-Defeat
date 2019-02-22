@@ -1327,5 +1327,25 @@ spriteTypes = {
 		name = "GFX_stronger_together"
 		texturefile = "gfx/interface/goals/stronger_together.tga"
 	}
+	
+	SpriteType = { 
+		name = "GFX_purism"
+		texturefile = "gfx/interface/goals/purism.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_purge_bureaucracy"
+		texturefile = "gfx/interface/goals/purge_bureaucracy.tga"
+	}
+	
+	SpriteType = { 
+		name = "GFX_rohm"
+		texturefile = "gfx/interface/goals/eliminate_rohm.png"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ludendorff"
+		texturefile = "gfx/interface/goals/eliminate_ludendorff.png"
+	}
 
 }

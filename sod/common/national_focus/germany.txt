@@ -257,7 +257,7 @@ ai_will_do = {
 #Focus for Purge The Bureaucracy
 focus = { 
 id = GER_purgethebureaucracy
-icon = focus_purge_bureaucracy
+icon = GFX_purge_bureaucracy
 x = 24
 y = 5
 cost = 5
@@ -993,6 +993,8 @@ y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_theflamesofrevolution } 
+mutually_exclusive = { focus = GER_altespdseizespower }
+mutually_exclusive = { focus = GER_kapdseizespower}
 completion_reward = {
     add_popularity = {
         ideology = communism
@@ -1016,7 +1018,9 @@ x = 5
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = GER_theflamesofrevolution } 
+prerequisite = { focus = GER_theflamesofrevolution }
+mutually_exclusive = { focus = GER_kpdseizespower }
+mutually_exclusive = { focus = GER_kapdseizespower} 
 completion_reward = {
     add_popularity = {
         ideology = totalitarian_socialism
@@ -1041,6 +1045,8 @@ y = 3
 cost = 10
 available_if_capitulated = yes 
 prerequisite = { focus = GER_theflamesofrevolution } 
+mutually_exclusive = { focus = GER_altespdseizespower }
+mutually_exclusive = { focus = GER_kpdseizespower}
 completion_reward = {
     add_popularity = {
         ideology = orthodox_marxism
@@ -1861,7 +1867,7 @@ ai_will_do = {
 #Focus for Target Rohm
 focus = { 
 id = GER_targetrohm
-icon = GFX_goal_unknown
+icon = GFX_rohm
 x = 36
 y = 9
 cost = 10
@@ -1877,7 +1883,7 @@ ai_will_do = {
 #Focus for Target Ludendorff
 focus = { 
 id = GER_targetludendorff
-icon = GFX_goal_unknown
+icon = GFX_ludendorff
 x = 38
 y = 9
 cost = 10
@@ -2505,7 +2511,7 @@ ai_will_do = {
 #Focus for Ideological Purism
 focus = { 
 id = GER_ideologicalpurism
-icon = GFX_goal_unknown
+icon = GFX_purism
 x = 7
 y = 8
 cost = 10
@@ -2780,7 +2786,7 @@ ai_will_do = {
 #Focus for Stronger Togerther
 focus = { 
 id = GER_strongertogerther
-icon = GFX_goal_unknown
+icon = GFX_stronger_together
 x = 3
 y = 8
 cost = 10
