@@ -674,7 +674,7 @@ focus_tree = {
 	focus = {
 		id = KUO_Anti_Chen_Coup
 		icon = GFX_unknown_goal
-		x = 4
+		x = 5
 		y = 0
 
 		cost = 10
@@ -698,5 +698,88 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	
+	focus = {
+		id = KUO_call_party_congress
+		icon = GFX_unknown_goal
+		x = 9
+		y = 5
+
+		cost = 10
+		prerequisite = { focus = KUO_Anti_Chen_Coup }
+
+		
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = KUO_Left_Wing
+		icon = GFX_unknown_goal
+		x = 8
+		y = 6
+
+		cost = 10
+		prerequisite = { focus = KUO_call_party_congress }
+
+		
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = KUO_Right_Wing
+		icon = GFX_unknown_goal
+		x = 10
+		y = 6
+
+		cost = 10
+		prerequisite = { focus = KUO_call_party_congress }
+
+		
+		available = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+		}
+	}
+	
+	
 	
 }
