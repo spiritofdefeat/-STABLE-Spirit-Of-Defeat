@@ -98,6 +98,10 @@ spriteTypes = {
 	
 	
 	#EVENTS
+	spriteType = {
+		name = "GFX_report_event_capture_beijing"
+		texturefile = "gfx/event_pictures/KUO/event_win_guo_war.tga"
+	}
 
 
 }

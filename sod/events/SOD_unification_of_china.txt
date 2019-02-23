@@ -10,26 +10,36 @@ country_event = {
 	id = first_expedition.1
 	title = first_expedition.1.t
 	desc = first_expedition.1.d
+	picture = GFX_report_event_capture_beijing
 	
 	fire_only_once = yes
 	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
 	trigger = {
 		tag = KUO
+		has_war_with = GUO
 		has_country_flag = KUO_GUO_war
-		GUO = { surrender_progress > 0.50 }
-		KUO = { has_war_with = GUO }
-		KUO = { owns_state = 608 }
+		controls_state = 608 #Beijing
+		NOT = {
+			any_owned_state = { is_controlled_by = GUO }
+		}
+		GUO = {
+			owns_state = 608 #Beijing
+		}
+	}
+	
+	
+	mean_time_to_happen = {
+		days = 2
 	}
 	
 	option = {
 		name = first_expedition.1.a
 		ai_chance = { factor = 90 }
-		white_peace = GUO
 		KUO = { country_event = { id = beijing_conference.1 days = 3 }}
+		GUO = {
+			remove_state_core = 608 #Beijing
+		}
+		white_peace = GUO
 
 
 	}
@@ -138,6 +148,7 @@ country_event = {
 			transfer_state = 611
 			transfer_state = 612
 			transfer_state = 621
+			transfer_state = 832
 		}
 		KUO = { country_event = { id = beijing_conference.5 days = 3 }}
 		puppet = MEN
@@ -151,6 +162,7 @@ country_event = {
 			transfer_state = 611
 			transfer_state = 612
 			transfer_state = 621
+			transfer_state = 832
 		}
 		
 		KUO = { country_event = { id = beijing_conference.5 days = 3 }}
@@ -163,6 +175,7 @@ country_event = {
 			transfer_state = 611
 			transfer_state = 612
 			transfer_state = 621
+			transfer_state = 832
 		}
 		MEN = { change_tag_from = KUO }
 		
@@ -176,6 +189,7 @@ country_event = {
 			transfer_state = 611
 			transfer_state = 612
 			transfer_state = 621
+			transfer_state = 832
 		
 		KUO = { country_event = { id = beijing_conference.5 days = 3 }}
 
@@ -237,7 +251,7 @@ country_event = {
 		name = beijing_conference.6.a
 		ai_chance = { factor = 90 }
 		set_country_flag = phase_1_over
-		KUO = {leave_faction = yes}
+		KUO = {dismantle_faction = yes}
 
 	}
 }

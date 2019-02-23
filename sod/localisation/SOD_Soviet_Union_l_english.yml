@@ -80,3 +80,6 @@ SOV_evaluate_leninists:0 "Evaluate the Leninists"
  SOV_trotskyist_medium_influence_effect:0 "§HPolitical Power:§! §G0.05§!\n§HStability Factor:§! §G+0.05§!"
  SOV_trotskyist_low_influence_effect:0 "§HPolitical Power:§! §R-0.05§!\n§HStability Factor:§! §R-0.05§!"
  SOV_trotskyist_very_low_influence_effect:0 "§HPolitical Power:§! §R-0.10§!\n§HStability Factor:§! §R-0.10§!"
+ 
+ #Faction
+  Comintern:0 "Soviet Sphere"

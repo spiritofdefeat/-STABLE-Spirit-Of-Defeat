@@ -15,3 +15,17 @@ defined_text = { # Country
 	}
 }
 
+defined_text = { # Country
+	name = GetNewspaperHeader
+	text = {
+		trigger = {
+			tag = KUO
+		}
+		localization_key = KUO_cdn
+	}
+    #keep this one without triggers and at the end as a fallback
+	text = {
+		localization_key = newspaper_header_2
+	}
+}
+

@@ -4,4 +4,10 @@ spriteTypes = {
 		texturefile = "gfx/newspapers/SOV/SOV_prvada.tga"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_KUO_cdn"
+		texturefile = "gfx/newspapers/KUO/KUO_central_daily_news.tga"
+		legacy_lazy_load = no
+	}
 }
