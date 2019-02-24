@@ -117,7 +117,7 @@ set_stability = 0.7
 set_politics = {
 
 	parties = {
-		democratic = { 
+		utilitarian_despotism = { 
 			popularity = 80
 		}
 
@@ -125,16 +125,16 @@ set_politics = {
 			popularity = 10
 		}
 		
-		communism = {
+		nihilistic_extremism = {
 			popularity = 10
 			banned = no #default is no
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = utilitarian_despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 
 }
 
@@ -148,6 +148,16 @@ create_country_leader = {
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	expire = "1965.1.1"
 	ideology = nazism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kurt von Schleicher"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Von_Schleicher.tga"
+	expire = "1965.1.1"
+	ideology = military_junta
 	traits = {
 	}
 }

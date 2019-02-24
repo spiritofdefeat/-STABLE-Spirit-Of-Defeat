@@ -1706,6 +1706,10 @@ y = 4
 cost = 5
 available_if_capitulated = yes 
 prerequisite = { focus = GER_himmlersnihilistischeregierung } 
+completion_reward = {
+    add_stability = 0.05
+    GER = { country_event = germany.6 }
+}
 ai_will_do = { 
  factor = 1
  } 

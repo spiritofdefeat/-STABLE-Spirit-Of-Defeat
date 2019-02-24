@@ -1,0 +1,114 @@
+﻿l_english:
+ KUO_neutrality:0 "Gunagdong Government"
+ KUO_neutrality_DEF:0 "Gunagdong Government"
+ KUO_neutrality_ADJ:0 "Chinese"
+ KUO_fascism:0 "Gunagdong Government"
+ KUO_fascism_DEF:0 "Gunagdong Government"
+ KUO_fascism_ADJ:0 "Chinese"
+ KUO_utilitarian_despotism:0 "Gunagdong Government"
+ KUO_utilitarian_despotism_DEF:0 "Gunagdong Government"
+ KUO_utilitarian_despotism_ADJ:0 "Chinese"
+ KUO_reformist_socialism:0 "Gunagdong Government"
+ KUO_reformist_socialism_DEF:0 "Gunagdong Government"
+ KUO_reformist_socialism_ADJ:0 "Chinese"
+ 
+ KUO_utilitarian_despotism_party:0 "Right-KMT(C)"
+ KUO_utilitarian_despotism_party_long:0 "Kuomintang of China(Chiang Kai-Shek Loyalists)"
+ KUO_neutrality_party:0 "Right-KMT(S)"
+ KUO_neutrality_party_long:0 "Kuomintang of China(Sun yat-Sen Sucessors)"
+ KUO_democratic_party:0 "Right-KMT(L)"
+ KUO_democratic_party_long:0 "Kuomintang of China(Lin Sen's Faction)"
+ KUO_reformist_socialism_party:0 "Left-KMT(C)"
+ KUO_reformist_socialism_party_long:0 "Kuomintang of China(Chen Jiongming's Faction)"
+ KUO_social_liberalism_party:0 "Left-KMT(W)"
+ KUO_social_liberalism_party_long:0 "Kuomintang of China(Wang Jingwei's Faction)"
+ KUO_fascism_party:0 "Blue Shirts"
+ KUO_fascism_party_long:0 "Society of Practice of the Three Principles of the People"
+ KUO_nihilistic_extremism_party:0 ""
+ KUO_nihilistic_extremism_party_long:0 ""
+ KUO_monarchism_party:0 ""
+ KUO_monarchism_party_long:0 ""
+ KUO_totalitarian_socialism_party:0 "CPC(M)"
+ KUO_totalitarian_socialism_party_long:0 "Communist Party of China(Mao Zedong's Faction)"
+ KUO_orthodox_marxism_party:0 "CPC(D)"
+ KUO_orthodox_marxism_party_long:0 "Communist Party of China(Dong Biwu's Faction)"
+ KUO_communism_party:0 "CPC(C)"
+ KUO_communism_party_long:0 "Communist Party of China(Chen Duxiu's Faction)"
+ KUO_libertarian_socialism_party:0 ""
+ KUO_libertarian_socialism_party_long:0 ""
+ 
+ 
+ 
+ #Ideas
+ KUO_assasination_corps:0 "Chinese Assassination Corps"
+ KUO_assasination_corps_desc:0 "Founded in 1910 to carry out Wang Jingwei's mission to kill Prince-Regent Chun, the Chinese Assassination Corps are now the de facto secret service agency of the Kuomintang. It was refounded in 1922 after Chen Jiongming couped Sun Yat-sen with anarchist elements of the Kuomintang with the sole purpose of keeping the population and political opponents in check."
+ KUO_coup_legacy:0 "Legacy of the 1922 Coup"
+ KUO_coup_legacy_desc:0 "In 1922 Chen Jiongming couped Sun Yat-sen and hijacked the Constituional Movement. This allowed for the Beiyang Government to defeat them in the Second Constituional Protection war and prevented the Kuomintang from going further north. This has led to general instability within the party has a negative impact on Chen's leadership."
+ 
+ 
+ #National Focus
+ KUO_northern_expedition_1:0 "Northern Expedition: Phase 1"
+ KUO_northern_expedition_1_desc:0 "The First Step to reuniting China is to deal with Feng Yuxiang and this Guominjun Clique. Defeating them will open the way to Beijing and bring was one step closer to unification."
+ KUO_northern_expedition_2:0 "Northern Expedition: Phase 2"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #Focus Effects
+ first_united_front:0 "First United Front"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #Decision Categories
+ KUO_Northern_Expedition:0 "The Northern Expedition"
+ KUO_Northern_Expedition_desc:0 "The Northern Expedition is our plan to reunite China and end the era of Warlordism"
+ 
+ #Decisions
+ KUO_invite_warlords:0 "Invite the Warlords to United Front" 
+ KUO_invite_warlords:0 "We only control a small amount of land in China so it is no secret that we will need help from warlords in achieving our goals."
+ KUO_launch_first_expedition:0 "Launch the First Expedition"
+ KUO_launch_first_expedition_desc:0 "It is time to crush the Guominjun and open the path towards reunification."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #Events
+ northern_expedition.1.t:0 "Invitation to the United Front"
+ northern_expedition.1.d:0 "The Kuomintang has invited us to form a United Front against Feng Yuxiang and the Guominjun Clique."
+ northern_expedition.1.a:0 "Accept"
+ northern_expedition.1.b:0 "Decline"
+ northern_expedition.2.t:0 "[From.GetName] has accepted."
+ northern_expedition.2.d:0 ""
+ northern_expedition.2.a:0 "Very Well."
+ northern_expedition.3.t:0 "[From.GetName] has declined."
+ northern_expedition.3.d:0 ""
+ northern_expedition.3.a:0 "Too Bad"
+ 
+ 
+ #Other
+ KUO_GATHERING_STORM_DESC:0 "After the 1922 coup and defeat in the second Constituional Protection War the Kuomintang was kept in check by the Beiyang Government. Chen Jiongming tries to turn the little land they had into what he visions China to be. n/ He now has his chance as once again Beiyang infighting have left them vulnerable to attack."
+ 
+ 
