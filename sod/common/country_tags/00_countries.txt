@@ -136,3 +136,4 @@ GUO = "countries/Guominjun.txt"
 SHG = "countries/Shanghai.txt"
 KKH = "countries/Kumul Khanate.txt"
 CHI = "countries/China.txt" #Repurposed to Sichuan
+CAT = "countries/Catalonia.txt"
