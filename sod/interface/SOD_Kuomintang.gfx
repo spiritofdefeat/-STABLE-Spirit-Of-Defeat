@@ -102,6 +102,11 @@ spriteTypes = {
 		name = "GFX_report_event_capture_beijing"
 		texturefile = "gfx/event_pictures/KUO/event_win_guo_war.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_report_event_beijing_conference"
+		texturefile = "gfx/event_pictures/KUO/event_beijing_conference.tga"
+	}
 
 
 }

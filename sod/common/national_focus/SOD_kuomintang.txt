@@ -62,6 +62,8 @@ focus_tree = {
 
 
 		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			create_faction = "second_united_front"
 		}
 	}
 	

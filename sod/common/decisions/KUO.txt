@@ -50,4 +50,43 @@ KUO_Northern_Expedition = {
 		}
 	}
 	
+	KUO_launch_second_expedition = {
+	
+		visible = {
+			country_exists = AHI
+			country_exists = ZHI
+			country_exists = MAN
+			tag = KUO
+			has_completed_focus = KUO_northern_expedition_2
+			NOT = { has_country_flag = KUO_BEI_war }
+		}
+		complete_effect = {
+			declare_war_on = {
+				target = AHI
+				type = annex_everything
+			}
+			
+			declare_war_on = {
+				target = ZHI
+				type = annex_everything
+			}
+			
+			declare_war_on = {
+				target = MAN
+				type = annex_everything
+			}
+			set_country_flag = KUO_BEI_war
+			AHI = { set_country_flag = KUO_BEI_war }
+			ZHI = { set_country_flag = KUO_BEI_war }
+			MAN = { set_country_flag = KUO_BEI_war }
+			
+		}
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
 }

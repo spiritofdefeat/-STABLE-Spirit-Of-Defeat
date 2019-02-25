@@ -64,6 +64,7 @@
  
  #Focus Effects
  first_united_front:0 "First United Front"
+ second_united_front:0 "Second United Front"
  
  
  
@@ -108,18 +109,18 @@
  northern_expedition.3.a:0 "Too Bad"
  
  #Newspaper
- KUO_cdn:0 "\n£KUO_cdn\n\n\n\n\n\n\n\n\n\n\n"
+ KUO_cdn:0 "\n£KUO_cdn\n\n"
  
  ##Unification of China
- first_expedition.1.t:0 "[GetNewspaperHeader]We have won."
+ first_expedition.1.t:0 "We have won."
  first_expedition.1.d:0 "Today [GetDateText] troops of the National Revolutionary Army have marched into Beijing upon defeating Guominjun Forces. The flag was raised in the capital as troops celebrated the victory. Chen Jiongming announced that the reunification of China is here and promises to rebuild China into a powerful state free of imperialistic influence."
  first_expedition.1.a:0 "The Guominjun have lost."
- beijing_conference.1.t:0 "[GetNewspaperHeader]Beijing Conference: Fate of the Guominjun"
+ beijing_conference.1.t:0 "Beijing Conference: Fate of the Guominjun"
  beijing_conference.1.d:0 ""
  beijing_conference.1.a:0 "Forccibly Subjucate them"
  beijing_conference.1.b:0 "Partition the Territories"
  beijing_conference.1.c:0 "Annex Everything"
- beijing_conference.2.t:0 "[GetNewspaperHeader]Beijing Conference: The South and Beijing"
+ beijing_conference.2.t:0 "Beijing Conference: The South and Beijing"
  beijing_conference.2.d:0 ""
  beijing_conference.2.a:0 "To the next issue"
  beijing_conference.3.t:0 "[GetNewspaperHeader]Beijing Conference: Gansu Region"
@@ -137,9 +138,12 @@
  beijing_conference.5.a:0 "Incorporate it"
  beijing_conference.5.b:0 "Incorporate it but cease all military activity"
  beijing_conference.5.c:0 "Leave it with the Guominjun"
- beijing_conference.6.t:0 "[GetNewspaperHeader]End of the Beijing Conference"
+ beijing_conference.6.t:0 "Beijing Conference: Manchu Provinces" 
  beijing_conference.6.d:0 ""
- beijing_conference.6.a:0 "Phase 1 is over"
+ beijing_conference.6.a:0 "Incorporate it"
+ beijing_conference.7.t:0 "[GetNewspaperHeader]End of the Beijing Conference"
+ beijing_conference.7.d:0 ""
+ beijing_conference.7.a:0 "Phase 1 is over"
  
  
  #Other
