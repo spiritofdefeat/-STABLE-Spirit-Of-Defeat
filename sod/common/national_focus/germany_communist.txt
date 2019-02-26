@@ -519,5 +519,424 @@ ai_will_do = {
 
  }  
  
+ #Foreign
  
+ #Focus for Revolutionary Foreign Policy
+focus = { 
+id = GER_revolutionaryforeignpolicy
+icon = GFX_goal_unknown
+x = 84
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+ 
+ #Focus for Destabilze France
+focus = { 
+id = GER_destabilzefrance
+icon = GFX_goal_unknown
+x = 82
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_revolutionaryforeignpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+ 
+ #Focus for Destabilze Poland
+focus = { 
+id = GER_destabilzepoland
+icon = GFX_goal_unknown
+x = 86
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_revolutionaryforeignpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Encourage Slovak Separatism
+focus = { 
+id = GER_encourageslovakseparatism
+icon = GFX_goal_unknown
+x = 84
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_revolutionaryforeignpolicy }
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Arm French Revolutionaries
+focus = { 
+id = GER_armfrenchrevolutionaries
+icon = GFX_goal_unknown
+x = 82
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_destabilzefrance } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Arm Oppresed Minorities
+focus = { 
+id = GER_armoppresedminorities
+icon = GFX_goal_continuous_reduce_training_time
+x = 86
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_destabilzepoland } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Revitalize The Hungarian Left
+focus = { 
+id = GER_revitalizethehungarianleft
+icon = GFX_goal_unknown
+x = 84
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_encourageslovakseparatism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Liberate The New World
+focus = { 
+id = GER_liberatethenewworld
+icon = GFX_goal_unknown
+x = 79
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_revolutionaryforeignpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Liberate Asia
+focus = { 
+id = GER_liberateasia
+icon = GFX_goal_unknown
+x = 89
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_revolutionaryforeignpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Instigate A Czech-Slovak War
+focus = { 
+id = GER_instigateaczechslovakwar
+icon = GFX_goal_unknown
+x = 84
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_revitalizethehungarianleft } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Encourage Mexican Socialists
+focus = { 
+id = GER_encouragemexicansocialists
+icon = GFX_goal_unknown
+x = 80
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_liberatethenewworld } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Instigate Panamanian Socialists
+focus = { 
+id = GER_instigatepanamaniansocialists
+icon = GFX_goal_unknown
+x = 78
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_liberatethenewworld } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Argentine Coup
+focus = { 
+id = GER_theargentinecoup
+icon = GFX_goal_unknown
+x = 79
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_instigatepanamaniansocialists } 
+prerequisite = { focus = GER_encouragemexicansocialists } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Aid Brazilian Comrades
+focus = { 
+id = GER_aidbraziliancomrades
+icon = GFX_goal_unknown
+x = 79
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_theargentinecoup } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Side With The Guominjun
+focus = { 
+id = GER_sidewiththeguominjun
+icon = GFX_goal_unknown
+x = 88
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_liberateasia } 
+mutually_exclusive = { focus = GER_sidewiththehardliners } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Side With The Hardliners
+focus = { 
+id = GER_sidewiththehardliners
+icon = GFX_goal_unknown
+x = 90
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_liberateasia } 
+mutually_exclusive = { focus = GER_sidewiththeguominjun } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Support Enver Hoxha
+focus = { 
+id = GER_supportenverhoxha
+icon = GFX_goal_unknown
+x = 84
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_instigateaczechslovakwar } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Liquidate The Capitalist Threat
+focus = { 
+id = GER_liquidatethecapitalistthreat
+icon = GFX_focus_generic_strike_at_democracy3
+x = 79
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_aidbraziliancomrades } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Crush The British Imperialists
+focus = { 
+id = GER_crushthebritishimperialists
+icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+x = 84
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_inciteunrestinrhodesia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Obliterate The Japanese Tyrants
+focus = { 
+id = GER_obliteratethejapanesetyrants
+icon = GFX_focus_AST_war_japan
+x = 89
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_promisechineseunity } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+ 
+ 
+
+
+ 
+
+ 
+
+#Focus for Promise Chinese Unity
+focus = { 
+id = GER_promisechineseunity
+icon = GFX_focus_chi_one_china_policy
+x = 89
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_promotearevolutionaryfront focus = GER_underminethewarlords } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Agitate Indian Revolutionaries
+focus = { 
+id = GER_agitateindianrevolutionaries
+icon = GFX_focus_RAJ_seek_help_from_soviet
+x = 84
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_supportenverhoxha } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Incite Unrest In Rhodesia
+focus = { 
+id = GER_inciteunrestinrhodesia
+icon = GFX_goal_unknown
+x = 84
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_agitateindianrevolutionaries } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Promote A Revolutionary Front
+focus = { 
+id = GER_promotearevolutionaryfront
+icon = GFX_focus_chi_united_front
+x = 88
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_sidewiththeguominjun } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Break Up Yugoslavia
+focus = { 
+id = GER_breakupyugoslavia
+icon = GFX_focus_generic_provoke_border_clashes
+x = 82
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_supportenverhoxha } 
+mutually_exclusive = { focus = GER_panyugoslavcommunism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+ 
+ #Focus for Pan-Yugoslav Communism
+focus = { 
+id = GER_panyugoslavcommunism
+icon = GFX_goal_unknown
+x = 86
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_supportenverhoxha } 
+mutually_exclusive = { focus = GER_breakupyugoslavia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Undermine The Warlords
+focus = { 
+id = GER_underminethewarlords
+icon = GFX_focus_CZE_german_puppet
+x = 90
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_sidewiththehardliners } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+ 
+ 
+ #End of focuses 
 }
