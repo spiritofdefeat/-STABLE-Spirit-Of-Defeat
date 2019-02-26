@@ -47,8 +47,15 @@ DDR_nihilistic_extremism_party_long:0 ""
  DDR_democratic_ADJ:0 "German"
 
 #Cosmetic tags
-DDR_CIVIL_WAR:0 Workers and Soldiers Council Groß-Berlin"
-DDR_CIVIL_WAR_DEF:0 "The Executive Council of the Workers 'and Soldiers' Council of Greater Berlin
+DDR_CW_communism:0 Workers and Soldiers Council Groß-Berlin"
+DDR_CW_communism_ADJ:0 Workers and Soldiers Council Groß-Berlin"
+DDR_CW_communism_DEF:0 "The Executive Council of the Workers 'and Soldiers' Council of Greater Berlin
+DDR_CW_totalitarian_socialism:0 Workers and Soldiers Council Groß-Berlin"
+DDR_CW_totalitarian_socialism_ADJ:0 Workers and Soldiers Council Groß-Berlin"
+DDR_CW_totalitarian_socialism_DEF:0 "The Executive Council of the Workers 'and Soldiers' Council of Greater Berlin
+DDR_CW_orthodox_marxism:0 Workers and Soldiers Council Groß-Berlin"
+DDR_CW_orthodox_marxism_ADJ:0 Workers and Soldiers Council Groß-Berlin"
+DDR_CW_orthodox_marxism_DEF:0 "The Executive Council of the Workers 'and Soldiers' Council of Greater Berlin
 
 
  

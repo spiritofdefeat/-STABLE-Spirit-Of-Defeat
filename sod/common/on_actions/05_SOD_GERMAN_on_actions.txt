@@ -1,0 +1,27 @@
+on_actions = {
+
+	# ROOT
+	on_declare_war = { 
+	
+		effect = {
+		
+			if = {
+				limit = {
+					OR = {
+						ROOT = { tag = DDR }
+						FROM = { tag = GER }
+					}
+					
+					ROOT = { has_war_with = FROM }
+				}
+				
+				ROOT = {
+					set_cosmetic_tag = DDR_CW 
+				}
+		
+			}
+			
+		}
+	}
+	
+}

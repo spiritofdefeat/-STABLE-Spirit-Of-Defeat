@@ -164,7 +164,6 @@ country_event = {
 		
 		DDR = { change_tag_from = GER }
 		DDR = { complete_national_focus = GER_theflamesofrevolution }
-		DDR = { set_cosmetic_tag = DDR_CIVIL_WAR }
 		
 	}
 	
