@@ -117,7 +117,7 @@ country_event = {
 	
 	option = {
 		name = germany.5.a		#Civil War time - good luck
-		WGR = { 
+		DDR = { 
 			transfer_state = 5
 			transfer_state = 58
 			transfer_state = 59
@@ -147,19 +147,25 @@ country_event = {
 						add_state_core = 68
 						add_state_core = 823
 						add_state_core = 825
-                }
-		add_popularity = { ideology = national_collectivism popularity = -0.3 }
-		add_popularity = { ideology = communism popularity = 0.3 }
-		add_popularity = { ideology = utilitarian_despotism popularity = -0.3 }
-		set_politics = {
-			ruling_party = communism
-		}
-		add_stability = -0.15
-		add_war_support = 0.2
-		declare_war_on = {
-			target = WGR
-			type = annex_everything
-		}
+						
+				add_popularity = { ideology = national_collectivism popularity = -0.3 }
+			add_popularity = { ideology = communism popularity = 0.3 }
+			add_popularity = { ideology = utilitarian_despotism popularity = -0.3 }
+			set_politics = {
+				ruling_party = communism
+			}
+			add_stability = -0.15
+			add_war_support = 0.2
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+        }
+		
+		DDR = { change_tag_from = GER }
+		DDR = { complete_national_focus = GER_theflamesofrevolution }
+		DDR = { set_cosmetic_tag = DDR_CIVIL_WAR }
+		
 	}
 	
 

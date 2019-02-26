@@ -1,0 +1,523 @@
+focus_tree = { 
+	id = GER_COM
+	country = { 
+		factor = 0 
+		modifier = { 
+			add = 10 
+			tag = DDR 
+		} 
+	}
+
+
+	continuous_focus_position = { x = 50 y = 1350 }
+	
+	
+	#Focus for The Flames Of Revolution
+focus = { 
+id = GER_theflamesofrevolution
+icon = GFX_focus_global_revolution
+x = 5
+y = 0
+cost = 5
+available_if_capitulated = yes 
+completion_reward = {
+    
+}
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for KPD Seizes Power
+focus = { 
+id = GER_kpdseizespower
+icon = GFX_focus_kpd
+x = 1
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_theflamesofrevolution } 
+mutually_exclusive = { focus = GER_altespdseizespower }
+mutually_exclusive = { focus = GER_kapdseizespower}
+completion_reward = {
+    add_popularity = {
+        ideology = communism
+        popularity = 0.15
+    }
+    set_politics = {
+        ruling_party = communism
+    }
+}
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Alte SPD Seizes Power
+focus = { 
+id = GER_altespdseizespower
+icon = GFX_focus_GER_alte_spd_seizes_power
+x = 5
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_theflamesofrevolution }
+mutually_exclusive = { focus = GER_kpdseizespower }
+mutually_exclusive = { focus = GER_kapdseizespower} 
+completion_reward = {
+    add_popularity = {
+        ideology = totalitarian_socialism
+        popularity = 0.15
+    }
+    set_politics = {
+        ruling_party = totalitarian_socialism
+    }
+}
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for KAPD Seizes Power
+focus = { 
+id = GER_kapdseizespower
+icon = GFX_focus_generic_soviet_politics
+x = 9
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_theflamesofrevolution } 
+mutually_exclusive = { focus = GER_altespdseizespower }
+mutually_exclusive = { focus = GER_kpdseizespower}
+completion_reward = {
+    add_popularity = {
+        ideology = orthodox_marxism
+        popularity = 0.15
+    }
+    set_politics = {
+        ruling_party = orthodox_marxism
+    }
+}
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+ 
+ 
+ #Focus for Dictatorship Of The Proletariat
+focus = { 
+id = GER_dictatorshipoftheproletariat
+icon = GFX_goal_unknown
+x = 0
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_kpdseizespower } 
+completion_reward = {
+    add_ideas = dictatorship_of_proletariat
+}
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+ 
+ 
+ #Focus for Depose The Social Reactionaries
+focus = { 
+id = GER_deposethesocialreactionaries
+icon = GFX_focus_generic_self_management
+x = 0
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_dictatorshipoftheproletariat } 
+completion_reward = {
+    add_stability = -0.03
+    add_popularity = {
+        ideology = communism
+        popularity = 0.05
+    }
+    add_political_power = 50
+}
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+
+ #Focus for Reimann's Five-Year Plan
+focus = { 
+id = GER_reimannsfiveyearplan
+icon = GFX_goal_generic_soviet_construction
+x = 2
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_kpdseizespower } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Enforce Production Quotas
+focus = { 
+id = GER_enforceproductionquotas
+icon = GFX_goal_generic_air_production
+x = 2
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_reimannsfiveyearplan } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+ 
+ #Focus for Vanguard Of The Revolution
+focus = { 
+id = GER_vanguardoftherevolution
+icon = GFX_goal_support_communism
+x = 1
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_deposethesocialreactionaries } 
+prerequisite = { focus = GER_enforceproductionquotas } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+
+#Focus for Seize The Means Of Production!
+focus = { 
+id = GER_seizethemeansofproduction
+icon = GFX_seize
+x = 0
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_vanguardoftherevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+
+#Focus for Socialism In One State
+focus = { 
+id = GER_socialisminonestate
+icon = GFX_focus_generic_join_comintern
+x = 4
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_altespdseizespower } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Establish The Deutsche Volksarmee
+focus = { 
+id = GER_establishthedeutschevolksarmee
+icon = GFX_focus_YUG_pan_slavic_congress
+x = 6
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_altespdseizespower } 
+completion_reward = {
+    add_manpower = 150000
+    add_war_support = 0.05
+}
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Collectivise German Industry
+focus = { 
+id = GER_collectivisegermanindustry
+icon = GFX_goal_generic_soviet_construction
+x = 4
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_socialisminonestate } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Cult Of Personality
+focus = { 
+id = GER_cultofpersonality
+icon = GFX_focus_RAJ_indian_gentlemen_offcers
+x = 6
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_establishthedeutschevolksarmee } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Abolish Bourgeois Democracy
+focus = { 
+id = GER_abolishbourgeoisdemocracy
+icon = GFX_goal_unknown
+x = 8
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_kapdseizespower } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Allow Communist Opposition Parties
+focus = { 
+id = GER_allowcommunistoppositionparties
+icon = GFX_goal_unknown
+x = 10
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_kapdseizespower } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Redistribute The Land
+focus = { 
+id = GER_redistributetheland
+icon = GFX_focus_prc_agrarian_socialism
+x = 8
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_abolishbourgeoisdemocracy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Break The Chains
+focus = { 
+id = GER_breakthechains
+icon = GFX_focus_GER_break_the_chains
+x = 9
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_establishingworkercouncils } 
+prerequisite = { focus = GER_redistributetheland } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Establishing Worker Councils
+focus = { 
+id = GER_establishingworkercouncils
+icon = GFX_goal_generic_construction2
+x = 10
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_allowcommunistoppositionparties } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Approach The Soviets
+focus = { 
+id = GER_approachthesoviets
+icon = GFX_focus_chi_mission_to_the_soviet_union
+x = 3
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_vanguardoftherevolution focus = GER_proletariannationalism } 
+mutually_exclusive = { focus = GER_antisovietpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Anti-Soviet Policy
+focus = { 
+id = GER_antisovietpolicy
+icon = GFX_goal_support_fourth_int
+x = 7
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_proletariannationalism focus = GER_breakthechains } 
+mutually_exclusive = { focus = GER_approachthesoviets } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+
+#Focus for Proletarian Nationalism
+focus = { 
+id = GER_proletariannationalism
+icon = GFX_focus_GER_proletarian_nationalism
+x = 5
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_collectivisegermanindustry } 
+prerequisite = { focus = GER_cultofpersonality } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+
+#Focus for Workers Of The World Unite!
+focus = { 
+id = GER_workersoftheworldunite
+icon = GFX_focus_communist_international
+x = 10
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_breakthechains } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+ 
+ #Focus for Join The Communist International
+focus = { 
+id = GER_jointhecommunistinternational
+icon = GFX_comintern
+x = 1
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_approachthesoviets } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+ 
+ #Focus for Stronger Togerther
+focus = { 
+id = GER_strongertogerther
+icon = GFX_stronger_together
+x = 3
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_approachthesoviets } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+ 
+ #Focus for Ideological Purism
+focus = { 
+id = GER_ideologicalpurism
+icon = GFX_purism
+x = 7
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_antisovietpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Guardians Of The Revolution
+focus = { 
+id = GER_guardiansoftherevolution
+icon = GFX_goal_support_communism
+x = 5
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_approachthesoviets focus = GER_antisovietpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+
+#Focus for Perpetual Warfare
+focus = { 
+id = GER_perpetualwarfare
+icon = GFX_focus_YUG_rogozarski
+x = 7
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_guardiansoftherevolution focus = GER_establishthefourthinternational } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+
+#Focus for Fortfiy The Fatherland
+focus = { 
+id = GER_fortfiythefatherland
+icon = GFX_goal_unknown
+x = 3
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_jointhecommunistinternational focus = GER_guardiansoftherevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }
+
+#Focus for Establish The Fourth International
+focus = { 
+id = GER_establishthefourthinternational
+icon = GFX_goal_support_fourth_int
+x = 9
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = GER_antisovietpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ }  
+ 
+ 
+}

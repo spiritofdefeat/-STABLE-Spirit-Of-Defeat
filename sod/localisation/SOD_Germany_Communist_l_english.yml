@@ -1,0 +1,59 @@
+﻿l_english: 
+
+#Parties
+DDR_fascism_party:0 ""
+DDR_fascism_party_long:0 "!"
+DDR_communism_party:0 "KPD"
+DDR_communism_party_long:0 "Kommunistische Partei Deutschlands \n§g Adhering to strict Leninist thought, the KPD under Max Reimann's leadership has drifted closely towards the Soviet Union. Nonetheless, the KPD have remained a divisive force, condemning the more moderate left wing parties such as the SPD for being 'social reactionaries.' With enemies on the left and right, the KPD appear cornered amongst hostile forces.§!"
+DDR_democratic_party:1 ""
+DDR_democratic_party_long:0 ""
+DDR_utilitarian_despotism_party:0 ""
+DDR_utilitarian_despotism_party_long:0 ""
+DDR_neutrality_party:0 ""
+DDR_neutrality_party_long:0 ""
+DDR_monarchism_party:0 ""
+DDR_monarchism_party_long:0 ""
+DDR_reformist_socialism_party:0 "SPD"
+DDR_reformist_socialism_party_long:0 "Sozialdemokratische Partei Deutschlands \n§g Although being amongst the most popular parties in Germany, the SPD are surrounded by enemies. The far-left view them as 'social reactionaries' who have sold out to the bourgeoisie capitalists; the far-right view them as degenarate and dangerous communist sympathizers. Furthermore, the German Reichswehr ousted an SPD led coalition government in November of 1935. Powerless and persecuted, the SPD is in a precarious position.§!"
+DDR_social_liberalism_party:0 ""
+DDR_social_liberalism_party_long:0 ""
+DDR_totalitarian_socialism_party:0 "Alte SPD"
+DDR_totalitarian_socialism_party_long:0 "Alte Sozialdemokratische Partei Deutschlands \n§g This radical offshoot of the SPD, under the direction of Ernst Niekisch, uphold a 'proletarian nationalist' ideology known as National Bolshevism. A blend of Marxist principles and extreme nationalism, Alte SPD dogma dictates the establishment of a totalitarian state that is capable of opposing the capitalists who've undermined Germany.§!"
+DDR_orthodox_marxism_party:0 "KAPD"
+DDR_orthodox_marxism_party_long:0 "Kommunistische Arbeiter-Partei Deutschlands \n§g A Trotskyist offshoot of the KPD, Erwin Ackerknecht's movement promotes an internationalist form of communism with the ultimate goal of achieving a Permanent Revolution.§!"
+DDR_libertarian_socialism_party:0 "AAUE"
+DDR_libertarian_socialism_party_long:0 "Allgemeine Arbeiter-Union \n§g Opposed to Leninist doctrine, left-communists led by Otto Rühle splintered from the KPD. They reject the institution of a one-party dictatorship and state capitalism in favor of council communism, replacing democratic centralism with workers' councils and soviet democracy. Rivalries between the AAUE and their Leninist counterparts have continued to flare up in the unstable political climate.§!"
+DDR_nihilistic_extremism_party:0 ""
+DDR_nihilistic_extremism_party_long:0 ""
+
+#Ministers
+
+#Country Names
+ DDR_communism:0 "German Socialist Republic"
+ DDR_communism_DEF:0 "German Socialist Republic"
+ DDR_totalitarian_socialism:0 "German Socialist Republic"
+ DDR_totalitarian_socialism_DEF:0 "German Socialist Republic"
+ DDR_orthodox_marxism:0 "German Socialist Republic"
+ DDR_orthodox_marxism_DEF:0 "German Socialist Republic"
+ DDR_neutrality:0 "German Socialist Republic"
+ DDR_neutrality_DEF:0 "German Socialist Republic"
+ DDR_democratic:0 "German Socialist Republic"
+ DDR_democratic_DEF:0 "German Socialist Republic"
+ DDR_fascism:0 "German Socialist Republic"
+ DDR_fascism_DEF:0 "German Socialist Republic"
+ DDR_communism_ADJ:0 "German"
+ DDR_fascism_ADJ:0 "German"
+ DDR_neutrality_ADJ:0 "German"
+ DDR_democratic_ADJ:0 "German"
+
+#Cosmetic tags
+DDR_CIVIL_WAR:0 Workers and Soldiers Council Groß-Berlin"
+DDR_CIVIL_WAR_DEF:0 "The Executive Council of the Workers 'and Soldiers' Council of Greater Berlin
+
+
+ 
+#Focuses
+#To be readded
+
+#Events
+#To be readded
