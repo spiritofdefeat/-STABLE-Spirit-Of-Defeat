@@ -1,0 +1,69 @@
+﻿###########################
+# German Events
+###########################
+
+add_namespace = gerdem
+
+
+country_event = {
+	id = gerdem.1
+	title = gerdem.1.t
+	desc = gerdem.1.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = gerdem.1.a		#Civil War time - good luck
+		hidden_effect = {
+		
+			WGR = { 
+				transfer_state = 50
+				transfer_state = 55
+				transfer_state = 56
+				transfer_state = 57
+						load_oob = WGR_1936
+						add_state_core = 50
+						add_state_core = 55
+						add_state_core = 56
+						add_state_core = 57
+
+						
+				add_popularity = { ideology = national_collectivism popularity = -0.3 }
+				add_popularity = { ideology = communism popularity = -0.3 }
+				add_popularity = { ideology = utilitarian_despotism popularity = -0.3 }
+				set_politics = {
+					ruling_party = reformist_socialism
+				}
+				add_stability = -0.15
+				add_war_support = 0.2
+				
+				
+		
+		
+			}
+		
+		
+			
+        }
+		WGR = {
+		
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+			
+
+		
+		}
+		
+		WGR = { change_tag_from = GER }
+		WGR = { complete_national_focus = GER_theflamesofrevolution }
+		
+	}
+	
+
+}
+
+

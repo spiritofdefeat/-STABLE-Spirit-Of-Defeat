@@ -64,6 +64,9 @@ DDR_CW_orthodox_marxism_DEF:0 "The Executive Council of the Workers 'and Soldier
 
 #Events
 #To be readded
+gercom.1.t:0 "The Revolution Begins"
+gercom.1.d:0 "Revolutionaries have risen up across Germany. These insurgents have faced steep resistance from the Reichswehr, however they were able to successfully occupy some of Germany's large industrial centers. The German Civil War is anticipated to be one of the bloodiest conflicts since the end of the Great War."
+gercom.1.a:0 "There's No Turning Back!"
 
 #Descriptions
-POLITICS_ZENTRALRAT:0 "Zentralrat der Deutschen Sozialistischen Republik(Central Council of the German Socialist Republic) is the main governing body of the German Socialist Republic. Made up of Representatives of the revolutionary parties this council serves as a provisional government until s proper government is set up."
+POLITICS_ZENTRALRAT_DESC:0 "Zentralrat der Deutschen Sozialistischen Republik(Central Council of the German Socialist Republic) is the main governing body of the German Socialist Republic. Made up of Representatives of the revolutionary parties this council serves as a provisional government until s proper government is set up."

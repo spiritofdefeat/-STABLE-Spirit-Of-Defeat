@@ -80,35 +80,7 @@ set_politics = {
 add_ideas = {
 }
 
-create_country_leader = {
-	name = "Der Zentralrat"
-	desc = "POLITICS_ZENTRALRAT"
-	picture = "gfx/leaders/DDR/Zentralrat.tga"
-	expire = "1965.1.1"
-	ideology = totalitarian_socialism_subtype
-	traits = {		
-	}
-}
 
-create_country_leader = {
-	name = "Der Zentralrat"
-	desc = "POLITICS_ZENTRALRAT"
-	picture = "gfx/leaders/DDR/Zentralrat.tga"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {		
-	}
-}
-
-create_country_leader = {
-	name = "Der Zentralrat"
-	desc = "POLITICS_ZENTRALRAT"
-	picture = "gfx/leaders/DDR/Zentralrat.tga"
-	expire = "1965.1.1"
-	ideology = orthodox_marxism_subtype
-	traits = {		
-	}
-}
 
 
 

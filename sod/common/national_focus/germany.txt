@@ -893,7 +893,7 @@ completion_reward = {
     complete_national_focus = GER_germangeopolitics
     complete_national_focus = GER_revolutionaryforeignpolicy
 	
-	GER = { country_event = germany.5 }
+	GER = { country_event = gercom.1 }
 }
 ai_will_do = { 
  factor = 1

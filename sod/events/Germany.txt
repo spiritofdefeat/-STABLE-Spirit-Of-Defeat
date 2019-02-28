@@ -120,35 +120,20 @@ country_event = {
 		hidden_effect = {
 		
 			DDR = { 
-				transfer_state = 5
-				transfer_state = 58
-				transfer_state = 59
-				transfer_state = 60
-				transfer_state = 61
-				transfer_state = 62
-				transfer_state = 63
-				transfer_state = 64
 				transfer_state = 65
-				transfer_state = 66
-				transfer_state = 67
-				transfer_state = 68
-				transfer_state = 823
-				transfer_state = 825
+				transfer_state = 64
+				transfer_state = 61
+				transfer_state = 60
+				transfer_state = 59
+				transfer_state = 58
 						load_oob = WGR_1936
-						add_state_core = 5
-						add_state_core = 58
-						add_state_core = 59
-						add_state_core = 60
-						add_state_core = 61
-						add_state_core = 62
-						add_state_core = 63
-						add_state_core = 64
 						add_state_core = 65
-						add_state_core = 66
-						add_state_core = 67
-						add_state_core = 68
-						add_state_core = 823
-						add_state_core = 825
+						add_state_core = 64
+						add_state_core = 61
+						add_state_core = 60
+						add_state_core = 59
+						add_state_core = 58
+
 						
 				add_popularity = { ideology = national_collectivism popularity = -0.3 }
 				add_popularity = { ideology = communism popularity = 0.3 }
@@ -158,6 +143,8 @@ country_event = {
 				}
 				add_stability = -0.15
 				add_war_support = 0.2
+				
+				
 		
 		
 			}
@@ -170,6 +157,36 @@ country_event = {
 			declare_war_on = {
 				target = GER
 				type = annex_everything
+			}
+			
+			create_country_leader = {
+				name = "Der Zentralrat"
+				desc = "POLITICS_ZENTRALRAT_DESC"
+				picture = "gfx/leaders/DDR/Zentralrat.tga"
+				expire = "1965.1.1"
+				ideology = totalitarian_socialism_subtype
+				traits = {		
+				}
+			}
+
+			create_country_leader = {
+				name = "Der Zentralrat"
+				desc = "POLITICS_ZENTRALRAT_DESC"
+				picture = "gfx/leaders/DDR/Zentralrat.tga"
+				expire = "1965.1.1"
+				ideology = leninism
+				traits = {		
+				}
+			}
+
+			create_country_leader = {
+				name = "Der Zentralrat"
+				desc = "POLITICS_ZENTRALRAT_DESC"
+				picture = "gfx/leaders/DDR/Zentralrat.tga"
+				expire = "1965.1.1"
+				ideology = orthodox_marxism_subtype
+				traits = {		
+				}
 			}
 		
 		}

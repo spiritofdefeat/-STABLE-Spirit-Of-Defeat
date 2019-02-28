@@ -1,0 +1,101 @@
+﻿###########################
+# German Events
+###########################
+
+add_namespace = gercom
+
+
+country_event = {
+	id = gercom.1
+	title = gercom.1.t
+	desc = gercom.1.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = gercom.1.a		#Civil War time - good luck
+		hidden_effect = {
+		
+			DDR = { 
+				transfer_state = 65
+				transfer_state = 64
+				transfer_state = 61
+				transfer_state = 60
+				transfer_state = 59
+				transfer_state = 58
+						load_oob = WGR_1936
+						add_state_core = 65
+						add_state_core = 64
+						add_state_core = 61
+						add_state_core = 60
+						add_state_core = 59
+						add_state_core = 58
+
+						
+				add_popularity = { ideology = national_collectivism popularity = -0.3 }
+				add_popularity = { ideology = communism popularity = 0.3 }
+				add_popularity = { ideology = utilitarian_despotism popularity = -0.3 }
+				set_politics = {
+					ruling_party = communism
+				}
+				add_stability = -0.15
+				add_war_support = 0.2
+				
+				
+		
+		
+			}
+		
+		
+			
+        }
+		DDR = {
+		
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+			
+			create_country_leader = {
+				name = "Der Zentralrat"
+				desc = "POLITICS_ZENTRALRAT_DESC"
+				picture = "gfx/leaders/DDR/Zentralrat.tga"
+				expire = "1965.1.1"
+				ideology = totalitarian_socialism_subtype
+				traits = {		
+				}
+			}
+
+			create_country_leader = {
+				name = "Der Zentralrat"
+				desc = "POLITICS_ZENTRALRAT_DESC"
+				picture = "gfx/leaders/DDR/Zentralrat.tga"
+				expire = "1965.1.1"
+				ideology = leninism
+				traits = {		
+				}
+			}
+
+			create_country_leader = {
+				name = "Der Zentralrat"
+				desc = "POLITICS_ZENTRALRAT_DESC"
+				picture = "gfx/leaders/DDR/Zentralrat.tga"
+				expire = "1965.1.1"
+				ideology = orthodox_marxism_subtype
+				traits = {		
+				}
+			}
+		
+		}
+		
+		DDR = { change_tag_from = GER }
+		DDR = { complete_national_focus = GER_theflamesofrevolution }
+		
+	}
+	
+
+}
+
+
