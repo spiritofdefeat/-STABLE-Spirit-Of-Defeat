@@ -372,6 +372,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_nihilistic_extremism_group"
+		texturefile = "gfx/interface/ideologies/nihilistic_extremism_group.tga"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_fascism_group"
 		texturefile = "gfx/interface/ideologies/fascism_group.dds"
 	}
